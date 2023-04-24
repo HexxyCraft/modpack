@@ -1,1 +1,131 @@
 hash-format = "sha256"
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "843fefd7cf34bfe36b1fb2b6dc35ddfe44db53e23637d6b2674a7fb4e05e803f"
+metafile = true
+
+[[files]]
+file = "mods/botania.pw.toml"
+hash = "16147c3be6936ca0f7a10d9ed4d5f67adfdfe40c4bbae04d948d05ab378d4d07"
+metafile = true
+
+[[files]]
+file = "mods/cardinal-components-api.pw.toml"
+hash = "5d898bbdb655828c59223382f85016f8328884b3ff176b697c51e8dedaec68c1"
+metafile = true
+
+[[files]]
+file = "mods/cc-restitched.pw.toml"
+hash = "6e8faa4779dca8bafd4cc91cad8f7fe425f6d3d08511463466c6c13b8ffa55dd"
+metafile = true
+
+[[files]]
+file = "mods/cccbridge.pw.toml"
+hash = "72a444170f6963bc57c323f98d01d22bdcd400be26a2bfd1d3d02ea34ad096de"
+metafile = true
+
+[[files]]
+file = "mods/create-fabric.pw.toml"
+hash = "d3b6493205ea43ac22c65a229b2be0611f4c947c2180364fd5881bdef74f0104"
+metafile = true
+
+[[files]]
+file = "mods/ducky-periphs.pw.toml"
+hash = "5e7e44652267bacd4412a7eaa14e3f2c588d3f89d53915105fffbd225d3ac055"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "0497a92235c08a5ace339102c702d17e529c0770b3a340bdecebe321e3213888"
+metafile = true
+
+[[files]]
+file = "mods/gravity-api.pw.toml"
+hash = "96936089f965ded979c8caaec787969f931ec27bf1b156357953933560fb916f"
+metafile = true
+
+[[files]]
+file = "mods/hex-casting.pw.toml"
+hash = "53e83e4a46fa1fc9f865fc1dd458b256f3f3083cdeabdee417834d83e3b1b739"
+metafile = true
+
+[[files]]
+file = "mods/hexal.pw.toml"
+hash = "0b444a3ef2da27d658dbdf69ca3152eedacf899cbbdf1abd5f47064997c8aa7e"
+metafile = true
+
+[[files]]
+file = "mods/hexbound.pw.toml"
+hash = "6f226976a09f3ef3c6b85c1bc5077a8da7a38d01d92cfa79c5b9274bce6e8dec"
+metafile = true
+
+[[files]]
+file = "mods/hextweaks.pw.toml"
+hash = "9a86ae85ab1efdf4da56d32cdccba0c2dd53e2651cf9fff3bbb1f435899b83b8"
+metafile = true
+
+[[files]]
+file = "mods/indium.pw.toml"
+hash = "e8168531c092676d47cac3657bfc525f096f11ff5372ce6e322ad57778b81635"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "86bdf3e7c87946fad718883449651e7606fba0d0fa173eb32b3d985e2a2cd8d5"
+metafile = true
+
+[[files]]
+file = "mods/kettle.pw.toml"
+hash = "94865ef86f229df1ce78a22498f41779fd56313c6e7c8efe678f7253c56c09db"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "54a337d13450b35dfc931e7a5f3ed9fca1a1992ec51d3b1e4ea1cb5f7cd2d09c"
+metafile = true
+
+[[files]]
+file = "mods/lovely_snails.pw.toml"
+hash = "afdc2fafab3adf523bd090b86a2216828e1d0171b69d8bd835ec050fd9853ce4"
+metafile = true
+
+[[files]]
+file = "mods/moreiotas.pw.toml"
+hash = "225e12625d8b7b6ad6ebb832e1ec9ab4a33fdf45c6daad29b3a8857a5bf9ec09"
+metafile = true
+
+[[files]]
+file = "mods/patchouli.pw.toml"
+hash = "2dab4b3cea2f1ce1505c3c7be55d8fb6123a7593435134f2c15eed18e6c07ddf"
+metafile = true
+
+[[files]]
+file = "mods/paucal.pw.toml"
+hash = "03d4272f909720df400b6af4c90a93fc95e3a55c85935e7777724ba9f9bcb994"
+metafile = true
+
+[[files]]
+file = "mods/pehkui.pw.toml"
+hash = "a0febce406dd277730980450f98c94a80179b8df55e2136279003f30ae8eeaba"
+metafile = true
+
+[[files]]
+file = "mods/qkl.pw.toml"
+hash = "78fe291bc3d50234209d5b80735b469044f4d858dc8d3ba5bc38d1e098cb786f"
+metafile = true
+
+[[files]]
+file = "mods/qsl.pw.toml"
+hash = "7f16d61f278eb23f2778ebc55467391d06fd76a8710d5b857efb7762734fb281"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "aa4dcf55ac3191b0b31437521714c1d28364c3396cf06ef07fa76a08488c1837"
+metafile = true
+
+[[files]]
+file = "mods/trinkets.pw.toml"
+hash = "e4e021f4e9647d01496dfd9f4dbf77cf46575318bd54f40aac7d3b4996baecb8"
+metafile = true
