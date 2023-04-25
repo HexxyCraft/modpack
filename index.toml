@@ -26,6 +26,11 @@ hash = "72a444170f6963bc57c323f98d01d22bdcd400be26a2bfd1d3d02ea34ad096de"
 metafile = true
 
 [[files]]
+file = "mods/charm.pw.toml"
+hash = "ff8960a3bf63e66854c676cf1db8b88c6666bc526e3d3562be297d94c528472a"
+metafile = true
+
+[[files]]
 file = "mods/create-fabric.pw.toml"
 hash = "d3b6493205ea43ac22c65a229b2be0611f4c947c2180364fd5881bdef74f0104"
 metafile = true
@@ -33,6 +38,16 @@ metafile = true
 [[files]]
 file = "mods/ducky-periphs.pw.toml"
 hash = "5e7e44652267bacd4412a7eaa14e3f2c588d3f89d53915105fffbd225d3ac055"
+metafile = true
+
+[[files]]
+file = "mods/enchancement.pw.toml"
+hash = "a2becd97f1aeb612a79c25f426bc678791356f99f86618caf3f618e156b41b0d"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight-fabric.pw.toml"
+hash = "b8d91a91ac8820ed7c99c12636c7de0a3e93ef825c1925d4a9287b443cd65f92"
 metafile = true
 
 [[files]]
@@ -91,6 +106,11 @@ hash = "afdc2fafab3adf523bd090b86a2216828e1d0171b69d8bd835ec050fd9853ce4"
 metafile = true
 
 [[files]]
+file = "mods/moonlight.pw.toml"
+hash = "0b218a276d3a2f38b197ddec0d09da49a56909c92894e2978793f9df062e7871"
+metafile = true
+
+[[files]]
 file = "mods/moreiotas.pw.toml"
 hash = "225e12625d8b7b6ad6ebb832e1ec9ab4a33fdf45c6daad29b3a8857a5bf9ec09"
 metafile = true
@@ -128,6 +148,16 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "aa4dcf55ac3191b0b31437521714c1d28364c3396cf06ef07fa76a08488c1837"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "7230023a65c0aca188338eb41a97bbfab1a537c0de6a743a3d5496ee099038ad"
+metafile = true
+
+[[files]]
+file = "mods/tooltipfix.pw.toml"
+hash = "4f782435d758d3cfd57ba49e2a4994006722d42307ef74ef3d35a1704f9ed5c4"
 metafile = true
 
 [[files]]
