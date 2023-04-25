@@ -1,0 +1,13 @@
+name = "Enchantment Descriptions"
+filename = "EnchantmentDescriptions-Fabric-1.19.2-13.0.12.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2b87c927a871f954fa2b79714b2263f2ee0fd0e9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4178433
+project-id = 250419

@@ -6,6 +6,11 @@ hash = "843fefd7cf34bfe36b1fb2b6dc35ddfe44db53e23637d6b2674a7fb4e05e803f"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf.pw.toml"
+hash = "fa7e3e35b3bd888d3185a99d448504f345a608d77343838693804f0345c9d137"
+metafile = true
+
+[[files]]
 file = "mods/botania.pw.toml"
 hash = "16147c3be6936ca0f7a10d9ed4d5f67adfdfe40c4bbae04d948d05ab378d4d07"
 metafile = true
@@ -31,6 +36,11 @@ hash = "ff8960a3bf63e66854c676cf1db8b88c6666bc526e3d3562be297d94c528472a"
 metafile = true
 
 [[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "213cad77d46ff46fe20780b01856cb1a8812747e9c3564203669bf3905e646e2"
+metafile = true
+
+[[files]]
 file = "mods/create-fabric.pw.toml"
 hash = "d3b6493205ea43ac22c65a229b2be0611f4c947c2180364fd5881bdef74f0104"
 metafile = true
@@ -43,6 +53,11 @@ metafile = true
 [[files]]
 file = "mods/enchancement.pw.toml"
 hash = "a2becd97f1aeb612a79c25f426bc678791356f99f86618caf3f618e156b41b0d"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "302621b526886d9d94534c6f07d490692e64e6ab5b6d939a84642bb2c5c94fe5"
 metafile = true
 
 [[files]]
