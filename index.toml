@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.pw.toml"
-hash = "fa7e3e35b3bd888d3185a99d448504f345a608d77343838693804f0345c9d137"
+hash = "5f466d8710422eb9ebfa04b7849f98bbe02c67df4691c7a0bb41f017af2cbfcc"
 metafile = true
 
 [[files]]
@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "302621b526886d9d94534c6f07d490692e64e6ab5b6d939a84642bb2c5c94fe5"
+hash = "32919ba2d15d55cec37bc8759064e1983e9a917c3ccfe25c4ad880cbf0a7026b"
 metafile = true
 
 [[files]]
