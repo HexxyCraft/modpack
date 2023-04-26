@@ -5,8 +5,18 @@ file = "config/enchancement.json"
 hash = "f4a7f32ac8ccc4bb08413b132c453f9afd55d1349969edaa61f5e53483126b46"
 
 [[files]]
+file = "mods/adorn.pw.toml"
+hash = "0904d6eaf57c3a13708c22af5eccaac980cbaa38097d1ebfff6429be207b367a"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "843fefd7cf34bfe36b1fb2b6dc35ddfe44db53e23637d6b2674a7fb4e05e803f"
+metafile = true
+
+[[files]]
+file = "mods/blahaj.pw.toml"
+hash = "e764ff745e74ab31545221f386e8f298dcd25314dd56976580923b91948999ca"
 metafile = true
 
 [[files]]
@@ -40,6 +50,11 @@ hash = "ff8960a3bf63e66854c676cf1db8b88c6666bc526e3d3562be297d94c528472a"
 metafile = true
 
 [[files]]
+file = "mods/chipped.pw.toml"
+hash = "f2bfe2b1e6e1c6b358638d1c3fd7d17a5cafeef9b3e3aab677d238f9d22e0215"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "213cad77d46ff46fe20780b01856cb1a8812747e9c3564203669bf3905e646e2"
 metafile = true
@@ -52,6 +67,11 @@ metafile = true
 [[files]]
 file = "mods/ducky-periphs.pw.toml"
 hash = "5e7e44652267bacd4412a7eaa14e3f2c588d3f89d53915105fffbd225d3ac055"
+metafile = true
+
+[[files]]
+file = "mods/dustrial-decor.pw.toml"
+hash = "321d91a48c60079500f68ab2741d955f5dedab4d36c904ad8f2c21dc4531682e"
 metafile = true
 
 [[files]]
@@ -77,6 +97,11 @@ metafile = true
 [[files]]
 file = "mods/gravity-api.pw.toml"
 hash = "96936089f965ded979c8caaec787969f931ec27bf1b156357953933560fb916f"
+metafile = true
+
+[[files]]
+file = "mods/handcrafted.pw.toml"
+hash = "b92f07d5a77d6dfff1a693dae256925da90483633835a4c307c95d28a12f372c"
 metafile = true
 
 [[files]]
@@ -115,6 +140,11 @@ hash = "94865ef86f229df1ce78a22498f41779fd56313c6e7c8efe678f7253c56c09db"
 metafile = true
 
 [[files]]
+file = "mods/labels.pw.toml"
+hash = "3f3fb73f6399703e0b6c2dbcae8c2ab2b7d6902d993fb1ea16b392e5d466b9a1"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "54a337d13450b35dfc931e7a5f3ed9fca1a1992ec51d3b1e4ea1cb5f7cd2d09c"
 metafile = true
@@ -135,8 +165,18 @@ hash = "225e12625d8b7b6ad6ebb832e1ec9ab4a33fdf45c6daad29b3a8857a5bf9ec09"
 metafile = true
 
 [[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "1aa7510ec1a3994273a20f8b341f676583b9ede2eaea3badd46deb7178d92a6c"
+metafile = true
+
+[[files]]
 file = "mods/packages.pw.toml"
 hash = "84cc2d2d1b439fe9692a84ee7d568511cf3ec48cf96f4eba6c835e0fbde3f23f"
+metafile = true
+
+[[files]]
+file = "mods/paladins-furniture.pw.toml"
+hash = "02d1024c42cd3671768a7b851a5dc95498b28b892581cd0969bf7c8a44277266"
 metafile = true
 
 [[files]]
@@ -162,6 +202,11 @@ metafile = true
 [[files]]
 file = "mods/qsl.pw.toml"
 hash = "7f16d61f278eb23f2778ebc55467391d06fd76a8710d5b857efb7762734fb281"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "83a54931f4be77baa4a32bfb3f2b343d8d2af2efaa0aa6cf83e9a9d682cf4298"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Storage Labels"
+filename = "labels-1.19.2-1.7-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/x6r7yhfi/versions/Plt1D6kJ/labels-1.19.2-1.7-fabric.jar"
+hash-format = "sha1"
+hash = "c58177ca6bd6c838a9ed594683521efabb4e9a65"
+
+[update]
+[update.modrinth]
+mod-id = "x6r7yhfi"
+version = "Plt1D6kJ"
