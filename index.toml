@@ -15,6 +15,11 @@ hash = "843fefd7cf34bfe36b1fb2b6dc35ddfe44db53e23637d6b2674a7fb4e05e803f"
 metafile = true
 
 [[files]]
+file = "mods/auto-config-updated-api.pw.toml"
+hash = "1ae8dcbdfa0bd670013aa6aa1d0471f628432293fb8085c403ddf0dac1c59624"
+metafile = true
+
+[[files]]
 file = "mods/blahaj.pw.toml"
 hash = "e764ff745e74ab31545221f386e8f298dcd25314dd56976580923b91948999ca"
 metafile = true
