@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "5feceea76eaa3a242f963c2232ed545d6204859a33f488b3594e4b35c4c2c010"
+
+[[files]]
 file = "config/enchancement.json"
 hash = "f4a7f32ac8ccc4bb08413b132c453f9afd55d1349969edaa61f5e53483126b46"
 
@@ -241,12 +245,12 @@ metafile = true
 
 [[files]]
 file = "mods/textile_backup.pw.toml"
-hash = "d74ff589913b6fdccfa1cc28b33e442dc2dd9a55ec5731602b691450d220f62f"
+hash = "5d45189afb6d4373299200cfe4767f01ee3191936156463e35132e36fd32e488"
 metafile = true
 
 [[files]]
 file = "mods/tooltipfix.pw.toml"
-hash = "4f782435d758d3cfd57ba49e2a4994006722d42307ef74ef3d35a1704f9ed5c4"
+hash = "b6d4b85f76ab7c63f30c6c2f12f3188c34b7e3977c092cc7062b2902319e3ed2"
 metafile = true
 
 [[files]]
