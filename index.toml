@@ -243,3 +243,8 @@ metafile = true
 file = "mods/trinkets.pw.toml"
 hash = "e4e021f4e9647d01496dfd9f4dbf77cf46575318bd54f40aac7d3b4996baecb8"
 metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "2bf9c54b9bbb71cd7c4f01d1432268745a1280912df93979051f4d5aa2d1b553"
+metafile = true
