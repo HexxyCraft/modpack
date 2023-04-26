@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/enchancement.json"
+hash = "f4a7f32ac8ccc4bb08413b132c453f9afd55d1349969edaa61f5e53483126b46"
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "843fefd7cf34bfe36b1fb2b6dc35ddfe44db53e23637d6b2674a7fb4e05e803f"
 metafile = true
@@ -178,4 +182,9 @@ metafile = true
 [[files]]
 file = "mods/trinkets.pw.toml"
 hash = "e4e021f4e9647d01496dfd9f4dbf77cf46575318bd54f40aac7d3b4996baecb8"
+metafile = true
+
+[[files]]
+file = "mods/yttr.pw.toml"
+hash = "74257a39c616938aed0b5764b244780ff7aef3fd6f7b535a9603f9d9f4a6dded"
 metafile = true
