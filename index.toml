@@ -96,7 +96,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-fabric.pw.toml"
-hash = "d3b6493205ea43ac22c65a229b2be0611f4c947c2180364fd5881bdef74f0104"
+hash = "d704cac0396798f84364471332c1d956a99433aa6dc55005153cffc5e31db262"
 metafile = true
 
 [[files]]
@@ -296,7 +296,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreiotas.pw.toml"
-hash = "225e12625d8b7b6ad6ebb832e1ec9ab4a33fdf45c6daad29b3a8857a5bf9ec09"
+hash = "b91b43f5107ccaa99e43b36af1f7944dffa3ba9159f1a59f996a9e726653306c"
 metafile = true
 
 [[files]]
