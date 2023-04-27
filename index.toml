@@ -90,11 +90,6 @@ hash = "c06e098c6d6eda6da4492e4a8dff1796e6081bbd30f487ffb89e1ed3c485e805"
 metafile = true
 
 [[files]]
-file = "mods/dcintegration.pw.toml"
-hash = "5cd65c6064712f1381421fd0fe1c8dd3bc765ecf54d0ab4525af7e600dfaa59e"
-metafile = true
-
-[[files]]
 file = "mods/ducky-periphs.pw.toml"
 hash = "5e7e44652267bacd4412a7eaa14e3f2c588d3f89d53915105fffbd225d3ac055"
 metafile = true
@@ -347,11 +342,6 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "7230023a65c0aca188338eb41a97bbfab1a537c0de6a743a3d5496ee099038ad"
-metafile = true
-
-[[files]]
-file = "mods/textile_backup.pw.toml"
-hash = "5d45189afb6d4373299200cfe4767f01ee3191936156463e35132e36fd32e488"
 metafile = true
 
 [[files]]
