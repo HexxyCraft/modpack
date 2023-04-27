@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".packwiz-ignore"
-hash = "d0919d5bb7576d4b1a495856f1e561985d1063a8e22c74dfb90a5267c165331d"
-
-[[files]]
-file = "README.md"
-hash = "18765e8b3e24aaa6704eed6c0789cf84cf4ae8768bff91d535c933dc6e5e5f5f"
-
-[[files]]
 file = "config/enchancement.json"
 hash = "f4a7f32ac8ccc4bb08413b132c453f9afd55d1349969edaa61f5e53483126b46"
 
