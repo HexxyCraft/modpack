@@ -1,12 +1,12 @@
 name = "Hexserver 3 Mods"
 author = "Walksanator"
-version = "1.6.0"
+version = "1.7.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "ca0745c4f782b40b740073008b8e91810c5aecda3ad8a50838a516b71e3f81bb"
+hash = "681481edd40040d36b83a9f4d839300f2a60b12d1f8cb12cf499952fa0d0b348"
 
 [versions]
 minecraft = "1.19.2"
