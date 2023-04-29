@@ -1,1 +1,8 @@
+# packwiz
 *.mrpack
+
+# we use this path for the Pages deployment, so don't allow creating it
+/dev/
+
+# misc
+.vscode/
