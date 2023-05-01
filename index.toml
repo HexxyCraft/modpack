@@ -35,6 +35,11 @@ hash = "e764ff745e74ab31545221f386e8f298dcd25314dd56976580923b91948999ca"
 metafile = true
 
 [[files]]
+file = "mods/blockbot.pw.toml"
+hash = "31463bef46cd9de72562033758304c0137235c99b8017d083aa492f809cb20c8"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "802417d1c24f779c3fda82006012747309b11038c37d5c2f64a96257ad88dfa3"
 metafile = true
@@ -75,6 +80,16 @@ hash = "f2bfe2b1e6e1c6b358638d1c3fd7d17a5cafeef9b3e3aab677d238f9d22e0215"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "b52cd1f4295d855882a41b5f164385e2ba460d7766a2e2e6183ef56c00c824ab"
+metafile = true
+
+[[files]]
+file = "mods/chunkyborder.pw.toml"
+hash = "8c01edf705dc28422eb92b1117815e85cc8c6ecb9bc25b7efb0c6ce1600cc93a"
+metafile = true
+
+[[files]]
 file = "mods/cleardespawn.pw.toml"
 hash = "f55726e64eabcfdcb0b02657c74889f8e135a5424dc423c55450117618a2ad11"
 metafile = true
@@ -102,6 +117,11 @@ metafile = true
 [[files]]
 file = "mods/cull-less-leaves.pw.toml"
 hash = "c06e098c6d6eda6da4492e4a8dff1796e6081bbd30f487ffb89e1ed3c485e805"
+metafile = true
+
+[[files]]
+file = "mods/deathlog.pw.toml"
+hash = "be160873f910e05a59aab41a59e682a41f9c413642e24727383505c013e5e3fc"
 metafile = true
 
 [[files]]
@@ -157,6 +177,11 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight-fabric.pw.toml"
 hash = "b8d91a91ac8820ed7c99c12636c7de0a3e93ef825c1925d4a9287b443cd65f92"
+metafile = true
+
+[[files]]
+file = "mods/fastback.pw.toml"
+hash = "b257615c6f78313e3ed9d344a1ef0d3a846f68fdd662d171d6117e6d8607112c"
 metafile = true
 
 [[files]]
@@ -240,6 +265,16 @@ hash = "b4ca05b39b85c27cd97ccb65d5fb832f5e9fd7ee5710542a3e69dfa30a97ea7d"
 metafile = true
 
 [[files]]
+file = "mods/ledger-databases.pw.toml"
+hash = "f494ef21a5ef844134aad77bb2e5132be64b79e5b83951b0073ab5bde6d2bc4c"
+metafile = true
+
+[[files]]
+file = "mods/ledger.pw.toml"
+hash = "cbd6b97dfc49090b18480f43eeef4401144006ed406110f32fb1126d47a21f11"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "54a337d13450b35dfc931e7a5f3ed9fca1a1992ec51d3b1e4ea1cb5f7cd2d09c"
 metafile = true
@@ -315,6 +350,11 @@ hash = "d20a2e83f3e570badf2a8e57a2ba540f8acede421774181e903588ca0ba799e5"
 metafile = true
 
 [[files]]
+file = "mods/observable.pw.toml"
+hash = "87857d482a7d442c21384f5762bd7e51ad6ee1bda30f01b206dfa2694ca9c8ff"
+metafile = true
+
+[[files]]
 file = "mods/packages.pw.toml"
 hash = "84cc2d2d1b439fe9692a84ee7d568511cf3ec48cf96f4eba6c835e0fbde3f23f"
 metafile = true
@@ -345,6 +385,11 @@ hash = "391ba9c5a4d218740c8f78b7905e4a7e071ecc8dc0f48e6c98c28f43ab162fc7"
 metafile = true
 
 [[files]]
+file = "mods/qkl-core.pw.toml"
+hash = "9744be5a1bdcb951ae96593c2c33ce99f05795f5535a7e5e165ac812b2dda6cd"
+metafile = true
+
+[[files]]
 file = "mods/qkl.pw.toml"
 hash = "78fe291bc3d50234209d5b80735b469044f4d858dc8d3ba5bc38d1e098cb786f"
 metafile = true
@@ -372,6 +417,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "aa4dcf55ac3191b0b31437521714c1d28364c3396cf06ef07fa76a08488c1837"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "245599aeee8c2497af5588bcf1430a2753c9cd4827b7c8891dfbe9c578405038"
 metafile = true
 
 [[files]]

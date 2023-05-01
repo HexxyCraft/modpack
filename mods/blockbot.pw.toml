@@ -1,0 +1,8 @@
+name = "BlockBot"
+filename = "blockbot-discord-2.0.0-beta+build.2.jar"
+side = "server"
+
+[download]
+url = "https://github.com/object-Object/BlockBot/releases/download/2.0.0-beta%2Bbuild.2/blockbot-discord-2.0.0-beta+build.2.jar"
+hash-format = "sha1"
+hash = "988f95e7917b062dff1790d79e2e227c7371b013"
