@@ -71,7 +71,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "08203a0790b016ebe1953f3964e48090c99f9ffdd667ffb162fdf4c67d443171"
+hash = "1391e53ae6551a0382c447edabc0a172480af28c61e7097f6c4b8975a9fb8c74"
 metafile = true
 
 [[files]]
@@ -446,7 +446,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "7230023a65c0aca188338eb41a97bbfab1a537c0de6a743a3d5496ee099038ad"
+hash = "ba7c17217300ed465c598bdac037055efee9cd89850242bfdc2b76db9821f9f6"
 metafile = true
 
 [[files]]
@@ -461,17 +461,17 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "c0cc16fc8e87fd8e40dd505bd31bca9a86da509ec0f2043831a61cfeb272c8de"
+hash = "59d6958578bed8ccf1ef0ea9d51c85dfbc5c56fc596dc214189747c37b88ba17"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "e30db3dc6c5bc19571c7ea3f74f40d7e705766cc24f88b7856a00360927bf0f3"
+hash = "3813f3748573f44286768414daad7c46a1cfe541df3cd783dba673b8a115454d"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "2bf9c54b9bbb71cd7c4f01d1432268745a1280912df93979051f4d5aa2d1b553"
+hash = "e7bd6a81d8a7554d1f785939ba5a9a9038b489eb5236873d7dca0eece7b70b97"
 metafile = true
 
 [[files]]
