@@ -36,7 +36,7 @@ metafile = true
 
 [[files]]
 file = "mods/blockbot.pw.toml"
-hash = "31463bef46cd9de72562033758304c0137235c99b8017d083aa492f809cb20c8"
+hash = "972eb5e727babd69d1bdfbd489e51a8e22de1748463c141aaa5465f8cf113b42"
 metafile = true
 
 [[files]]
