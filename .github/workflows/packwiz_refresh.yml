@@ -19,5 +19,5 @@ jobs:
       - name: Refresh index
         run: packwiz refresh
 
-      - name: Check if the index was updated
+      - name: Ensure the refresh had no effect
         run: git diff --exit-code -s
