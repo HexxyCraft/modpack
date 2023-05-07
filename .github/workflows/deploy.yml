@@ -29,17 +29,19 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout master
+      - name: Checkout master to ./
         uses: actions/checkout@v3
+        with:
+          ref: master
       
-      - name: Checkout dev
+      - name: Checkout dev to ./dev/
         uses: actions/checkout@v3
         with:
           ref: dev
           path: dev
           clean: false
       
-      - name: Delete .git folder from dev
+      - name: Delete .git folder from ./dev/
         run: rm -rf dev/.git
 
       - name: Setup Pages

@@ -1,0 +1,47 @@
+name: Ensure pack version has been bumped
+
+# only trigger for pushes to master (ie. releases)
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  packwiz_refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+      
+      - name: Install semver
+        run: npm install semver -g
+
+      - name: Checkout PR
+        uses: actions/checkout@v3
+        with:
+          path: pr
+      
+      - name: Checkout master
+        uses: actions/checkout@v3
+        with:
+          ref: master
+          path: master
+
+      - name: Get PR version
+        uses: SebRollen/toml-action@v1.0.2
+        id: pr_version
+        with:
+          file: "pr/pack.toml"
+          field: "version"
+
+      - name: Get master version
+        uses: SebRollen/toml-action@v1.0.2
+        id: master_version
+        with:
+          file: "master/pack.toml"
+          field: "version"
+      
+      - name: Ensure PR version is greater than master version
+        run: semver ${{steps.pr_version.outputs.value}} --range ">${{steps.master_version.outputs.value}}"

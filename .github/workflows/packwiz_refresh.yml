@@ -1,0 +1,23 @@
+name: Ensure Packwiz has been refreshed
+
+on: [push]
+
+jobs:
+  packwiz_refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Packwiz
+        uses: engineerd/configurator@v0.0.9
+        with:
+          name: packwiz
+          url: https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip
+          pathInArchive: packwiz
+      
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      - name: Refresh index
+        run: packwiz refresh
+
+      - name: Check if the index was updated
+        run: git diff --exit-code -s
