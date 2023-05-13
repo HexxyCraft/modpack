@@ -20,4 +20,4 @@ jobs:
         run: packwiz refresh
 
       - name: Ensure the refresh had no effect
-        run: git diff --exit-code -s
+        run: git diff --exit-code
