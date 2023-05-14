@@ -132,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastback.pw.toml"
-hash = "b257615c6f78313e3ed9d344a1ef0d3a846f68fdd662d171d6117e6d8607112c"
+hash = "25acbecb7c82a0299e1e6931046ab45619ffdb554c7e34389296b010672e71a0"
 metafile = true
 
 [[files]]
