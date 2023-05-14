@@ -106,6 +106,11 @@ hash = "7f15312125ff9b251a60bcfcf6e368335d1be162a64f7ae28649b32bd9e2129f"
 metafile = true
 
 [[files]]
+file = "mods/easy-shulker-boxes.pw.toml"
+hash = "620cd60118d6879ac787a4a8c53b6cd1510bbee5295138c065520bd79b76763d"
+metafile = true
+
+[[files]]
 file = "mods/emi.pw.toml"
 hash = "0e05dae2adc425099c80c7b3a027ee63b34b5a9cc82c7085cf0b6543073a2353"
 metafile = true
