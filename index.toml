@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/enchancement.json"
-hash = "f4a7f32ac8ccc4bb08413b132c453f9afd55d1349969edaa61f5e53483126b46"
-
-[[files]]
 file = "mods/advancements-debug.pw.toml"
 hash = "f6620ab34805ef3a7c88b8a83c044e69f15c2034af90bd55820041469e8357fa"
 metafile = true
@@ -107,11 +103,6 @@ metafile = true
 [[files]]
 file = "mods/easy-magic.pw.toml"
 hash = "7f15312125ff9b251a60bcfcf6e368335d1be162a64f7ae28649b32bd9e2129f"
-metafile = true
-
-[[files]]
-file = "mods/easy-shulker-boxes.pw.toml"
-hash = "620cd60118d6879ac787a4a8c53b6cd1510bbee5295138c065520bd79b76763d"
 metafile = true
 
 [[files]]
@@ -291,7 +282,12 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "a20da06b37ff4fd62465247f42a5a63f5ca507e081e50a97b52bf7afb69135dc"
+hash = "7f16d61f278eb23f2778ebc55467391d06fd76a8710d5b857efb7762734fb281"
+metafile = true
+
+[[files]]
+file = "mods/quickshulker.pw.toml"
+hash = "c9d4609b3ef719d5830858cf155680c65d7d2ec472b5430b1964a54807646d21"
 metafile = true
 
 [[files]]
