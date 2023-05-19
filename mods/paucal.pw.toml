@@ -3,9 +3,10 @@ filename = "paucal-fabric-1.19.2-0.5.0.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/TZo2wHFe/versions/zrxHAQQ7/paucal-fabric-1.19.2-0.5.0.jar"
-hash-format = "sha1"
-hash = "429dbbae298ebca0e7c51ca1c0bfdd07dcbf8271"
+hash-format = "sha512"
+hash = "e0fb8955f7c36aa3d5cd6f847b8ba0176ed4f7202750a40d65f41f58daaafb02f92705756b1319f6edb923594bd6edf01ba4246330499dbf75dd06f142a07fd9"
 
 [update]
 [update.modrinth]

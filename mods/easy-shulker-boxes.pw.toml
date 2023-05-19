@@ -3,9 +3,10 @@ filename = "EasyShulkerBoxes-v4.3.7-1.19.2-Fabric.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/gA5euN8S/versions/covgrvDt/EasyShulkerBoxes-v4.3.7-1.19.2-Fabric.jar"
-hash-format = "sha1"
-hash = "b7aa0615d73a3e84b8a587f888f249ee817276f2"
+hash-format = "sha512"
+hash = "23f5cb26e1fb35db6ba9f1b54fb07faddf30aab2b8414997ecf8c437738229c1d33570560799a1aad647b6b3efc560822b7561f24021903c83d82971344a7a4f"
 
 [update]
 [update.modrinth]

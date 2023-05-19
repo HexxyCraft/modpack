@@ -3,9 +3,10 @@ filename = "advdebug-2.3.0.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/rxMTwxyO/versions/2.3.0/advdebug-2.3.0.jar"
-hash-format = "sha1"
-hash = "1b66e20a98bd26d8fd2f21c63d666795d9d9a60d"
+hash-format = "sha512"
+hash = "2024dc629809bdd2b3542f9c93270c2f0edbc240a80b8bb01e1bf983de8fed57fe568111deb9e0c576f949a88a12c126bd0f3340b53514087926a452faf266ea"
 
 [update]
 [update.modrinth]

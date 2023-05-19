@@ -1,0 +1,13 @@
+name = "FTB Chunks (Fabric)"
+filename = "ftb-chunks-fabric-1902.3.21-build.266.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "c540d7370f1a1172e5e1ca092279d70c68dd1d4d"
+
+[update]
+[update.curseforge]
+file-id = 4496314
+project-id = 472657

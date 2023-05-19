@@ -1,0 +1,14 @@
+name = "Blåhaj"
+filename = "blahaj-quilt-1.19-0.2.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/Yl6uPZkr/versions/BGOUdNTW/blahaj-quilt-1.19-0.2.1.jar"
+hash-format = "sha512"
+hash = "768c5c14873ad14d7f9f054be80f88fe807356e434f1d379c21b708919ad4f773528ae258a9d5b3f0090671c228c4884ecbee4ad2f7f24196b48e99a151c80a9"
+
+[update]
+[update.modrinth]
+mod-id = "Yl6uPZkr"
+version = "BGOUdNTW"

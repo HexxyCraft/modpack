@@ -3,9 +3,10 @@ filename = "veinmining-fabric-1.1.1+1.19.2.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/bRAPbNyF/versions/exXogAjv/veinmining-fabric-1.1.1%2B1.19.2.jar"
-hash-format = "sha1"
-hash = "33efe4749e735aede5502db16cab6ecd9d1c2564"
+hash-format = "sha512"
+hash = "c30b8a44c87db48a27a26b7cc60eec03a6867f72256c2635b06f6698dd22566213d52d8210b902a86d5bf08b86898596fd55ce846ba6c61471df54025fa55e92"
 
 [update]
 [update.modrinth]

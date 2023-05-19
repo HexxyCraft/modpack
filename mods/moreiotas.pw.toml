@@ -3,9 +3,10 @@ filename = "moreiotas-fabric-1.19.2-0.0.4.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/Jmt7p37B/versions/O6fSYKPz/moreiotas-fabric-1.19.2-0.0.4.jar"
-hash-format = "sha1"
-hash = "ef86d2de4da7befdd3f525d09cb32964b8016051"
+hash-format = "sha512"
+hash = "733d8f40daed90269f29a695b78f8a19bd04c80f86d927f265045863b8c88d9c865d3d35038a58ffb828ec07e0ecdca8db16acf8dbd3d864e774d130ed298349"
 
 [update]
 [update.modrinth]

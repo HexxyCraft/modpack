@@ -1,0 +1,13 @@
+name = "Colorful Subtitles"
+filename = "colorfulsubtitles-1.0.0.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+hash-format = "sha1"
+hash = "c7ef9a124c4600d1d78be63d122cb6182676219c"
+
+[update]
+[update.curseforge]
+file-id = 3420901
+project-id = 514041

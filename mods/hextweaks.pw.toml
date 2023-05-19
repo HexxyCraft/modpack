@@ -3,9 +3,10 @@ filename = "hextweaks-3.2.1-fabric.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/pim6pG9O/versions/QRiRtEAJ/hextweaks-3.2.1-fabric.jar"
-hash-format = "sha1"
-hash = "ae4a26530d87c098020dd928d7869d902f690851"
+hash-format = "sha512"
+hash = "81b00780931ce14663439334c3da6d6fb74777119f843978380a860164944f468e1cf3f525d5aca3c32b5ddbd94018c077739f9641bd1007ded4c379772eab9f"
 
 [update]
 [update.modrinth]

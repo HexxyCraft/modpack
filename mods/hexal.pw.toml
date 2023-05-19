@@ -3,9 +3,10 @@ filename = "hexal-fabric-1.19.2-0.2.14.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/aBVJ6Q36/versions/XMX5kXcI/hexal-fabric-1.19.2-0.2.14.jar"
-hash-format = "sha1"
-hash = "35ab34f3e794a77fe322f493179853899eaa4487"
+hash-format = "sha512"
+hash = "6cffab10dea6d22ca61a9337093dafafd9813a6ba597459465e692627709df602440f1b43062126fd6c101bf733a53ee02b0ec5d70b249d57b88374a5028415f"
 
 [update]
 [update.modrinth]

@@ -3,9 +3,10 @@ filename = "moyai-1.19.2-2.0.0-fabric.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/z7WhFkyW/versions/PWukpsxV/moyai-1.19.2-2.0.0-fabric.jar"
-hash-format = "sha1"
-hash = "a68ceabde28a573615ada2e28abfa2132e6c2500"
+hash-format = "sha512"
+hash = "1e902913513f6b8367ae28b895e181c5c333aa125ac1dd658aaada28b5fe9851260dfac8f2148e9eec2e22bb1bd4df03ec9404b4991b304053fd974689992915"
 
 [update]
 [update.modrinth]

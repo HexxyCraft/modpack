@@ -1,0 +1,14 @@
+name = "You're in Grave Danger"
+filename = "youre-in-grave-danger-1.4.9.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/HnD1GX6e/versions/RQ4Ma39V/youre-in-grave-danger-1.4.9.jar"
+hash-format = "sha512"
+hash = "3e8d54f480e43a3e37b536c8ba85044bd1537b916ad0ed4707cafbf0aa53a4bcfd7ac6e7812fd992951bcd6f8bd46c62875b0ee4e3f712a43e1d1acac8a695e0"
+
+[update]
+[update.modrinth]
+mod-id = "HnD1GX6e"
+version = "RQ4Ma39V"

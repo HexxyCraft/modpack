@@ -3,9 +3,10 @@ filename = "architectury-6.5.82-fabric.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/lhGA9TYQ/versions/XV72M5Gg/architectury-6.5.82-fabric.jar"
-hash-format = "sha1"
-hash = "5424b42018862b190985832c01c85ce934559c44"
+hash-format = "sha512"
+hash = "0dcb11c87bd136f12c284a7808139ab8a0d5b70339e5d8ec654cdb9dbe4f05b8f15393d01ff38114fbdf22cc372c8ea024fbaa943527b82e0f24aaa4dd89902a"
 
 [update]
 [update.modrinth]
