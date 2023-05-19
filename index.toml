@@ -1,6 +1,62 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/charm.toml"
+hash = "a069f117c2b9a07fabb175f9c6cb4b5f2bb620640ee0816be844a2c7ee24b70b"
+
+[[files]]
+file = "config/default_carpet-fixes.conf"
+hash = "d3a35290e0748740591069f7a86b447ae5de9d6ad4f17657122d335424df6b97"
+
+[[files]]
+file = "config/default_carpet.conf"
+hash = "f1d61ccb0e5b8f47d3247323b5dab232054069080b2dab3244efddafce086196"
+
+[[files]]
+file = "config/fabrication/block_logo.ini"
+hash = "1a58d3ffaaf266eb0f6f3574f15559689fa237be980a13b741834d640d9a8375"
+
+[[files]]
+file = "config/fabrication/block_logo.png"
+hash = "f2938cfb35d857049425b51f59ce557dd8f329e6b76bef68ffb561f118a4def0"
+
+[[files]]
+file = "config/fabrication/classic_block_drops.ini"
+hash = "45e501b8528ef8d27c2a67efd27304c81cd0503f8b0671094e6653eefd394b12"
+
+[[files]]
+file = "config/fabrication/dimensional_tools.ini"
+hash = "14eb4e8cd105c580403c4e5bc6bba831c81aedcf4e6e04485c74e9d3f253689f"
+
+[[files]]
+file = "config/fabrication/features.ini"
+hash = "930b7869d700f0a8ba445d47a38b012bf6bdac5745242746dee19bb2508eebb1"
+
+[[files]]
+file = "config/fabrication/fscript.ini"
+hash = "06d742af1c186bd89bb808f7ff407865f1c08b1ebf7bb2e52ae2d042b64acd16"
+
+[[files]]
+file = "config/fabrication/gear_components.ini"
+hash = "5a9291467f9f7918687a0d138a61e396cb9299b0b4ea2e4cf4f4d6f3594f865b"
+
+[[files]]
+file = "config/fabrication/item_despawn.ini"
+hash = "24b26ac0b8ff13889b6b3b00b2309366eb72c36014a9679a82f4cbff46c275f4"
+
+[[files]]
+file = "config/fabrication/taggable_players.ini"
+hash = "fe069b4316f910f2f3b703cedd9930b73eed74c2ae86909f8b43a8ffd3d1af45"
+
+[[files]]
+file = "config/fabrication/yeet_recipes.ini"
+hash = "939cfc95ed4a7480ac08d3f692538a348af72c6db693349c61f93f926976d1f2"
+
+[[files]]
+file = "config/supplementaries-common.json"
+hash = "5ced901f14320f9ba91d69d3a0b2cd81c422e15efeea024ead019a98cc07e292"
+
+[[files]]
 file = "mods/advancements-debug.pw.toml"
 hash = "2c4b410c370212602f85c9adb9d73ef73435e9d11cac086bbe40fdbdea03c6c3"
 metafile = true
