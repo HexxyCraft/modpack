@@ -172,12 +172,12 @@ metafile = true
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "7ed22be52dd112450b1770ef41d05768a4c44fa04442ffe244dd94fe2de35038"
+hash = "b52cd1f4295d855882a41b5f164385e2ba460d7766a2e2e6183ef56c00c824ab"
 metafile = true
 
 [[files]]
 file = "mods/chunkyborder.pw.toml"
-hash = "964543aed0c57614e9c8c93a531611dba7c51643e447f1137b63b2a3b721f1c8"
+hash = "8c01edf705dc28422eb92b1117815e85cc8c6ecb9bc25b7efb0c6ce1600cc93a"
 metafile = true
 
 [[files]]
