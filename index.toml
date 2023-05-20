@@ -683,3 +683,7 @@ metafile = true
 file = "mods/yigd.pw.toml"
 hash = "0a23b06d3673219a3298750002697012216551376af8e8f79a35b97b8bfe6ac3"
 metafile = true
+
+[[files]]
+file = "servers.dat"
+hash = "b859bde62a4734aa4b612a1f4893ca0dea3b36d7825aafba3a4e49b3b93de6f3"
