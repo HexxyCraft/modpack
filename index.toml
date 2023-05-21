@@ -81,10 +81,6 @@ hash = "a5c4f60bf716d12aa07af3a7dadb0a03087134e9ed9273379b5228b686a78300"
 metafile = true
 
 [[files]]
-file = "mods/amethyst-gravity-1.1.1+1.19.2.jar"
-hash = "f0e436fbc28cf27f1a01cdef9f46928cd9ed0bf92b0cbf7196e894809fbf9698"
-
-[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "5a49a6bb40023efa158ceeed4b03aa1d0fbef6ac9ea0782206a0cecca1ca972c"
 metafile = true
@@ -358,10 +354,6 @@ metafile = true
 file = "mods/geckolib.pw.toml"
 hash = "0702077652d48238094c6c28add03184483295d2f39cb8dffe61e55430fdc8d8"
 metafile = true
-
-[[files]]
-file = "mods/gravity-api-1.0.3-1.19.2.jar"
-hash = "0ffe959c7e81dc1478f8a655479cb66b086a26d7ca6be35ec460bbbed4b7a228"
 
 [[files]]
 file = "mods/hex-casting.pw.toml"
@@ -686,6 +678,11 @@ metafile = true
 [[files]]
 file = "mods/windchimes.pw.toml"
 hash = "a5a7ace31eaaeebccb465be9af80260e5b75cfd13a33dde6b401567685b92d04"
+metafile = true
+
+[[files]]
+file = "mods/xl-c2s-packets-fabric.pw.toml"
+hash = "bc37d961e1e1b05c10e04e5dc9bd13f75cfad45751338b5738b9556f87976c64"
 metafile = true
 
 [[files]]
