@@ -1,13 +1,14 @@
 name = "HexKinetics"
-filename = "hexkinetics-fabric-1.19.2-0.6.1.jar"
+filename = "hexkinetics-fabric-1.19.2-0.6.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/8FVr3ohp/versions/V8rWJGQc/hexkinetics-fabric-1.19.2-0.6.1.jar"
-hash-format = "sha1"
-hash = "bae6436178cc8bd6bfff5117776398876b0826a3"
+mode = "url"
+url = "https://cdn.modrinth.com/data/8FVr3ohp/versions/79jo6Zi9/hexkinetics-fabric-1.19.2-0.6.0.jar"
+hash-format = "sha512"
+hash = "2bd8fd21acb42a02da005cdff720b5f9283d501cf798e1a05cf5d96b1514b1226edb6c43c8666edb393495e998e598bb80698c3666542aa0a044e1e813ad5740"
 
 [update]
 [update.modrinth]
 mod-id = "8FVr3ohp"
-version = "V8rWJGQc"
+version = "79jo6Zi9"
