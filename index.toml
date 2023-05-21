@@ -261,6 +261,11 @@ hash = "1e193f213c4484fa60e4547d581f42092ab46ed7f461bb6becb2c503f3ca0992"
 metafile = true
 
 [[files]]
+file = "mods/ducky-periphs.pw.toml"
+hash = "7f184c2b70f7b25d17ad3707a4e9a54fb9c27d475467ee47ec65b94c9c4f6d4c"
+metafile = true
+
+[[files]]
 file = "mods/dustrial-decor.pw.toml"
 hash = "321d91a48c60079500f68ab2741d955f5dedab4d36c904ad8f2c21dc4531682e"
 metafile = true
