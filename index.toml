@@ -81,7 +81,7 @@ file = "config/supplementaries-common.json"
 hash = "5ced901f14320f9ba91d69d3a0b2cd81c422e15efeea024ead019a98cc07e292"
 
 [[files]]
-file = "defaultconfigs/ftbchunks-world.snbt"
+file = "defaultconfigs/ftbchunks/ftbchunks-world.snbt"
 hash = "f1ce3c95bdfb2f254ce53e01a789eb6ea4d667de99f2f8068e814ad980a06302"
 
 [[files]]
@@ -755,7 +755,7 @@ hash = "2ab320e81ca139787d91bad587cc23d8d6de23382c888d51ad61148dc10a28e3"
 
 [[files]]
 file = "resources/datapacks/HexScrollDye.zip"
-hash = "457f2155c1a62d33d33a182d2a370c89a544e104fd8a29f8d1a59f6a596dfaac"
+hash = "2063510a9fbb8caf900eb88e9496ced73b7ad2623654e05e8805898bc3df0a48"
 
 [[files]]
 file = "resources/datapacks/InformationTrinkets.zip"
