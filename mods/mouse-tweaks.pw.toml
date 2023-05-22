@@ -15,4 +15,3 @@ version = "pmMCbsN3"
 [option]
 optional = true
 default = true
-description = "Adds a borderless windowed fullscreen mode."

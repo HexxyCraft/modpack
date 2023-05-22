@@ -310,17 +310,17 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "5c5602e865ef2b60749eb771867ed30358a7ec00ab868120e069b8b2d3d66d4b"
+hash = "ce0f027c9e7dc28f8fb2513f27f8f215f67f01e874303ade4dfad04129355e4a"
 metafile = true
 
 [[files]]
 file = "mods/emicompat.pw.toml"
-hash = "50300b28b244b10f548f4cbd0d9ceef88a721b9dd465442dfd40c681d03cfeec"
+hash = "a9cf3db07e5f4dbaaf7648022f640e086609b0bf8e3b4e1c45be212be3c223c6"
 metafile = true
 
 [[files]]
 file = "mods/emitrades.pw.toml"
-hash = "2fd1c3f84f7f9be004337d74a3ae783fd2902c6b73b4d2b3753148929d7c5e65"
+hash = "f338cd9dc1df25effe9411fbbf8b88575fa8dcd222015ab7569050543ae21540"
 metafile = true
 
 [[files]]
@@ -534,7 +534,7 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
-hash = "81157f3e82ef297f08ec40a7af4366a73062ade8b5a3578cb4e7b12f1bd5902f"
+hash = "116d2c4c7f7ee724332768152cc39afe62aaf4716682e8559811a06050d4de1b"
 metafile = true
 
 [[files]]

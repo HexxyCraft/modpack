@@ -12,3 +12,8 @@ hash = "d0f8855fe87a8b8f0ade8611764077aac0a5f10443afe5af35c59e37cc754b962c3dd46c
 [update.modrinth]
 mod-id = "fRiHVvU7"
 version = "RPPRwMBI"
+
+[option]
+optional = true
+default = true
+description = "JEI-like item and recipe viewer. If you disable this (eg. to use REI instead), also disable EMICompat and EMI Trades."
