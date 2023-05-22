@@ -2,11 +2,17 @@
 	"opBreakHarvestLevel": 3,
 	"maxRecurseDepth": 512,
 	"maxSpellCircleLength": 1024,
-	"actionDenyList": ["hextweaks:suicide", "hexkinetics:secret"],
-	"circleActionDenyList": ["hextweaks:suicide", "hexkinetics:secret"],
+	"actionDenyList": [
+		"hextweaks:suicide",
+		"hexkinetics:secret"
+	],
+	"circleActionDenyList": [
+		"hextweaks:suicide",
+		"hexkinetics:secret"
+	],
 	"villagersOffendedByMindMurder": true,
 	"tpDimDenylist": [
-		"twilightforest:twilight_forest",
+		"twilightforest:twilight_forest"
 	],
 	"fewScrollTables": [
 		"minecraft:chests/simple_dungeon",
@@ -15,17 +21,17 @@
         "minecraft:chests/nether_bridge",
         "minecraft:chests/jungle_temple",
         "minecraft:chests/desert_pyramid",
-        "minecraft:chests/village/village_cartographer",
+        "minecraft:chests/village/village_cartographer"
 	],
 	"someScrollTables": [
         "minecraft:chests/shipwreck_map",
         "minecraft:chests/bastion_treasure",
         "minecraft:chests/end_city_treasure",
 		"minecraft:chests/ancient_city",
-        "minecraft:chests/pillager_outpost",
+        "minecraft:chests/pillager_outpost"
 	],
 	"manyScrollTables": [
 		"minecraft:chests/woodland_mansion",
-        "minecraft:chests/stronghold_library",
+        "minecraft:chests/stronghold_library"
 	]
 }

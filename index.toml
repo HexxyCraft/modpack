@@ -67,9 +67,8 @@ file = "config/fabrication/yeet_recipes.ini"
 hash = "939cfc95ed4a7480ac08d3f692538a348af72c6db693349c61f93f926976d1f2"
 
 [[files]]
-file = "config/hexcasting/server.json5"
-hash = "4a75210ccd7c0152e6f201f82520e0ca34bae29fce98e0516aab0ddd197b33e2"
-preserve = true
+file = "config/hexcasting/server.json"
+hash = "7b0d04b57d8a5572d3a2f67ed3f9180adf5cd05ee504c0262cbc6ad4d98e8d26"
 
 [[files]]
 file = "config/quickshulkerconfig.json5"
@@ -385,14 +384,8 @@ hash = "0702077652d48238094c6c28add03184483295d2f39cb8dffe61e55430fdc8d8"
 metafile = true
 
 [[files]]
-file = "mods/hex-casting.pw.toml"
-hash = "247afa3c8b740d5dfd3239cb1e469da9ec2a8854ab211d875198f86abc4ee176"
-metafile = true
-
-[[files]]
-file = "mods/hexal.pw.toml"
-hash = "282fe210bb1bc102b8fab9c0d58dd3b846aecab1827baff6696156e2fa97eb7f"
-metafile = true
+file = "mods/hexal-fabric-1.19.2-0.2.14-0-performancefix0.jar"
+hash = "8abcc65dbe1548ef9be6e4662e1e1e326e14aa411ae821ed7d91f9f9a3f19523"
 
 [[files]]
 file = "mods/hexbound.pw.toml"
@@ -400,8 +393,12 @@ hash = "39081ea05b025866b19b588b6d8a8fbf8fc3298a1052c641383bd8bd49feb277"
 metafile = true
 
 [[files]]
+file = "mods/hexcasting-fabric-1.19.2-0.10.3a.jar"
+hash = "9e04e3043c9ff63d90bbf00c58c494bc5aba4fe1e7376ce277b9e74db7cbb7ac"
+
+[[files]]
 file = "mods/hexkinetics.pw.toml"
-hash = "31fb3383611aaab33e71c6c4b57ee1a24c85c8ce876038d858d34945e205981e"
+hash = "8dd9851189bb60c5837689fb4edaba2e5843eb637d6a66023a2e105958090923"
 metafile = true
 
 [[files]]
@@ -772,4 +769,3 @@ hash = "650e7fa2cd67b4b58ef58a7c3bad8265a42db963e6508c0ed1ecc899ad012523"
 [[files]]
 file = "servers.dat"
 hash = "b859bde62a4734aa4b612a1f4893ca0dea3b36d7825aafba3a4e49b3b93de6f3"
-preserve = true
