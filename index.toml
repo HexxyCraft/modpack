@@ -389,8 +389,9 @@ hash = "58a9faddc1c6861a3d75fe6ac72c24a3216befdc3b9704629e0ffeb49f936c5e"
 metafile = true
 
 [[files]]
-file = "mods/hexal-fabric-1.19.2-0.2.14-0-performancefix0.jar"
-hash = "8abcc65dbe1548ef9be6e4662e1e1e326e14aa411ae821ed7d91f9f9a3f19523"
+file = "mods/hexal.pw.toml"
+hash = "0b444a3ef2da27d658dbdf69ca3152eedacf899cbbdf1abd5f47064997c8aa7e"
+metafile = true
 
 [[files]]
 file = "mods/hexbound.pw.toml"
