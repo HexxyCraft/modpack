@@ -694,6 +694,11 @@ hash = "f411e02939ee3c6b4e898f759334631d315e6f5588e3574c3d6b2c156f28e717"
 metafile = true
 
 [[files]]
+file = "mods/too-fast.pw.toml"
+hash = "6ef6600bda4c393935c9f984d9fd7603c34d50c3efec660e14fa5b7de75de6d1"
+metafile = true
+
+[[files]]
 file = "mods/tooltipfix.pw.toml"
 hash = "4f782435d758d3cfd57ba49e2a4994006722d42307ef74ef3d35a1704f9ed5c4"
 metafile = true
