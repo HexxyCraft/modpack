@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/botania-common.json5"
+hash = "3a256cdaf82f28fa55a61515d1bd9792fe81a251876dd5ad7b3998705f1bf2c2"
+
+[[files]]
 file = "config/carryon-common.json"
 hash = "5799ea85c6484612957ebdc40aaaf3a3f8be642c7ff5c7c696503b921fcbf441"
 preserve = true
@@ -513,6 +517,11 @@ metafile = true
 [[files]]
 file = "mods/moreiotas.pw.toml"
 hash = "8091727e734f0ee0f2c1adadbf36463aa060c09a43d79bfea16e3a35cb60ab30"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "81157f3e82ef297f08ec40a7af4366a73062ade8b5a3578cb4e7b12f1bd5902f"
 metafile = true
 
 [[files]]
