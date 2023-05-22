@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/carryon-common.json"
+hash = "5799ea85c6484612957ebdc40aaaf3a3f8be642c7ff5c7c696503b921fcbf441"
+preserve = true
+
+[[files]]
 file = "config/charm.toml"
 hash = "a069f117c2b9a07fabb175f9c6cb4b5f2bb620640ee0816be844a2c7ee24b70b"
 preserve = true
@@ -8,67 +13,72 @@ preserve = true
 [[files]]
 file = "config/default_carpet-fixes.conf"
 hash = "7d91c7fa6956fb725d6676df1cfc33feb0449bf27735b49018177e81ffa770db"
-preserve = true
 
 [[files]]
 file = "config/default_carpet.conf"
 hash = "3fe93d257d97918f1b11e036f163227e4f50836defb7eade1b75ea521f170471"
-preserve = true
+
+[[files]]
+file = "config/easyshulkerboxes-server.toml"
+hash = "b5fdd7c561e9fbba564378289deaf1ea4e9ff9df89e4444d45306706e07f3289"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
 hash = "1a58d3ffaaf266eb0f6f3574f15559689fa237be980a13b741834d640d9a8375"
-preserve = true
 
 [[files]]
 file = "config/fabrication/block_logo.png"
 hash = "f2938cfb35d857049425b51f59ce557dd8f329e6b76bef68ffb561f118a4def0"
-preserve = true
 
 [[files]]
 file = "config/fabrication/classic_block_drops.ini"
 hash = "45e501b8528ef8d27c2a67efd27304c81cd0503f8b0671094e6653eefd394b12"
-preserve = true
 
 [[files]]
 file = "config/fabrication/dimensional_tools.ini"
 hash = "14eb4e8cd105c580403c4e5bc6bba831c81aedcf4e6e04485c74e9d3f253689f"
-preserve = true
 
 [[files]]
 file = "config/fabrication/features.ini"
 hash = "930b7869d700f0a8ba445d47a38b012bf6bdac5745242746dee19bb2508eebb1"
-preserve = true
 
 [[files]]
 file = "config/fabrication/fscript.ini"
 hash = "06d742af1c186bd89bb808f7ff407865f1c08b1ebf7bb2e52ae2d042b64acd16"
-preserve = true
 
 [[files]]
 file = "config/fabrication/gear_components.ini"
 hash = "5a9291467f9f7918687a0d138a61e396cb9299b0b4ea2e4cf4f4d6f3594f865b"
-preserve = true
 
 [[files]]
 file = "config/fabrication/item_despawn.ini"
 hash = "24b26ac0b8ff13889b6b3b00b2309366eb72c36014a9679a82f4cbff46c275f4"
-preserve = true
 
 [[files]]
 file = "config/fabrication/taggable_players.ini"
 hash = "fe069b4316f910f2f3b703cedd9930b73eed74c2ae86909f8b43a8ffd3d1af45"
-preserve = true
 
 [[files]]
 file = "config/fabrication/yeet_recipes.ini"
 hash = "939cfc95ed4a7480ac08d3f692538a348af72c6db693349c61f93f926976d1f2"
+
+[[files]]
+file = "config/hexcasting/server.json5"
+hash = "4a75210ccd7c0152e6f201f82520e0ca34bae29fce98e0516aab0ddd197b33e2"
+preserve = true
+
+[[files]]
+file = "config/quickshulkerconfig.json5"
+hash = "99a3feeeaca252374e89ba7bb075b57be751837826549818e7d9c422a0bd449b"
 preserve = true
 
 [[files]]
 file = "config/supplementaries-common.json"
 hash = "5ced901f14320f9ba91d69d3a0b2cd81c422e15efeea024ead019a98cc07e292"
-preserve = true
+
+[[files]]
+file = "defaultconfig/ftbchunks-world.snbt"
+hash = "f1ce3c95bdfb2f254ce53e01a789eb6ea4d667de99f2f8068e814ad980a06302"
 
 [[files]]
 file = "mods/advancements-debug.pw.toml"
@@ -561,6 +571,11 @@ hash = "d43b84344bd9fb3c72b238a432e44e40d10a25593b042391c2d30bfbe9df603e"
 metafile = true
 
 [[files]]
+file = "mods/qdresloader.pw.toml"
+hash = "6722d21c6afd03769c9792270061bf7dedb604b94161624403525bae7614df63"
+metafile = true
+
+[[files]]
 file = "mods/qkl-core.pw.toml"
 hash = "9744be5a1bdcb951ae96593c2c33ce99f05795f5535a7e5e165ac812b2dda6cd"
 metafile = true
@@ -704,6 +719,22 @@ metafile = true
 file = "mods/yigd.pw.toml"
 hash = "0a23b06d3673219a3298750002697012216551376af8e8f79a35b97b8bfe6ac3"
 metafile = true
+
+[[files]]
+file = "resources/datapacks/Add_Lore_Fragments.zip"
+hash = "2ab320e81ca139787d91bad587cc23d8d6de23382c888d51ad61148dc10a28e3"
+
+[[files]]
+file = "resources/datapacks/HexScrollDye.zip"
+hash = "457f2155c1a62d33d33a182d2a370c89a544e104fd8a29f8d1a59f6a596dfaac"
+
+[[files]]
+file = "resources/datapacks/InformationTrinkets.zip"
+hash = "2ea78a577baa04715a3a1c8be7d7b333af4af937a7443723a9c9b6c9a0ea244b"
+
+[[files]]
+file = "resources/resourcepacks/info_slot_textures.zip"
+hash = "6ec5b46f327241506ac5f3a56657ff2c16b4dc3c49ab236fd5015a8a36c764ad"
 
 [[files]]
 file = "servers.dat"
