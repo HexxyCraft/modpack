@@ -245,6 +245,11 @@ hash = "e14771d4b58851c754ff3b3037b70d9fe8d066f0a392b1f11f8351f1dadb0045"
 metafile = true
 
 [[files]]
+file = "mods/crafttweaker.pw.toml"
+hash = "8c802e527f3a825447bb1107ae05761cb232b70e1a277aaca721023b041b9c07"
+metafile = true
+
+[[files]]
 file = "mods/create-crystal-clear-fabric.pw.toml"
 hash = "18950d2a6f040c8cfa4c0206183b35e82fea961f0f0bfe23f4f10e91bc0025b7"
 metafile = true
@@ -340,6 +345,11 @@ hash = "db20fb295ad52fbd495208500258139f0d9bcb94efd4d6e587a1533c7009ee8f"
 metafile = true
 
 [[files]]
+file = "mods/faux-custom-entity-data.pw.toml"
+hash = "a0e9f484d9d48d62f240d837983386d80e53e517e59b8ac623e75268d8319505"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "9e93bfaf08afac41ebb415723150e2daf2ea8125c0e3b0d9417e46302ad4a2a2"
 metafile = true
@@ -407,6 +417,11 @@ metafile = true
 [[files]]
 file = "mods/indium.pw.toml"
 hash = "c22cdc80275a728a443d6539bb72d1bcdfe7a7f3a418076a4d0fc0b20b975419"
+metafile = true
+
+[[files]]
+file = "mods/ingredient-extension-api.pw.toml"
+hash = "49ae038ac73483db0da9d34422656829397c5285cae5f82f1c86cab6cc93aef5"
 metafile = true
 
 [[files]]
@@ -744,6 +759,10 @@ hash = "2ea78a577baa04715a3a1c8be7d7b333af4af937a7443723a9c9b6c9a0ea244b"
 [[files]]
 file = "resources/resourcepacks/info_slot_textures.zip"
 hash = "6ec5b46f327241506ac5f3a56657ff2c16b4dc3c49ab236fd5015a8a36c764ad"
+
+[[files]]
+file = "scripts/hexxycraft.zs"
+hash = "650e7fa2cd67b4b58ef58a7c3bad8265a42db963e6508c0ed1ecc899ad012523"
 
 [[files]]
 file = "servers.dat"
