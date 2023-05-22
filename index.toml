@@ -81,7 +81,7 @@ file = "config/supplementaries-common.json"
 hash = "5ced901f14320f9ba91d69d3a0b2cd81c422e15efeea024ead019a98cc07e292"
 
 [[files]]
-file = "defaultconfig/ftbchunks-world.snbt"
+file = "defaultconfigs/ftbchunks-world.snbt"
 hash = "f1ce3c95bdfb2f254ce53e01a789eb6ea4d667de99f2f8068e814ad980a06302"
 
 [[files]]
