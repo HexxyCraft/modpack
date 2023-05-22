@@ -705,6 +705,11 @@ hash = "083444f64a617fd971025b7425c9d7fee0cc6460ceddabf29be9fc24a459501a"
 metafile = true
 
 [[files]]
+file = "mods/unofficial-sodium-biome-blending-fix.pw.toml"
+hash = "372a411132154ed7b76bf177d42722fcb4cb526b49aed29ddf762818b9425e37"
+metafile = true
+
+[[files]]
 file = "mods/vanity.pw.toml"
 hash = "04e2fb8b7c189d1abfa31524d1b1f7d6921148c6a79c02984333a9738278a05f"
 metafile = true
