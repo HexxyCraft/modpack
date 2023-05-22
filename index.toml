@@ -130,7 +130,7 @@ metafile = true
 
 [[files]]
 file = "mods/blockbot.pw.toml"
-hash = "972eb5e727babd69d1bdfbd489e51a8e22de1748463c141aaa5465f8cf113b42"
+hash = "417d39a624dbbad718d1dc3b1374e14772433d1f4b75de84d565b3f08232217f"
 metafile = true
 
 [[files]]
@@ -384,6 +384,11 @@ hash = "0702077652d48238094c6c28add03184483295d2f39cb8dffe61e55430fdc8d8"
 metafile = true
 
 [[files]]
+file = "mods/hex-casting.pw.toml"
+hash = "58a9faddc1c6861a3d75fe6ac72c24a3216befdc3b9704629e0ffeb49f936c5e"
+metafile = true
+
+[[files]]
 file = "mods/hexal-fabric-1.19.2-0.2.14-0-performancefix0.jar"
 hash = "8abcc65dbe1548ef9be6e4662e1e1e326e14aa411ae821ed7d91f9f9a3f19523"
 
@@ -391,10 +396,6 @@ hash = "8abcc65dbe1548ef9be6e4662e1e1e326e14aa411ae821ed7d91f9f9a3f19523"
 file = "mods/hexbound.pw.toml"
 hash = "39081ea05b025866b19b588b6d8a8fbf8fc3298a1052c641383bd8bd49feb277"
 metafile = true
-
-[[files]]
-file = "mods/hexcasting-fabric-1.19.2-0.10.3a.jar"
-hash = "9e04e3043c9ff63d90bbf00c58c494bc5aba4fe1e7376ce277b9e74db7cbb7ac"
 
 [[files]]
 file = "mods/hexkinetics.pw.toml"
