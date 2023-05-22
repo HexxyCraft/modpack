@@ -7,12 +7,12 @@ preserve = true
 
 [[files]]
 file = "config/default_carpet-fixes.conf"
-hash = "d3a35290e0748740591069f7a86b447ae5de9d6ad4f17657122d335424df6b97"
+hash = "7d91c7fa6956fb725d6676df1cfc33feb0449bf27735b49018177e81ffa770db"
 preserve = true
 
 [[files]]
 file = "config/default_carpet.conf"
-hash = "f1d61ccb0e5b8f47d3247323b5dab232054069080b2dab3244efddafce086196"
+hash = "3fe93d257d97918f1b11e036f163227e4f50836defb7eade1b75ea521f170471"
 preserve = true
 
 [[files]]
@@ -683,6 +683,11 @@ metafile = true
 [[files]]
 file = "mods/windchimes.pw.toml"
 hash = "a5a7ace31eaaeebccb465be9af80260e5b75cfd13a33dde6b401567685b92d04"
+metafile = true
+
+[[files]]
+file = "mods/worldborderfix.pw.toml"
+hash = "0f32673619782b498b16443cbacfa069a623106ca31e980e1accbda3f2a72e03"
 metafile = true
 
 [[files]]
