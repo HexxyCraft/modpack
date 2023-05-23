@@ -21,4 +21,4 @@ jobs:
           require_statuses_success: 'false'
           automerge_fail_label: 'automerge-fail'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
