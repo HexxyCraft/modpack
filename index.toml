@@ -7,12 +7,10 @@ hash = "3a256cdaf82f28fa55a61515d1bd9792fe81a251876dd5ad7b3998705f1bf2c2"
 [[files]]
 file = "config/carryon-common.json"
 hash = "5799ea85c6484612957ebdc40aaaf3a3f8be642c7ff5c7c696503b921fcbf441"
-preserve = true
 
 [[files]]
 file = "config/charm.toml"
 hash = "a069f117c2b9a07fabb175f9c6cb4b5f2bb620640ee0816be844a2c7ee24b70b"
-preserve = true
 
 [[files]]
 file = "config/default_carpet-fixes.conf"
@@ -73,7 +71,6 @@ hash = "7b0d04b57d8a5572d3a2f67ed3f9180adf5cd05ee504c0262cbc6ad4d98e8d26"
 [[files]]
 file = "config/quickshulkerconfig.json5"
 hash = "99a3feeeaca252374e89ba7bb075b57be751837826549818e7d9c422a0bd449b"
-preserve = true
 
 [[files]]
 file = "config/supplementaries-common.json"
@@ -776,3 +773,4 @@ hash = "650e7fa2cd67b4b58ef58a7c3bad8265a42db963e6508c0ed1ecc899ad012523"
 [[files]]
 file = "servers.dat"
 hash = "b859bde62a4734aa4b612a1f4893ca0dea3b36d7825aafba3a4e49b3b93de6f3"
+preserve = true
