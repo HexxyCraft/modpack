@@ -3,9 +3,10 @@ filename = "lovely_snails-1.1.0+1.19.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/hBVVhStr/versions/1.1.0%2B1.19/lovely_snails-1.1.0%2B1.19.jar"
-hash-format = "sha1"
-hash = "f6bcc157728fb8b79246e1a15f7a078fa34e346a"
+hash-format = "sha512"
+hash = "964416565092a1eccd7e591f1476ea227ab091edce889be2e26bf19dbacbb3abc4aa49c710047b67081abbd378d18c75ce4d8ce0fd182f37edd33664ce48b98b"
 
 [update]
 [update.modrinth]

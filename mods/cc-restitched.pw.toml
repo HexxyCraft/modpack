@@ -3,9 +3,10 @@ filename = "cc-restitched-1.101.2.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/eldBwa5V/versions/1.101.2%2B1.19.1/cc-restitched-1.101.2.jar"
-hash-format = "sha1"
-hash = "428b306c317e38d5829972f1944c873858b740da"
+hash-format = "sha512"
+hash = "c1c3b80489ce7341135c06dadf9a9f344ad4ef5165699aa56364e7cb4d585b0b02a3407a3bb7f3884b0cd33655362e04c247c2c0b7dbfc9faa69d3564ce3f30a"
 
 [update]
 [update.modrinth]

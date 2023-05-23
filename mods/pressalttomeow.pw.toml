@@ -3,9 +3,10 @@ filename = "pressalttomeow-1.0.3.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/EjH4M3L1/versions/MeW4W6f8/pressalttomeow-1.0.3.jar"
-hash-format = "sha1"
-hash = "a8a8ea3f697769961ad63b787afac10e23ea1731"
+hash-format = "sha512"
+hash = "385b258b9e424860e80fd75ee99bb79328e4d6f5730149e411fc353281358053e3eec9d77f8084a20287fb67ed1cc66f6395d1149c0111b74374e17b3ff272e2"
 
 [update]
 [update.modrinth]

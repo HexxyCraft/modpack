@@ -1,0 +1,14 @@
+name = "Architecture Extensions"
+filename = "architecture_extensions-1.1.1+1.19.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/YyhsabMU/versions/1.1.1%2B1.19/architecture_extensions-1.1.1%2B1.19.jar"
+hash-format = "sha512"
+hash = "47f3e64652af611f702ba8d5481271f7f1c3d1d51e955b24d27a45b5d60acd9a29e1c3fa8238cce754fafc1d75dc9faddc25303b50bbad33c23952e0744f324e"
+
+[update]
+[update.modrinth]
+mod-id = "YyhsabMU"
+version = "sweOupoy"

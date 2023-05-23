@@ -3,9 +3,10 @@ filename = "resourcefullib-fabric-1.19.2-1.1.24.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/G1hIVOrD/versions/mxiPijSw/resourcefullib-fabric-1.19.2-1.1.24.jar"
-hash-format = "sha1"
-hash = "aaf8fccd57dabc8bbb7302741a4da2418908e20f"
+hash-format = "sha512"
+hash = "c8b126a281e1ccac68507c61592910c27d9519b5ccf450aad6ac4b2d384906b3a5363c8ae73a7186f3b155ee6e7a876df25169491eddc119653b4b32b8573102"
 
 [update]
 [update.modrinth]

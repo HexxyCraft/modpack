@@ -1,0 +1,14 @@
+name = "Convenient Decor"
+filename = "convenientdecor-0.1.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/gMWAhU1n/versions/Vcbcrl8C/convenientdecor-0.1.0.jar"
+hash-format = "sha512"
+hash = "0157d628043e26b0b6b24df570d9c2354e0d9515d8a98ba3e26cba808a98717e4996061d12895664f8e22be13e17f83b0dd20ffae5c507111412b9b33fc50fbc"
+
+[update]
+[update.modrinth]
+mod-id = "gMWAhU1n"
+version = "Vcbcrl8C"

@@ -1,0 +1,14 @@
+name = "Architect's Palette [Fabric]"
+filename = "architects-palette-fabric-2.1.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/ktECB2Rv/versions/2.2.1/architects-palette-fabric-2.1.1.jar"
+hash-format = "sha512"
+hash = "bce62bfc1b3f983f147bff848a18de11c77544af364fb1043855850b6e77f4b014bcaef259675bac5182ea02d5da692187a232bab47b525a6a34ff4671782561"
+
+[update]
+[update.modrinth]
+mod-id = "ktECB2Rv"
+version = "CbSACorr"

@@ -3,9 +3,10 @@ filename = "packages-fabric-1.19.2-3.4.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/10DZYVis/versions/eJm3c7P0/packages-fabric-1.19.2-3.4.jar"
-hash-format = "sha1"
-hash = "50bbc024c40bf908c077355ffb128f526178cb18"
+hash-format = "sha512"
+hash = "4bea12a5fe073d462ecff9257fab241e5280840cb6a305caf97f960903f0161c98d5f64d2395e710b36a1dfb5ccd8ebfebf0cf219eab276dda6f6925648a4ad3"
 
 [update]
 [update.modrinth]

@@ -1,0 +1,14 @@
+name = "Chat Toggle"
+filename = "Chat-Toggle-4.0.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/k6aAChpa/versions/Fwxs2pRV/Chat-Toggle-4.0.0.jar"
+hash-format = "sha512"
+hash = "387ff3c8fdc6c99aac34d7b4c65e2495381387239b4b244f80cb7954e4ae0332de1000f143974d4208c277d8e8b3dfdc012955a7f00cef8fb1feb0c8a579bcc4"
+
+[update]
+[update.modrinth]
+mod-id = "k6aAChpa"
+version = "Fwxs2pRV"

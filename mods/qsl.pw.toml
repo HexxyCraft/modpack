@@ -3,9 +3,10 @@ filename = "qfapi-4.0.0-beta.30_qsl-3.0.0-beta.29_fapi-0.76.0_mc-1.19.2.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/qvIfYCYJ/versions/BTCxVi75/qfapi-4.0.0-beta.30_qsl-3.0.0-beta.29_fapi-0.76.0_mc-1.19.2.jar"
-hash-format = "sha1"
-hash = "25670c34698025b31db03d31913a547b81bd87cd"
+hash-format = "sha512"
+hash = "ee32b52d983b86ba308148c584d62e2da2a7c8df49083487533a26751e58ab8b5c6bcb520d20dc7d9db28467852c3bade190e7e243cbc4356b317cee24fd9232"
 
 [update]
 [update.modrinth]

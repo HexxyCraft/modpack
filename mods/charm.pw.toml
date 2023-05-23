@@ -3,9 +3,10 @@ filename = "charm-fabric-1.19.2-4.4.4.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/pOQTcQmj/versions/nGnXDTky/charm-fabric-1.19.2-4.4.4.jar"
-hash-format = "sha1"
-hash = "b1118b1b30508dab9aa1625facc8ea6e4a4f6a49"
+hash-format = "sha512"
+hash = "1bf9cda7433c7038dcdd2ccc6fc43b467c67cc98c99d0c2a24b08b4196340a95d50a96fdbf5aa5c069d1c154766ae621b5464522058620190211eb6251b47d43"
 
 [update]
 [update.modrinth]

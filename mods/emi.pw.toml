@@ -1,0 +1,19 @@
+name = "EMI"
+filename = "emi-0.7.3+1.19.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/fRiHVvU7/versions/RPPRwMBI/emi-0.7.3%2B1.19.2.jar"
+hash-format = "sha512"
+hash = "d0f8855fe87a8b8f0ade8611764077aac0a5f10443afe5af35c59e37cc754b962c3dd46cd9543883fb0af42369ac8c8304b4e81b0c2ad2f77346889ffa0783e7"
+
+[update]
+[update.modrinth]
+mod-id = "fRiHVvU7"
+version = "RPPRwMBI"
+
+[option]
+optional = true
+default = true
+description = "JEI-like item and recipe viewer. If you disable this (eg. to use REI instead), also disable EMICompat and EMI Trades."

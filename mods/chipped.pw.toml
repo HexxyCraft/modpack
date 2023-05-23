@@ -3,9 +3,10 @@ filename = "chipped-fabric-1.19.2-2.1.4.jar"
 side = "both"
 
 [download]
+mode = "url"
 url = "https://cdn.modrinth.com/data/BAscRYKm/versions/UK6ouO7Q/chipped-fabric-1.19.2-2.1.4.jar"
-hash-format = "sha1"
-hash = "96cbb1f6fd6a1d72ea3e88239a5ce652b42ae887"
+hash-format = "sha512"
+hash = "32cc24a5eaa85aa90f77314f0b90c9161ff9b2ba28789e29528c88f33ed18f18a9a3a48eafbba37bf3f94f552ccfdf2358a329c618911062d169f3143f7363ee"
 
 [update]
 [update.modrinth]
