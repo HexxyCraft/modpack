@@ -12,3 +12,7 @@ hash = "caff93f8e383d0c2177452036cff0ab7b44779ece8988b9b3fe7a9dfefa863adb11ce5bb
 [update.modrinth]
 mod-id = "Wb5oqrBJ"
 version = "kmo22ZKz"
+
+[option]
+optional = true
+default = true

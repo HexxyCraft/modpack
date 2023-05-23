@@ -177,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "9197b74f077cc9891de7c37494d62fab3e8c29f9fd99259576bac3385b803ef2"
+hash = "9965f21c7420a90579843fe881e4c8dfb8af9ca5e673208a413dc18ccfcdc162"
 metafile = true
 
 [[files]]
@@ -392,7 +392,7 @@ metafile = true
 
 [[files]]
 file = "mods/hexal.pw.toml"
-hash = "0b444a3ef2da27d658dbdf69ca3152eedacf899cbbdf1abd5f47064997c8aa7e"
+hash = "2c39b24a8125efc40480e7c696896d73f3ad919684a09bd96a11de873784a712"
 metafile = true
 
 [[files]]
