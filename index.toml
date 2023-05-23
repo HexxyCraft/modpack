@@ -302,7 +302,7 @@ metafile = true
 
 [[files]]
 file = "mods/easy-shulker-boxes.pw.toml"
-hash = "38fd280e531c3e8365ae198033af57072c50a0833b917495720101e38d2618e8"
+hash = "e324cd7bc4956ddf8f807c21b0e9416c77e395c12675bcba84dc9230143aeba8"
 metafile = true
 
 [[files]]
