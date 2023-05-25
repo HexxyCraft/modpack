@@ -392,7 +392,7 @@ metafile = true
 
 [[files]]
 file = "mods/hexal.pw.toml"
-hash = "2c39b24a8125efc40480e7c696896d73f3ad919684a09bd96a11de873784a712"
+hash = "e5f5d75ae2b43c9d82d92201ee8af34ab0aa5e72d7e2539e752daa39dc262c56"
 metafile = true
 
 [[files]]
