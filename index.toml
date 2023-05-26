@@ -65,8 +65,16 @@ file = "config/fabrication/yeet_recipes.ini"
 hash = "939cfc95ed4a7480ac08d3f692538a348af72c6db693349c61f93f926976d1f2"
 
 [[files]]
+file = "config/farmersdelight.json"
+hash = "26d88bb8371a5431d297b6413ef0a9fccbb0ea64b8db8838dd98597f7057111f"
+
+[[files]]
 file = "config/hexcasting/server.json"
 hash = "7b0d04b57d8a5572d3a2f67ed3f9180adf5cd05ee504c0262cbc6ad4d98e8d26"
+
+[[files]]
+file = "config/lootr.json"
+hash = "9037c1f520a93644b5fa80623a70811829a0f6c8d7b8ef60917ca7dc03a1f470"
 
 [[files]]
 file = "config/quickshulkerconfig.json5"
@@ -113,6 +121,11 @@ metafile = true
 [[files]]
 file = "mods/auto-config-updated-api.pw.toml"
 hash = "1ae8dcbdfa0bd670013aa6aa1d0471f628432293fb8085c403ddf0dac1c59624"
+metafile = true
+
+[[files]]
+file = "mods/bad-wither-no-cookie.pw.toml"
+hash = "8819e68ae91bcffd6cdee453443a8b939892a229f78cbd114e3e594faaa491ff"
 metafile = true
 
 [[files]]
@@ -392,7 +405,7 @@ metafile = true
 
 [[files]]
 file = "mods/hexal.pw.toml"
-hash = "e5f5d75ae2b43c9d82d92201ee8af34ab0aa5e72d7e2539e752daa39dc262c56"
+hash = "078d00ac1d20b49b2b9036a3d8772250a5143ea28cd6b9b489a718001475f31a"
 metafile = true
 
 [[files]]
@@ -788,6 +801,10 @@ file = "resources/datapacks/InformationTrinkets.zip"
 hash = "2ea78a577baa04715a3a1c8be7d7b333af4af937a7443723a9c9b6c9a0ea244b"
 
 [[files]]
+file = "resources/datapacks/rope_fix.zip"
+hash = "13d6127bd8ca2735b6f01aa932e6bfa927925cce819a8c3263898577782db1f5"
+
+[[files]]
 file = "resources/resourcepacks/info_slot_textures.zip"
 hash = "6ec5b46f327241506ac5f3a56657ff2c16b4dc3c49ab236fd5015a8a36c764ad"
 
@@ -798,4 +815,3 @@ hash = "650e7fa2cd67b4b58ef58a7c3bad8265a42db963e6508c0ed1ecc899ad012523"
 [[files]]
 file = "servers.dat"
 hash = "b859bde62a4734aa4b612a1f4893ca0dea3b36d7825aafba3a4e49b3b93de6f3"
-preserve = true
