@@ -400,7 +400,7 @@ metafile = true
 
 [[files]]
 file = "mods/hex-casting.pw.toml"
-hash = "58a9faddc1c6861a3d75fe6ac72c24a3216befdc3b9704629e0ffeb49f936c5e"
+hash = "59a489f50d06dd859c69459c2d29fc1a21517891f7f6e52b3c2f509f4aa34610"
 metafile = true
 
 [[files]]
@@ -684,6 +684,11 @@ hash = "1e07a7baa1fd266dffb6111da02dcefb9efa852beb451fa66a40317857092348"
 metafile = true
 
 [[files]]
+file = "mods/spyglass-improvements.pw.toml"
+hash = "98dacf43b37594d17c93c3de160a8cff6c108f816bfa2e79ee26a9e8240714a8"
+metafile = true
+
+[[files]]
 file = "mods/starlight.pw.toml"
 hash = "685a7b724de4b834693744357563873f1145d2c56c91f91a1ad68b4233878997"
 metafile = true
@@ -810,7 +815,7 @@ hash = "6ec5b46f327241506ac5f3a56657ff2c16b4dc3c49ab236fd5015a8a36c764ad"
 
 [[files]]
 file = "scripts/hexxycraft.zs"
-hash = "650e7fa2cd67b4b58ef58a7c3bad8265a42db963e6508c0ed1ecc899ad012523"
+hash = "1df2ebdb19035df5d1b94a3cc6c73b72e11106a1faa9043bf72b0450d10810fb"
 
 [[files]]
 file = "servers.dat"
