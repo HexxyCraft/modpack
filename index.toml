@@ -214,6 +214,11 @@ hash = "964543aed0c57614e9c8c93a531611dba7c51643e447f1137b63b2a3b721f1c8"
 metafile = true
 
 [[files]]
+file = "mods/clean-logs.pw.toml"
+hash = "920426543927784f3ca61e1ff13153f9a852fe7a064a08023c92b2057b63f266"
+metafile = true
+
+[[files]]
 file = "mods/cleancut.pw.toml"
 hash = "3104bdfa6c3d93c7423fed02bcf06f36590260ea833757359b354761db4330ab"
 metafile = true
