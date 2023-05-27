@@ -400,7 +400,7 @@ metafile = true
 
 [[files]]
 file = "mods/hex-casting.pw.toml"
-hash = "59a489f50d06dd859c69459c2d29fc1a21517891f7f6e52b3c2f509f4aa34610"
+hash = "bf791b2ecac21227d0ef18446275aa7b05311aa33d3ab7ee06630a0ad57e3c59"
 metafile = true
 
 [[files]]
