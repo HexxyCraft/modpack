@@ -3,12 +3,10 @@
 	"maxRecurseDepth": 512,
 	"maxSpellCircleLength": 1024,
 	"actionDenyList": [
-		"hextweaks:suicide",
-		"hexkinetics:secret"
+		"hextweaks:suicide"
 	],
 	"circleActionDenyList": [
-		"hextweaks:suicide",
-		"hexkinetics:secret"
+		"hextweaks:suicide"
 	],
 	"villagersOffendedByMindMurder": true,
 	"tpDimDenylist": [
