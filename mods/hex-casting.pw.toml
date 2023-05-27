@@ -1,7 +1,7 @@
 name = "Hex Casting"
-filename = "hexcasting-fabric-1.19.2-0.10.3b.jar"
+filename = "hexcasting-fabric-1.19.2-0.10.3c.jar"
 
 [download]
-url = "https://github.com/HexxyCraft/HexMod/releases/download/0.10.3b/hexcasting-fabric-1.19.2-0.10.3b.jar"
+url = "https://github.com/HexxyCraft/HexMod/releases/download/0.10.3c/hexcasting-fabric-1.19.2-0.10.3c.jar"
 hash-format = "sha1"
-hash = "04060b4bfe809337ac82419d1cae24de958d1f33"
+hash = "d2026c55bdb6eb5ed3351fb870542919dd7d961c"
