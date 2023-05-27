@@ -814,8 +814,20 @@ file = "resources/resourcepacks/info_slot_textures.zip"
 hash = "6ec5b46f327241506ac5f3a56657ff2c16b4dc3c49ab236fd5015a8a36c764ad"
 
 [[files]]
-file = "scripts/hexxycraft.zs"
-hash = "1df2ebdb19035df5d1b94a3cc6c73b72e11106a1faa9043bf72b0450d10810fb"
+file = "scripts/edified_panel.zs"
+hash = "2d949fdb802cfbf0de4a7a69e15a459a625a2ad0b8a9d41b94010571a3266a45"
+
+[[files]]
+file = "scripts/flax_seeds.zs"
+hash = "3bc240e4c3d08a7664f4e5e9b95a3ed67cdfa6907edcd409f2d251f31eaa0a8a"
+
+[[files]]
+file = "scripts/merge_phials.zs"
+hash = "1b303ea6661ea13bd626e473cb9937917c9877642a9b7276ddca3b07a498cca8"
+
+[[files]]
+file = "scripts/turtle_phial.zs"
+hash = "9021998c25ef611c9522ece99d122c6f0ddf9be3219ccfd54d0aabf962ddaa8d"
 
 [[files]]
 file = "servers.dat"
