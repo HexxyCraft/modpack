@@ -214,6 +214,11 @@ hash = "964543aed0c57614e9c8c93a531611dba7c51643e447f1137b63b2a3b721f1c8"
 metafile = true
 
 [[files]]
+file = "mods/clean-logs.pw.toml"
+hash = "920426543927784f3ca61e1ff13153f9a852fe7a064a08023c92b2057b63f266"
+metafile = true
+
+[[files]]
 file = "mods/cleancut.pw.toml"
 hash = "3104bdfa6c3d93c7423fed02bcf06f36590260ea833757359b354761db4330ab"
 metafile = true
@@ -400,7 +405,7 @@ metafile = true
 
 [[files]]
 file = "mods/hex-casting.pw.toml"
-hash = "58a9faddc1c6861a3d75fe6ac72c24a3216befdc3b9704629e0ffeb49f936c5e"
+hash = "bf791b2ecac21227d0ef18446275aa7b05311aa33d3ab7ee06630a0ad57e3c59"
 metafile = true
 
 [[files]]
@@ -684,6 +689,11 @@ hash = "1e07a7baa1fd266dffb6111da02dcefb9efa852beb451fa66a40317857092348"
 metafile = true
 
 [[files]]
+file = "mods/spyglass-improvements.pw.toml"
+hash = "98dacf43b37594d17c93c3de160a8cff6c108f816bfa2e79ee26a9e8240714a8"
+metafile = true
+
+[[files]]
 file = "mods/starlight.pw.toml"
 hash = "685a7b724de4b834693744357563873f1145d2c56c91f91a1ad68b4233878997"
 metafile = true
@@ -809,8 +819,20 @@ file = "resources/resourcepacks/info_slot_textures.zip"
 hash = "6ec5b46f327241506ac5f3a56657ff2c16b4dc3c49ab236fd5015a8a36c764ad"
 
 [[files]]
-file = "scripts/hexxycraft.zs"
-hash = "650e7fa2cd67b4b58ef58a7c3bad8265a42db963e6508c0ed1ecc899ad012523"
+file = "scripts/edified_panel.zs"
+hash = "2d949fdb802cfbf0de4a7a69e15a459a625a2ad0b8a9d41b94010571a3266a45"
+
+[[files]]
+file = "scripts/flax_seeds.zs"
+hash = "3bc240e4c3d08a7664f4e5e9b95a3ed67cdfa6907edcd409f2d251f31eaa0a8a"
+
+[[files]]
+file = "scripts/merge_phials.zs"
+hash = "1b303ea6661ea13bd626e473cb9937917c9877642a9b7276ddca3b07a498cca8"
+
+[[files]]
+file = "scripts/turtle_phial.zs"
+hash = "9021998c25ef611c9522ece99d122c6f0ddf9be3219ccfd54d0aabf962ddaa8d"
 
 [[files]]
 file = "servers.dat"
