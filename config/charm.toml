@@ -120,7 +120,7 @@
 #Removes the potion enchantment glint so you can see what the potion color is.
 "NoPotionGlint Enabled" = true
 #Removes the dark outer overlay when zooming in with the spyglass, giving you the full view.
-"NoSpyglassScope Enabled" = true
+"NoSpyglassScope Enabled" = false
 #Treasure enchantments such as Mending and Soul Speed are no longer tradeable with villagers.
 #This is an opinionated feature designed to force the player to explore and so is disabled by default.
 "NoTreasureEnchantmentTrading Enabled" = false
