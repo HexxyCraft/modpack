@@ -819,12 +819,16 @@ file = "resources/resourcepacks/info_slot_textures.zip"
 hash = "6ec5b46f327241506ac5f3a56657ff2c16b4dc3c49ab236fd5015a8a36c764ad"
 
 [[files]]
+file = "scripts/common/phials.zs"
+hash = "f87061a34a7ecccea8e79b04cb2f42ef10d34741f45a74e4657ed11cb45d0b4f"
+
+[[files]]
 file = "scripts/edified_panel.zs"
 hash = "2d949fdb802cfbf0de4a7a69e15a459a625a2ad0b8a9d41b94010571a3266a45"
 
 [[files]]
 file = "scripts/merge_phials.zs"
-hash = "5619b668447418d178d8f9e5d9f9b066f5311aac061bcd7dcc7d3cdc326e80a0"
+hash = "551b43ab8619dbc849871ad632260ac4cb053bdcb0fe6f286aa8c06bc695acf2"
 
 [[files]]
 file = "scripts/tags.zs"
