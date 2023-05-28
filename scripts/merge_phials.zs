@@ -15,7 +15,7 @@ public function phialMedia(startMedia as int, media as int) as MapData {
 }
 
 craftingTable.addShapeless(
-    "hexxycraft_merge_phials",
+    "hexxycraft_merge_phials_manual_only",
     <item:hexcasting:battery>.withTag(phialMedia(1280000, 0)),
     [
         <item:hexcasting:battery>.withTag(phialMedia(640000, 640000)) | <item:hexcasting:battery>,
