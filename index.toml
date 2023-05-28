@@ -85,6 +85,10 @@ file = "config/supplementaries-common.json"
 hash = "5ced901f14320f9ba91d69d3a0b2cd81c422e15efeea024ead019a98cc07e292"
 
 [[files]]
+file = "config/veinmining-common.toml"
+hash = "3d14dcd2cd2d5f8a0d74a67c5223c4582841e2e0659e784ccd746dedfc493923"
+
+[[files]]
 file = "defaultconfigs/ftbchunks/ftbchunks-world.snbt"
 hash = "f1ce3c95bdfb2f254ce53e01a789eb6ea4d667de99f2f8068e814ad980a06302"
 
