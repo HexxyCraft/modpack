@@ -329,7 +329,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "ce0f027c9e7dc28f8fb2513f27f8f215f67f01e874303ade4dfad04129355e4a"
+hash = "221c0b92213b2f819a90b58c59c63afdc4ef0e91db0901c7d3f2fa25fabd020e"
 metafile = true
 
 [[files]]
@@ -605,6 +605,11 @@ metafile = true
 [[files]]
 file = "mods/pehkui.pw.toml"
 hash = "a0febce406dd277730980450f98c94a80179b8df55e2136279003f30ae8eeaba"
+metafile = true
+
+[[files]]
+file = "mods/polymer.pw.toml"
+hash = "590e350a65f0c6aba510dbcfaf1eab4a0dc1740b19b2e07a5ffef446e89cf1b7"
 metafile = true
 
 [[files]]
