@@ -10,7 +10,7 @@ hash = "5799ea85c6484612957ebdc40aaaf3a3f8be642c7ff5c7c696503b921fcbf441"
 
 [[files]]
 file = "config/charm.toml"
-hash = "a069f117c2b9a07fabb175f9c6cb4b5f2bb620640ee0816be844a2c7ee24b70b"
+hash = "f173d5a16a29adbbbaa4d31d032b293c675abf1a1312a02a38266d075e49a187"
 
 [[files]]
 file = "config/default_carpet-fixes.conf"
@@ -70,7 +70,7 @@ hash = "26d88bb8371a5431d297b6413ef0a9fccbb0ea64b8db8838dd98597f7057111f"
 
 [[files]]
 file = "config/hexcasting/server.json"
-hash = "7b0d04b57d8a5572d3a2f67ed3f9180adf5cd05ee504c0262cbc6ad4d98e8d26"
+hash = "7c9c54d9792459af237ed4a9c4482d2074e4dcb110745de528bad2f3cedf9e1e"
 
 [[files]]
 file = "config/lootr.json"
@@ -405,12 +405,12 @@ metafile = true
 
 [[files]]
 file = "mods/hex-casting.pw.toml"
-hash = "bf791b2ecac21227d0ef18446275aa7b05311aa33d3ab7ee06630a0ad57e3c59"
+hash = "79bead94931c7ca3f7db46ada1a970e7a5563fb2649cdc3fda92d7780585e167"
 metafile = true
 
 [[files]]
 file = "mods/hexal.pw.toml"
-hash = "078d00ac1d20b49b2b9036a3d8772250a5143ea28cd6b9b489a718001475f31a"
+hash = "f7eb6bd783b777f3d6ec30ccef94bd0121c6f916d9adb7f75a54f00201a6e3f9"
 metafile = true
 
 [[files]]
@@ -420,7 +420,7 @@ metafile = true
 
 [[files]]
 file = "mods/hexkinetics.pw.toml"
-hash = "8dd9851189bb60c5837689fb4edaba2e5843eb637d6a66023a2e105958090923"
+hash = "24a4f5d80906bb59f19c1b95f88cbac122d77615dd11032c41ca1767353c1e40"
 metafile = true
 
 [[files]]
@@ -445,7 +445,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "36304e8c91b9d764cce2d19e0f07ccbf0db3bc8da01ff0c23801b27cbca98ef2"
+hash = "5612e7605b696de6caa034f69cb787732fd9ecf454787d69faa152b1580c4c14"
 metafile = true
 
 [[files]]
@@ -823,12 +823,12 @@ file = "scripts/edified_panel.zs"
 hash = "2d949fdb802cfbf0de4a7a69e15a459a625a2ad0b8a9d41b94010571a3266a45"
 
 [[files]]
-file = "scripts/flax_seeds.zs"
-hash = "3bc240e4c3d08a7664f4e5e9b95a3ed67cdfa6907edcd409f2d251f31eaa0a8a"
+file = "scripts/merge_phials.zs"
+hash = "149fe7ef40a85663c30dc42e6276f83f0673a76c21b44ce02848f35fbc6fd567"
 
 [[files]]
-file = "scripts/merge_phials.zs"
-hash = "1b303ea6661ea13bd626e473cb9937917c9877642a9b7276ddca3b07a498cca8"
+file = "scripts/tags.zs"
+hash = "3d5ee8fc7a9aa5ea528ff07448d88e6b373a5b8eced882e5d0940c28da2ceb5b"
 
 [[files]]
 file = "scripts/turtle_phial.zs"

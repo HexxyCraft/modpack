@@ -10,10 +10,17 @@ public function getPhialSizeIfFull(phial as IItemStack) as int {
     return -1;
 }
 
+public function phialMedia(startMedia as int, media as int) as MapData {
+    return {"hexcasting:start_media": startMedia, "hexcasting:media": media};
+}
+
 craftingTable.addShapeless(
     "hexxycraft_merge_phials",
-    <item:hexcasting:battery>,
-    [<item:hexcasting:battery>, <item:hexcasting:battery>],
+    <item:hexcasting:battery>.withTag(phialMedia(1280000, 0)),
+    [
+        <item:hexcasting:battery>.withTag(phialMedia(640000, 640000)) | <item:hexcasting:battery>,
+        <item:hexcasting:battery>.withTag(phialMedia(640000, 640000)) | <item:hexcasting:battery>,
+    ],
     (usualOut as IItemStack, inputs as IItemStack[]) => {
         val leftMedia = getPhialSizeIfFull(inputs[0]);
         val rightMedia = getPhialSizeIfFull(inputs[1]);

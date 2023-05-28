@@ -12,3 +12,8 @@ hash = "6ae1ac44041d5384293fdc6adbe7a5563f6bd74b1e19c7268a57173404f030ca21aff191
 [update.modrinth]
 mod-id = "YL57xq9U"
 version = "7MJ26Y79"
+
+[option]
+optional = true
+default = false
+description = "Shader mod. NOTE: Currently makes CC monitors very difficult to read."

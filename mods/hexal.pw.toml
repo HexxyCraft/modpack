@@ -1,7 +1,7 @@
 name = "Hexal"
-filename = "hexal-fabric-1.19.2-0.2.14-4.jar"
+filename = "hexal-fabric-1.19.2-0.2.16-1.jar"
 
 [download]
-url = "https://github.com/computer-whisperer/Hexal/releases/download/0.2.14-4/hexal-fabric-1.19.2-0.2.14-4.jar"
+url = "https://github.com/Talia-12/Hexal/releases/download/0.2.16-1/hexal-fabric-1.19.2-0.2.16-1.jar"
 hash-format = "sha1"
-hash = "7d13c0f95ca2aa002ca275dc8365f1121513fda5"
+hash = "0af7a28de84caaa957dfafe9d7924be3b48f9d2d"
