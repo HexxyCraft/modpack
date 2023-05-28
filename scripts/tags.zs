@@ -22,3 +22,11 @@ for item in <tag:items:charm:colored_bundles> {
         null
     );
 }
+
+// supplementaries cageable mobs
+<tag:entity_types:supplementaries:cage_catchable>.addId([
+    <resource:minecraft:cow>,
+    <resource:minecraft:pig>,
+    <resource:minecraft:sheep>,
+    <resource:minecraft:villager>,
+]);

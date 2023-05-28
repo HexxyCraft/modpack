@@ -56,7 +56,7 @@
       "capacity": 12,
       "drink_from_jar": false,
       "drink_from_jar_item": false,
-      "jar_auto_detect": false,
+      "jar_auto_detect": true,
       "jar_capture": true,
       "jar_cookies": true,
       "jar_liquids": true
@@ -65,7 +65,7 @@
       "enabled": true,
       "allow_all_mobs": false,
       "cage_allow_all_babies": false,
-      "cage_auto_detect": false,
+      "cage_auto_detect": true,
       "persistent_mobs": false,
       "health_threshold": 100
     },

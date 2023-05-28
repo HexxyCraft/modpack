@@ -82,7 +82,7 @@ hash = "99a3feeeaca252374e89ba7bb075b57be751837826549818e7d9c422a0bd449b"
 
 [[files]]
 file = "config/supplementaries-common.json"
-hash = "5ced901f14320f9ba91d69d3a0b2cd81c422e15efeea024ead019a98cc07e292"
+hash = "41323f6faec210b3d7f376daac1028a66a04fca308a2597981503086be5cdcaf"
 
 [[files]]
 file = "config/veinmining-common.toml"
@@ -831,12 +831,16 @@ file = "scripts/edified_panel.zs"
 hash = "2d949fdb802cfbf0de4a7a69e15a459a625a2ad0b8a9d41b94010571a3266a45"
 
 [[files]]
+file = "scripts/items.zs"
+hash = "65752dba564caa2ddb9b8eec70f90ccebcde0b86ecec16e9b4d3736cebdf5f3c"
+
+[[files]]
 file = "scripts/merge_phials.zs"
 hash = "551b43ab8619dbc849871ad632260ac4cb053bdcb0fe6f286aa8c06bc695acf2"
 
 [[files]]
 file = "scripts/tags.zs"
-hash = "3d5ee8fc7a9aa5ea528ff07448d88e6b373a5b8eced882e5d0940c28da2ceb5b"
+hash = "586e792f37c269efe1a72954e22cfead9b59e5dd6a51245bc8e4e07837847b82"
 
 [[files]]
 file = "scripts/turtle_phial.zs"
