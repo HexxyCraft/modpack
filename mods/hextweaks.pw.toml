@@ -1,14 +1,13 @@
 name = "HexTweaks"
-filename = "hextweaks-3.2.1-fabric.jar"
+filename = "hextweaks-3.2.2-fabric.jar"
 side = "both"
 
 [download]
-mode = "url"
-url = "https://cdn.modrinth.com/data/pim6pG9O/versions/QRiRtEAJ/hextweaks-3.2.1-fabric.jar"
-hash-format = "sha512"
-hash = "81b00780931ce14663439334c3da6d6fb74777119f843978380a860164944f468e1cf3f525d5aca3c32b5ddbd94018c077739f9641bd1007ded4c379772eab9f"
+url = "https://cdn.modrinth.com/data/pim6pG9O/versions/ao87Q6b4/hextweaks-3.2.2-fabric.jar"
+hash-format = "sha1"
+hash = "b767f563facd4b8572be03105c744e2e8101a225"
 
 [update]
 [update.modrinth]
 mod-id = "pim6pG9O"
-version = "QRiRtEAJ"
+version = "ao87Q6b4"
