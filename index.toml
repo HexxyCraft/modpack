@@ -85,6 +85,10 @@ file = "config/supplementaries-common.json"
 hash = "5ced901f14320f9ba91d69d3a0b2cd81c422e15efeea024ead019a98cc07e292"
 
 [[files]]
+file = "config/veinmining-common.toml"
+hash = "3d14dcd2cd2d5f8a0d74a67c5223c4582841e2e0659e784ccd746dedfc493923"
+
+[[files]]
 file = "defaultconfigs/ftbchunks/ftbchunks-world.snbt"
 hash = "f1ce3c95bdfb2f254ce53e01a789eb6ea4d667de99f2f8068e814ad980a06302"
 
@@ -325,7 +329,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "ce0f027c9e7dc28f8fb2513f27f8f215f67f01e874303ade4dfad04129355e4a"
+hash = "221c0b92213b2f819a90b58c59c63afdc4ef0e91db0901c7d3f2fa25fabd020e"
 metafile = true
 
 [[files]]
@@ -604,6 +608,11 @@ hash = "a0febce406dd277730980450f98c94a80179b8df55e2136279003f30ae8eeaba"
 metafile = true
 
 [[files]]
+file = "mods/polymer.pw.toml"
+hash = "590e350a65f0c6aba510dbcfaf1eab4a0dc1740b19b2e07a5ffef446e89cf1b7"
+metafile = true
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "a441c287441f57daa6336ad4606c6530320dd0881deb60efa2447a517fb95cd3"
 metafile = true
@@ -685,7 +694,7 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "1e07a7baa1fd266dffb6111da02dcefb9efa852beb451fa66a40317857092348"
+hash = "8e4c83ce5539228bdf7fb0fcabfa87da382d210834f005e71bf5bfea44d79de1"
 metafile = true
 
 [[files]]
@@ -819,16 +828,24 @@ file = "resources/resourcepacks/info_slot_textures.zip"
 hash = "6ec5b46f327241506ac5f3a56657ff2c16b4dc3c49ab236fd5015a8a36c764ad"
 
 [[files]]
+file = "scripts/common/phials.zs"
+hash = "f87061a34a7ecccea8e79b04cb2f42ef10d34741f45a74e4657ed11cb45d0b4f"
+
+[[files]]
 file = "scripts/edified_panel.zs"
 hash = "2d949fdb802cfbf0de4a7a69e15a459a625a2ad0b8a9d41b94010571a3266a45"
 
 [[files]]
+file = "scripts/items.zs"
+hash = "65752dba564caa2ddb9b8eec70f90ccebcde0b86ecec16e9b4d3736cebdf5f3c"
+
+[[files]]
 file = "scripts/merge_phials.zs"
-hash = "5619b668447418d178d8f9e5d9f9b066f5311aac061bcd7dcc7d3cdc326e80a0"
+hash = "551b43ab8619dbc849871ad632260ac4cb053bdcb0fe6f286aa8c06bc695acf2"
 
 [[files]]
 file = "scripts/tags.zs"
-hash = "3d5ee8fc7a9aa5ea528ff07448d88e6b373a5b8eced882e5d0940c28da2ceb5b"
+hash = "586e792f37c269efe1a72954e22cfead9b59e5dd6a51245bc8e4e07837847b82"
 
 [[files]]
 file = "scripts/turtle_phial.zs"

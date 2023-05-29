@@ -1,36 +1,22 @@
 import crafttweaker.api.item.IItemStack;
-import crafttweaker.api.data.IData;
-import crafttweaker.api.data.MapData;
 
-public function getPhialSizeIfFull(phial as IItemStack) as int {
-    val media = phial.tag["hexcasting:media"].asInt();
-    if (media == phial.tag["hexcasting:start_media"].asInt()) {
-        return media;
-    }
-    return -1;
+// given two full phials, return an empty phial with their combined capacity if it's less than Media.MAX
+public function mergePhials(inputs as IItemStack[]) as IItemStack? {
+    val newStartMedia = inputs[0].startMedia + inputs[1].startMedia;
+    return newStartMedia <= Media.MAX ? inputs[0].withMedia(newStartMedia as int, 0) : null;
 }
 
-public function phialMedia(startMedia as int, media as int) as MapData {
-    return {"hexcasting:start_media": startMedia, "hexcasting:media": media};
+// given two phials, return two phials with the average of their capacity
+// use .media just in case the phials aren't full, though they should always be
+public function balancePhials(inputs as IItemStack[]) as IItemStack {
+    val newMedia = (inputs[0].media + inputs[1].media) / 2;
+    return IItemStack.phialWithMedia(newMedia as int) * 2;
 }
 
+val phialInput = IItemStack.phialWithMedia(Media.dust(64)) | <item:hexcasting:battery>.onlyIfMediaFull();
 craftingTable.addShapeless(
-    "hexxycraft_merge_phials_manual_only",
-    <item:hexcasting:battery>.withTag(phialMedia(1280000, 0)),
-    [
-        <item:hexcasting:battery>.withTag(phialMedia(640000, 640000)) | <item:hexcasting:battery>,
-        <item:hexcasting:battery>.withTag(phialMedia(640000, 640000)) | <item:hexcasting:battery>,
-    ],
-    (usualOut as IItemStack, inputs as IItemStack[]) => {
-        val leftMedia = getPhialSizeIfFull(inputs[0]);
-        val rightMedia = getPhialSizeIfFull(inputs[1]);
-
-        if (leftMedia <= 0 || rightMedia <= 0 || leftMedia + rightMedia > 2000000000) {
-            return <item:minecraft:air>;
-        }
-
-        inputs[0].tag["hexcasting:start_media"] = leftMedia + rightMedia;
-        inputs[0].tag["hexcasting:media"] = 0;
-        return inputs[0];
-    }
+    "hexxycraft_merge_phials",
+    IItemStack.phialWithMedia(Media.dust(128), 0),
+    [phialInput, phialInput],
+    (usualOut as IItemStack, inputs as IItemStack[]) => mergePhials(inputs) ?? balancePhials(inputs)
 );
