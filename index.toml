@@ -21,6 +21,10 @@ file = "config/default_carpet.conf"
 hash = "3fe93d257d97918f1b11e036f163227e4f50836defb7eade1b75ea521f170471"
 
 [[files]]
+file = "config/easyanvils-server.toml"
+hash = "4fd5ed63b01211044a45a14f182210ea2ea88822ed6b0e4c683e8ef28f336ed2"
+
+[[files]]
 file = "config/easyshulkerboxes-server.toml"
 hash = "b5fdd7c561e9fbba564378289deaf1ea4e9ff9df89e4444d45306706e07f3289"
 
@@ -423,13 +427,8 @@ hash = "39081ea05b025866b19b588b6d8a8fbf8fc3298a1052c641383bd8bd49feb277"
 metafile = true
 
 [[files]]
-file = "mods/hexkinetics.pw.toml"
-hash = "24a4f5d80906bb59f19c1b95f88cbac122d77615dd11032c41ca1767353c1e40"
-metafile = true
-
-[[files]]
 file = "mods/hextweaks.pw.toml"
-hash = "a7876b3f676c8aa059ad73e6d22a51eb3c7b9e775acf9675658fc00cf5f21051"
+hash = "3f3303ff6d4ff49156ca05f4f43040d56e3be5d451ee788abd4c04771ec951b7"
 metafile = true
 
 [[files]]
@@ -525,6 +524,11 @@ metafile = true
 [[files]]
 file = "mods/lovely_snails.pw.toml"
 hash = "04014a5e9811fdcbb390bc95ab7a9d60997893cece83dc5ca5a1d158fad391a6"
+metafile = true
+
+[[files]]
+file = "mods/luckperms.pw.toml"
+hash = "b3501a7f76745c70f319a487ab71d553e43558c732890daa1abed779e194d09c"
 metafile = true
 
 [[files]]
@@ -845,7 +849,7 @@ hash = "551b43ab8619dbc849871ad632260ac4cb053bdcb0fe6f286aa8c06bc695acf2"
 
 [[files]]
 file = "scripts/tags.zs"
-hash = "586e792f37c269efe1a72954e22cfead9b59e5dd6a51245bc8e4e07837847b82"
+hash = "7d0ee4285e2d9b400012243e25daa72c25933facdbe825344cf8af391aee6ad7"
 
 [[files]]
 file = "scripts/turtle_phial.zs"
