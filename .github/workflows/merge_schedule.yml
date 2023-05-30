@@ -7,8 +7,8 @@ on:
       - edited
       - synchronize
   schedule:
-    # every day at 2:45 and 14:45 UTC
-    - cron: '40 2,14 * * *'
+    # every day at 1:45 and 13:45 UTC
+    - cron: '40 1,13 * * *'
 
 jobs:
   merge_schedule:
