@@ -527,6 +527,11 @@ hash = "04014a5e9811fdcbb390bc95ab7a9d60997893cece83dc5ca5a1d158fad391a6"
 metafile = true
 
 [[files]]
+file = "mods/luckperms.pw.toml"
+hash = "b3501a7f76745c70f319a487ab71d553e43558c732890daa1abed779e194d09c"
+metafile = true
+
+[[files]]
 file = "mods/markdownmanual.pw.toml"
 hash = "301aa7a5d895c33b132f0f55c8822a23ae6bbd20e9fa1ee3aaf0589a15815151"
 metafile = true
