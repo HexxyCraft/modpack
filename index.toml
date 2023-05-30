@@ -21,6 +21,10 @@ file = "config/default_carpet.conf"
 hash = "3fe93d257d97918f1b11e036f163227e4f50836defb7eade1b75ea521f170471"
 
 [[files]]
+file = "config/easyanvils-server.toml"
+hash = "4fd5ed63b01211044a45a14f182210ea2ea88822ed6b0e4c683e8ef28f336ed2"
+
+[[files]]
 file = "config/easyshulkerboxes-server.toml"
 hash = "b5fdd7c561e9fbba564378289deaf1ea4e9ff9df89e4444d45306706e07f3289"
 
@@ -840,7 +844,7 @@ hash = "551b43ab8619dbc849871ad632260ac4cb053bdcb0fe6f286aa8c06bc695acf2"
 
 [[files]]
 file = "scripts/tags.zs"
-hash = "586e792f37c269efe1a72954e22cfead9b59e5dd6a51245bc8e4e07837847b82"
+hash = "7d0ee4285e2d9b400012243e25daa72c25933facdbe825344cf8af391aee6ad7"
 
 [[files]]
 file = "scripts/turtle_phial.zs"

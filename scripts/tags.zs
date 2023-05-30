@@ -9,6 +9,9 @@
 <tag:items:c:tools/shovels>.add(<tag:items:c:shovels>);
 <tag:items:c:tools/axes>.add(<tag:items:c:axes>);
 
+# petal apothecary seeds
+<tag:items:botania:seed_apothecary_reagent>.add(<tag:items:c:seeds>);
+
 // colored bundle dye recipes
 for item in <tag:items:charm:colored_bundles> {
     val name = item.registryName.path;
