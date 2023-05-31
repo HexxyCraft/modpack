@@ -1,0 +1,33 @@
+name: Create release tag
+
+on:
+  pull_request:
+    branches:
+      - master
+    types:
+      - closed
+
+jobs:
+  release_tag:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: "master"
+
+      - name: Get version
+        id: version
+        uses: SebRollen/toml-action@v1.0.2
+        with:
+          file: "pack.toml"
+          field: "version"
+
+      - name: Push new tag with version
+        uses: actions-ecosystem/action-push-tag@v1
+        with:
+          tag: ${{steps.version.outputs.value}}
+          message: "PR #${{github.event.pull_request.number}}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
