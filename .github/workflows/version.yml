@@ -1,14 +1,19 @@
-name: Ensure pack version has been bumped
+name: Ensure pack version has been bumped and create PR
 
-# only trigger for pushes to master (ie. releases)
 on:
+  push:
+    branches:
+      - dev
   pull_request:
     branches:
       - master
 
 jobs:
-  version:
+  get_version:
     runs-on: ubuntu-latest
+    outputs:
+      semver_outcome: ${{ steps.semver_check.outcome }}
+      current_version: ${{ steps.current_version.outputs.value }}
     steps:
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -18,10 +23,11 @@ jobs:
       - name: Install semver
         run: npm install semver -g
 
-      - name: Checkout PR
+      - name: Checkout current
         uses: actions/checkout@v3
         with:
-          path: pr
+          path: current
+          fetch-depth: 0 # need this for PR
       
       - name: Checkout master
         uses: actions/checkout@v3
@@ -29,19 +35,63 @@ jobs:
           ref: master
           path: master
 
-      - name: Get PR version
+      - name: Get current version
+        id: current_version
         uses: SebRollen/toml-action@v1.0.2
-        id: pr_version
         with:
-          file: "pr/pack.toml"
+          file: "current/pack.toml"
           field: "version"
 
       - name: Get master version
-        uses: SebRollen/toml-action@v1.0.2
         id: master_version
+        uses: SebRollen/toml-action@v1.0.2
         with:
           file: "master/pack.toml"
           field: "version"
       
-      - name: Ensure PR version is greater than master version
-        run: semver ${{steps.pr_version.outputs.value}} --range ">${{steps.master_version.outputs.value}}"
+      - name: Check if current version is greater than master version
+        id: semver_check
+        run: semver ${{ steps.current_version.outputs.value }} --range ">${{ steps.master_version.outputs.value }}"
+        continue-on-error: true
+  
+  check_version:
+    needs: get_version
+    if: github.event_name == 'pull_request' && needs.get_version.outputs.semver_outcome == 'failure'
+    runs-on: ubuntu-latest
+    steps:
+      # if we get to this point, we know the version wasn't bumped, so just fail
+      - name: Ensure PR has bumped the version
+        run: exit 1
+
+  create_pr:
+    needs: get_version
+    if: github.event_name == 'push' && needs.get_version.outputs.semver_outcome == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if PR exists
+        id: check
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
+        run: |
+          prs=$(gh pr list \
+              --repo "$GITHUB_REPOSITORY" \
+              --json baseRefName,headRefName \
+              --jq '
+                  map(select(.baseRefName == "master" and .headRefName == "dev"))
+                  | length
+              ')
+          if ((prs > 0)); then
+              echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create PR for new version
+        if: '!steps.check.outputs.skip'
+        uses: devops-infra/action-pull-request@v0.5.5
+        with:
+          github_token: ${{ secrets.PAT }}
+          template: .github/PULL_REQUEST_TEMPLATE.md
+          title: ${{ needs.get_version.outputs.current_version }}
+          assignee: ${{ github.event.pusher.username }}
+          label: 'autopr'
+          old_string: ' (if merging to `master`)'
+          new_string: ' '
