@@ -14,11 +14,11 @@ hash = "f173d5a16a29adbbbaa4d31d032b293c675abf1a1312a02a38266d075e49a187"
 
 [[files]]
 file = "config/default_carpet-fixes.conf"
-hash = "7d91c7fa6956fb725d6676df1cfc33feb0449bf27735b49018177e81ffa770db"
+hash = "b8200f404562b8d598ba408479d92941e60e5daaffe77588f98235a2b5bb7518"
 
 [[files]]
 file = "config/default_carpet.conf"
-hash = "3fe93d257d97918f1b11e036f163227e4f50836defb7eade1b75ea521f170471"
+hash = "822107d7a1b872c9dc96f20390bb1e0a12b9e2399786cf28d172581b2e771484"
 
 [[files]]
 file = "config/easyanvils-server.toml"
