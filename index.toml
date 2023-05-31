@@ -18,7 +18,7 @@ hash = "b8200f404562b8d598ba408479d92941e60e5daaffe77588f98235a2b5bb7518"
 
 [[files]]
 file = "config/default_carpet.conf"
-hash = "95f05d97c1a94fd8212e615d4df8e415e14aad19bda8392775acdea998887806"
+hash = "822107d7a1b872c9dc96f20390bb1e0a12b9e2399786cf28d172581b2e771484"
 
 [[files]]
 file = "config/easyanvils-server.toml"
