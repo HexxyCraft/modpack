@@ -53,7 +53,7 @@ jobs:
         run: semver ${{ steps.current_version.outputs.value }} --range ">${{ steps.master_version.outputs.value }}"
         continue-on-error: true
   
-  check_version:
+  check_version_bump:
     needs: get_version
     if: github.event_name == 'pull_request' && needs.get_version.outputs.semver_outcome == 'failure'
     runs-on: ubuntu-latest
@@ -95,7 +95,7 @@ jobs:
           github_token: ${{ secrets.PAT }}
           template: .github/pull_request_template.md
           title: ${{ needs.get_version.outputs.current_version }}
-          assignee: ${{ github.event.pusher.username }}
+          assignee: ${{ github.event.pusher.name }}
           label: 'autopr'
           old_string: ' (if merging to `master`)'
           new_string: ' '
