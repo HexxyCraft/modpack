@@ -158,7 +158,7 @@ metafile = true
 
 [[files]]
 file = "mods/botania.pw.toml"
-hash = "af14cfaaf5d136d4ac9ba5d00d2bcf62582e9fb613f5efeacef84a25cd2db683"
+hash = "e6fe5617744412affd21696a1ccbea32932aa6f3f9c080ad6b1dd40f9cbd36c2"
 metafile = true
 
 [[files]]
@@ -333,7 +333,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "221c0b92213b2f819a90b58c59c63afdc4ef0e91db0901c7d3f2fa25fabd020e"
+hash = "3c4fc8270d92d983ee122d5348a019eea93fc1682c9da393d25b6f15d4630741"
 metafile = true
 
 [[files]]
@@ -513,7 +513,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr-fabric.pw.toml"
-hash = "1abc123ab21a7d67e3c6d293d3c197c73d545478a761a2daf736f17c81c4a4a5"
+hash = "9804acade5a06f2f477e0ef284caf0a2eae02ff9cab2cb79021311e10b2a6c1f"
 metafile = true
 
 [[files]]
@@ -608,7 +608,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "a0febce406dd277730980450f98c94a80179b8df55e2136279003f30ae8eeaba"
+hash = "8475894e2eeeaef0b12f4209b7c6da565d2d23b866437f23c70361160af17114"
 metafile = true
 
 [[files]]
@@ -718,7 +718,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "910a3929d854df1656070122d7ea7a0198e393990a0aac0c5d6cd4f98c81fe5b"
+hash = "4630529dbc97f455e1ecbc8a2d8f63f78395138a5a81ca2a7f92369e0a8b73dd"
 metafile = true
 
 [[files]]
@@ -778,7 +778,7 @@ metafile = true
 
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
-hash = "2b7a256302fa5192a29379e80feaa26326f883bcfbce16386834ecaa50f6d516"
+hash = "2e7bb3b4927321974a8b2b1b42458e74dfa467fc9436f5c9e450141fc6a973da"
 metafile = true
 
 [[files]]
