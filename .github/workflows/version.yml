@@ -93,9 +93,9 @@ jobs:
         uses: devops-infra/action-pull-request@v0.5.5
         with:
           github_token: ${{ secrets.PAT }}
-          template: .github/PULL_REQUEST_TEMPLATE.md
+          template: .github/pull_request_template.md
           title: ${{ needs.get_version.outputs.current_version }}
           assignee: ${{ github.event.pusher.username }}
           label: 'autopr'
           old_string: ' (if merging to `master`)'
-          new_string: ' '
+          new_string: ''
