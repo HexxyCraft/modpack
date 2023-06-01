@@ -98,4 +98,4 @@ jobs:
           assignee: ${{ github.event.pusher.username }}
           label: 'autopr'
           old_string: ' (if merging to `master`)'
-          new_string: ''
+          new_string: ' '
