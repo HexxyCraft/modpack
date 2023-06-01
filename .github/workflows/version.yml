@@ -27,7 +27,6 @@ jobs:
         uses: actions/checkout@v3
         with:
           path: current
-          fetch-depth: 0 # need this for PR
       
       - name: Checkout master
         uses: actions/checkout@v3
@@ -68,6 +67,9 @@ jobs:
     if: github.event_name == 'push' && needs.get_version.outputs.semver_outcome == 'success'
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
       - name: Check if PR exists
         id: check
         env:
