@@ -14,7 +14,6 @@ jobs:
   merge_schedule:
     runs-on: ubuntu-latest
     steps:
-      - uses: fregante/setup-git-user@v2
       - uses: gr2m/merge-schedule-action@v2
         with:
           merge_method: merge
