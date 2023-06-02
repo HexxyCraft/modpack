@@ -27,7 +27,6 @@ jobs:
         uses: actions/checkout@v3
         with:
           path: current
-          fetch-depth: 0 # need this for PR
       
       - name: Checkout master
         uses: actions/checkout@v3
@@ -54,7 +53,7 @@ jobs:
         run: semver ${{ steps.current_version.outputs.value }} --range ">${{ steps.master_version.outputs.value }}"
         continue-on-error: true
   
-  check_version:
+  check_version_bump:
     needs: get_version
     if: github.event_name == 'pull_request' && needs.get_version.outputs.semver_outcome == 'failure'
     runs-on: ubuntu-latest
@@ -68,10 +67,15 @@ jobs:
     if: github.event_name == 'push' && needs.get_version.outputs.semver_outcome == 'success'
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
       - name: Check if PR exists
         id: check
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           prs=$(gh pr list \
               --repo "$GITHUB_REPOSITORY" \
@@ -88,10 +92,10 @@ jobs:
         if: '!steps.check.outputs.skip'
         uses: devops-infra/action-pull-request@v0.5.5
         with:
-          github_token: ${{ secrets.PAT }}
-          template: .github/PULL_REQUEST_TEMPLATE.md
-          title: ${{ needs.get_version.outputs.current_version }}
-          assignee: ${{ github.event.pusher.username }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          template: .github/pull_request_template.md
+          title: "Release: ${{ needs.get_version.outputs.current_version }}"
+          assignee: ${{ github.event.pusher.name }}
           label: 'autopr'
           old_string: ' (if merging to `master`)'
           new_string: ' '

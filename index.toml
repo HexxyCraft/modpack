@@ -21,6 +21,10 @@ file = "config/default_carpet.conf"
 hash = "822107d7a1b872c9dc96f20390bb1e0a12b9e2399786cf28d172581b2e771484"
 
 [[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "4eb32351b5ceb477da84a88935db179d5dc25ae1e3487bb7e047640ebd337a91"
+
+[[files]]
 file = "config/easyanvils-server.toml"
 hash = "4fd5ed63b01211044a45a14f182210ea2ea88822ed6b0e4c683e8ef28f336ed2"
 
@@ -132,6 +136,11 @@ hash = "1ae8dcbdfa0bd670013aa6aa1d0471f628432293fb8085c403ddf0dac1c59624"
 metafile = true
 
 [[files]]
+file = "mods/autorun.pw.toml"
+hash = "b294f67ca50e4cccc40a75b3314f50ef3e8aadc3e7300049a947e26a90d8ae06"
+metafile = true
+
+[[files]]
 file = "mods/bad-wither-no-cookie.pw.toml"
 hash = "8819e68ae91bcffd6cdee453443a8b939892a229f78cbd114e3e594faaa491ff"
 metafile = true
@@ -158,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/botania.pw.toml"
-hash = "af14cfaaf5d136d4ac9ba5d00d2bcf62582e9fb613f5efeacef84a25cd2db683"
+hash = "e6fe5617744412affd21696a1ccbea32932aa6f3f9c080ad6b1dd40f9cbd36c2"
 metafile = true
 
 [[files]]
@@ -333,7 +342,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "221c0b92213b2f819a90b58c59c63afdc4ef0e91db0901c7d3f2fa25fabd020e"
+hash = "3c4fc8270d92d983ee122d5348a019eea93fc1682c9da393d25b6f15d4630741"
 metafile = true
 
 [[files]]
@@ -398,7 +407,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-fabric.pw.toml"
-hash = "745dbb0e57773a98394b9df44c082af3888c821e94809abe9bf5bec3657d5418"
+hash = "ef746e7a41f7c0c6db11ccc98fba9d0ee43b3978b181650b2ab1c45a4cdd0eb4"
 metafile = true
 
 [[files]]
@@ -408,7 +417,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "0702077652d48238094c6c28add03184483295d2f39cb8dffe61e55430fdc8d8"
+hash = "0497a92235c08a5ace339102c702d17e529c0770b3a340bdecebe321e3213888"
 metafile = true
 
 [[files]]
@@ -513,7 +522,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr-fabric.pw.toml"
-hash = "1abc123ab21a7d67e3c6d293d3c197c73d545478a761a2daf736f17c81c4a4a5"
+hash = "9804acade5a06f2f477e0ef284caf0a2eae02ff9cab2cb79021311e10b2a6c1f"
 metafile = true
 
 [[files]]
@@ -558,7 +567,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "f8f57479bb5bec6209558cea570ef50dae840dd27d83941c1e3408eae95cc0bc"
+hash = "35a3ab16043b858cf78417311402c4f79c873660aa90b296fc7d079393e1dfb2"
 metafile = true
 
 [[files]]
@@ -608,7 +617,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "a0febce406dd277730980450f98c94a80179b8df55e2136279003f30ae8eeaba"
+hash = "8475894e2eeeaef0b12f4209b7c6da565d2d23b866437f23c70361160af17114"
 metafile = true
 
 [[files]]
@@ -718,12 +727,12 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "910a3929d854df1656070122d7ea7a0198e393990a0aac0c5d6cd4f98c81fe5b"
+hash = "bae5197d38d735273c450e5f4c7d921f8dacc81013557fb9909cd8b960092ed5"
 metafile = true
 
 [[files]]
 file = "mods/switchy.pw.toml"
-hash = "f7e964ffec66e554160bd0d4662cb70f1dbe8b1ffd77552e787d3203b84b371d"
+hash = "0fdff1b00a3f61466222cd080b216897764afde26164b174908f9d3aece2ba33"
 metafile = true
 
 [[files]]
@@ -768,7 +777,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanity.pw.toml"
-hash = "04e2fb8b7c189d1abfa31524d1b1f7d6921148c6a79c02984333a9738278a05f"
+hash = "5e59c51a0e5e779760f90c0a0f4bd631c1158b05acb72984747b27e0e119a244"
 metafile = true
 
 [[files]]
@@ -778,7 +787,7 @@ metafile = true
 
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
-hash = "2b7a256302fa5192a29379e80feaa26326f883bcfbce16386834ecaa50f6d516"
+hash = "2e7bb3b4927321974a8b2b1b42458e74dfa467fc9436f5c9e450141fc6a973da"
 metafile = true
 
 [[files]]
@@ -810,6 +819,10 @@ metafile = true
 file = "mods/yigd.pw.toml"
 hash = "0a23b06d3673219a3298750002697012216551376af8e8f79a35b97b8bfe6ac3"
 metafile = true
+
+[[files]]
+file = "resources/data/minecraft/loot_tables/entities/ender_dragon.json"
+hash = "476a54c26b704fe05cdece446ffe1e8f0931d5d8ad0cfa67f5868f9306a4c38a"
 
 [[files]]
 file = "resources/datapacks/Add_Lore_Fragments.zip"
@@ -854,7 +867,3 @@ hash = "7d0ee4285e2d9b400012243e25daa72c25933facdbe825344cf8af391aee6ad7"
 [[files]]
 file = "scripts/turtle_phial.zs"
 hash = "9021998c25ef611c9522ece99d122c6f0ddf9be3219ccfd54d0aabf962ddaa8d"
-
-[[files]]
-file = "servers.dat"
-hash = "b859bde62a4734aa4b612a1f4893ca0dea3b36d7825aafba3a4e49b3b93de6f3"

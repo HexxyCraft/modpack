@@ -1,17 +1,17 @@
 name = "HexxyCraft"
 author = "HexxyCraft Team"
-version = "1.0.11"
+version = "1.0.12"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "abe7cc5c90b3ec71984ccadc2135742fc9061d860701aab0916536309c2fa545"
+hash = "78f23a1238b54f76926dd929bad08d281257967bd9fa7464f1c341d853198193"
 
 [versions]
 minecraft = "1.19.2"
 quilt = "0.19.0-beta.13"
 
 [options]
-acceptable-game-versions = ["1.19.2"]
+acceptable-game-versions = ["1.19", "1.19.1", "1.19.2"]
 datapack-folder = "resources"
