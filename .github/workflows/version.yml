@@ -100,9 +100,9 @@ jobs:
         uses: devops-infra/action-pull-request@v0.5.5
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          template: .github/pull_request_template.md
+          template: .github/PULL_REQUEST_TEMPLATE/auto_pr.md
           title: "Release ${{ needs.get_version.outputs.new_version }}"
           assignee: ${{ github.event.pusher.name }}
           label: 'auto,release-${{ needs.get_version.outputs.semver_type }}'
-          old_string: ' (if merging to `master`)'
-          new_string: ' '
+          old_string: '<!-- pusher -->'
+          new_string: "${{ github.event.pusher.name }}"
