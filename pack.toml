@@ -6,12 +6,12 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "d461fc33341d52ae2042b9732577b41a45df7a6d862058da1e3b60a9a0819166"
+hash = "4db4fc9f43e269989bd528deb26c7316a2da960df1a71ce3bff1c2f2345f655d"
 
 [versions]
 minecraft = "1.19.2"
 quilt = "0.19.0-beta.13"
 
 [options]
-acceptable-game-versions = ["1.19.2"]
+acceptable-game-versions = ["1.19", "1.19.1", "1.19.2"]
 datapack-folder = "resources"
