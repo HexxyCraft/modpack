@@ -75,7 +75,7 @@ jobs:
       - name: Check if PR exists
         id: check
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           prs=$(gh pr list \
               --repo "$GITHUB_REPOSITORY" \
@@ -92,7 +92,7 @@ jobs:
         if: '!steps.check.outputs.skip'
         uses: devops-infra/action-pull-request@v0.5.5
         with:
-          github_token: ${{ secrets.PAT }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           template: .github/pull_request_template.md
           title: ${{ needs.get_version.outputs.current_version }}
           assignee: ${{ github.event.pusher.name }}
