@@ -14,10 +14,11 @@ jobs:
   merge_schedule:
     runs-on: ubuntu-latest
     steps:
+      - uses: fregante/setup-git-user@v2
       - uses: gr2m/merge-schedule-action@v2
         with:
           merge_method: merge
           require_statuses_success: 'false'
           automerge_fail_label: 'automerge-fail'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
