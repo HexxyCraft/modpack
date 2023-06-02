@@ -292,7 +292,7 @@ metafile = true
 
 [[files]]
 file = "mods/custom-player-models.pw.toml"
-hash = "1f7a3d08fa0c2723e95864dfb6e950b1e323f701dbb3ce5631aed9f09814361f"
+hash = "beff802a837b75d4d9a5761807deabf7d5e04f70e6969e66e5d95c366790d99a"
 metafile = true
 
 [[files]]
@@ -332,7 +332,7 @@ metafile = true
 
 [[files]]
 file = "mods/ears.pw.toml"
-hash = "bd52ab27068961afc53efd50c527302775b87fb176d10779e0d6a0428dcc51e4"
+hash = "21eee2a58e2dc41bac51a83764a494ea55baa9b844c66593963ca7ad8068942b"
 metafile = true
 
 [[files]]
@@ -402,7 +402,7 @@ metafile = true
 
 [[files]]
 file = "mods/figura.pw.toml"
-hash = "0a8ef05c925567dfba2117bc068fbfcc9cd1136f85753e84287214e0c9db9a8b"
+hash = "a03a65af2a68375d183c8994a4f550202bf901a1e07c44fbd1e7f4194686b8ef"
 metafile = true
 
 [[files]]

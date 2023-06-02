@@ -11,3 +11,8 @@ hash = "9e8f58873e5408107767a743d4b1aa6c119323e0"
 [update.modrinth]
 mod-id = "B3csO4KD"
 version = "GYJfKR6m"
+
+[option]
+optional = true
+description = "Skin customization. Remove if you don't want to see people's custom skins/player models."
+default = true
