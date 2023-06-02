@@ -291,6 +291,11 @@ hash = "3ce5684c97a2ecbd9cc96f80428bf36cc17eb6ce364022b14c5989ba817c8dfd"
 metafile = true
 
 [[files]]
+file = "mods/custom-player-models.pw.toml"
+hash = "1f7a3d08fa0c2723e95864dfb6e950b1e323f701dbb3ce5631aed9f09814361f"
+metafile = true
+
+[[files]]
 file = "mods/deathlog.pw.toml"
 hash = "bba7afd4eb8695fde987a03997666b2a403ecfa9139fec1199303fdc5c69a18d"
 metafile = true
@@ -323,6 +328,11 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "e9fea56d5543cb781624d78d4b81f0557c12b5531a028390262778444a3c49fe"
+metafile = true
+
+[[files]]
+file = "mods/ears.pw.toml"
+hash = "bd52ab27068961afc53efd50c527302775b87fb176d10779e0d6a0428dcc51e4"
 metafile = true
 
 [[files]]
@@ -388,6 +398,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "9e93bfaf08afac41ebb415723150e2daf2ea8125c0e3b0d9417e46302ad4a2a2"
+metafile = true
+
+[[files]]
+file = "mods/figura.pw.toml"
+hash = "0a8ef05c925567dfba2117bc068fbfcc9cd1136f85753e84287214e0c9db9a8b"
 metafile = true
 
 [[files]]
