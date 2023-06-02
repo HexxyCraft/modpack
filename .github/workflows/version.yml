@@ -94,7 +94,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           template: .github/pull_request_template.md
-          title: ${{ needs.get_version.outputs.current_version }}
+          title: "Release: ${{ needs.get_version.outputs.current_version }}"
           assignee: ${{ github.event.pusher.name }}
           label: 'autopr'
           old_string: ' (if merging to `master`)'
