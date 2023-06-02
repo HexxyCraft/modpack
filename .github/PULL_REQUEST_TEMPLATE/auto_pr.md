@@ -1,5 +1,3 @@
-Auto PR triggered by @<!-- pusher -->.
-
 ## Checklist
 - [ ] Bumped `pack.toml` version number
 - [ ] Ran installer with `-s both` to ensure server-only mods work
