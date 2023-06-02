@@ -13,7 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       semver_outcome: ${{ steps.semver_check.outcome }}
-      current_version: ${{ steps.current_version.outputs.value }}
+      new_version: ${{ steps.new_version.outputs.value }}
+      semver_type: ${{ steps.semver_type.outputs.type }}
     steps:
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -23,10 +24,10 @@ jobs:
       - name: Install semver
         run: npm install semver -g
 
-      - name: Checkout current
+      - name: Checkout new
         uses: actions/checkout@v3
         with:
-          path: current
+          path: new
       
       - name: Checkout master
         uses: actions/checkout@v3
@@ -34,11 +35,11 @@ jobs:
           ref: master
           path: master
 
-      - name: Get current version
-        id: current_version
+      - name: Get new version
+        id: new_version
         uses: SebRollen/toml-action@v1.0.2
         with:
-          file: "current/pack.toml"
+          file: "new/pack.toml"
           field: "version"
 
       - name: Get master version
@@ -48,10 +49,14 @@ jobs:
           file: "master/pack.toml"
           field: "version"
       
-      - name: Check if current version is greater than master version
+      - name: Check if new version is greater than master version
         id: semver_check
-        run: semver ${{ steps.current_version.outputs.value }} --range ">${{ steps.master_version.outputs.value }}"
+        run: semver ${{ steps.new_version.outputs.value }} --range ">${{ steps.master_version.outputs.value }}"
         continue-on-error: true
+      
+      - name: Get release type
+        id: semver_type
+        run: echo type=$(echo "console.log(require('semver').diff('${{ steps.new_version.outputs.value }}', '${{ steps.master_version.outputs.value }}'))" | node) >> $GITHUB_OUTPUT
   
   check_version_bump:
     needs: get_version
@@ -94,8 +99,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           template: .github/pull_request_template.md
-          title: "Release: ${{ needs.get_version.outputs.current_version }}"
+          title: "Release ${{ needs.get_version.outputs.new_version }}"
           assignee: ${{ github.event.pusher.name }}
-          label: 'autopr'
+          label: 'autopr,${{ needs.get_version.outputs.semver_type }}'
           old_string: ' (if merging to `master`)'
           new_string: ' '
