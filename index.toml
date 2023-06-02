@@ -21,6 +21,10 @@ file = "config/default_carpet.conf"
 hash = "822107d7a1b872c9dc96f20390bb1e0a12b9e2399786cf28d172581b2e771484"
 
 [[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "4eb32351b5ceb477da84a88935db179d5dc25ae1e3487bb7e047640ebd337a91"
+
+[[files]]
 file = "config/easyanvils-server.toml"
 hash = "4fd5ed63b01211044a45a14f182210ea2ea88822ed6b0e4c683e8ef28f336ed2"
 
@@ -863,7 +867,3 @@ hash = "7d0ee4285e2d9b400012243e25daa72c25933facdbe825344cf8af391aee6ad7"
 [[files]]
 file = "scripts/turtle_phial.zs"
 hash = "9021998c25ef611c9522ece99d122c6f0ddf9be3219ccfd54d0aabf962ddaa8d"
-
-[[files]]
-file = "servers.dat"
-hash = "4eb32351b5ceb477da84a88935db179d5dc25ae1e3487bb7e047640ebd337a91"
