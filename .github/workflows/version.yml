@@ -88,7 +88,7 @@ jobs:
               --repo "$GITHUB_REPOSITORY" \
               --json baseRefName,headRefName \
               --jq '
-                  map(select(.baseRefName == "master" and .headRefName == "${{ github.head_ref }}"))
+                  map(select(.baseRefName == "master" and .headRefName == "${{ github.ref_name }}"))
                   | length
               ')
           if ((prs > 0)); then
