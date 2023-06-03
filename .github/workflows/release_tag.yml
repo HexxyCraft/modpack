@@ -26,9 +26,9 @@ jobs:
           field: "version"
 
       - name: Push new tag with version
-        uses: actions-ecosystem/action-push-tag@v1
-        with:
-          tag: ${{steps.version.outputs.value}}
-          message: "PR #${{github.event.pull_request.number}}"
+        run: |
+          tag=${{steps.version.outputs.value}}
+          git tag -a "${tag}" -m "PR #${{github.event.pull_request.number}}"
+          git push origin "${tag}"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
