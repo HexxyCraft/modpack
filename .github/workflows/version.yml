@@ -111,4 +111,4 @@ jobs:
         uses: thollander/actions-comment-pull-request@v2
         with:
           pr_number: ${{ steps.new_pr.outputs.pr_number }}
-          message: "Auto PR triggered by @${{ github.event.pusher.name }} (${{ github.sha }})."
+          message: "Auto PR triggered by @${{ github.event.pusher.name }} in ${{ github.sha }}."
