@@ -4,5 +4,8 @@
 - [ ] Ran `packwiz refresh` just before final commit
 
 ## Commits
+<details><summary>Click to expand</summary>
+
 <!-- Diff commits - START -->
 <!-- Diff commits - END -->
+</details>

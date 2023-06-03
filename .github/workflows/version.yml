@@ -107,7 +107,7 @@ jobs:
           get_diff: true
 
       - name: Add comment
-        if: '!steps.check.outputs.exists'
+        if: steps.check.outputs.exists != 'true'
         uses: thollander/actions-comment-pull-request@v2
         with:
           pr_number: ${{ steps.new_pr.outputs.pr_number }}
