@@ -14,6 +14,11 @@ jobs:
   merge_schedule:
     runs-on: ubuntu-latest
     steps:
+      - name: Set Git user
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - uses: gr2m/merge-schedule-action@v2
         with:
           merge_method: merge
