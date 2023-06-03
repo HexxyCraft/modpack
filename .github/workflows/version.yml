@@ -13,7 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       semver_outcome: ${{ steps.semver_check.outcome }}
-      current_version: ${{ steps.current_version.outputs.value }}
+      new_version: ${{ steps.new_version.outputs.value }}
+      semver_type: ${{ steps.semver_type.outputs.type }}
     steps:
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -21,12 +22,14 @@ jobs:
           node-version: 18.x
       
       - name: Install semver
-        run: npm install semver -g
+        run: |
+          npm install semver -g
+          npm link semver
 
-      - name: Checkout current
+      - name: Checkout new
         uses: actions/checkout@v3
         with:
-          path: current
+          path: new
       
       - name: Checkout master
         uses: actions/checkout@v3
@@ -34,11 +37,11 @@ jobs:
           ref: master
           path: master
 
-      - name: Get current version
-        id: current_version
+      - name: Get new version
+        id: new_version
         uses: SebRollen/toml-action@v1.0.2
         with:
-          file: "current/pack.toml"
+          file: "new/pack.toml"
           field: "version"
 
       - name: Get master version
@@ -48,10 +51,14 @@ jobs:
           file: "master/pack.toml"
           field: "version"
       
-      - name: Check if current version is greater than master version
+      - name: Check if new version is greater than master version
         id: semver_check
-        run: semver ${{ steps.current_version.outputs.value }} --range ">${{ steps.master_version.outputs.value }}"
+        run: semver ${{ steps.new_version.outputs.value }} --range ">${{ steps.master_version.outputs.value }}"
         continue-on-error: true
+      
+      - name: Get release type
+        id: semver_type
+        run: echo "console.log('type=' + require('semver').diff('${{ steps.new_version.outputs.value }}', '${{ steps.master_version.outputs.value }}'))" | node >> $GITHUB_OUTPUT
   
   check_version_bump:
     needs: get_version
@@ -81,21 +88,27 @@ jobs:
               --repo "$GITHUB_REPOSITORY" \
               --json baseRefName,headRefName \
               --jq '
-                  map(select(.baseRefName == "master" and .headRefName == "dev"))
+                  map(select(.baseRefName == "master" and .headRefName == "${{ github.ref_name }}"))
                   | length
               ')
           if ((prs > 0)); then
-              echo "skip=true" >> "$GITHUB_OUTPUT"
+              echo "exists=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Create PR for new version
-        if: '!steps.check.outputs.skip'
+        id: new_pr
         uses: devops-infra/action-pull-request@v0.5.5
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          template: .github/pull_request_template.md
-          title: "Release: ${{ needs.get_version.outputs.current_version }}"
+          template: .github/PULL_REQUEST_TEMPLATE/auto_pr.md
+          title: "Release ${{ needs.get_version.outputs.new_version }}"
           assignee: ${{ github.event.pusher.name }}
-          label: 'autopr'
-          old_string: ' (if merging to `master`)'
-          new_string: ' '
+          label: 'auto,release-${{ needs.get_version.outputs.semver_type }}'
+          get_diff: true
+
+      - name: Add comment
+        if: steps.check.outputs.exists != 'true'
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          pr_number: ${{ steps.new_pr.outputs.pr_number }}
+          message: "Auto PR triggered by @${{ github.event.pusher.name }} in ${{ github.sha }}."

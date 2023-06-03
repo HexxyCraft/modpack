@@ -291,6 +291,11 @@ hash = "3ce5684c97a2ecbd9cc96f80428bf36cc17eb6ce364022b14c5989ba817c8dfd"
 metafile = true
 
 [[files]]
+file = "mods/custom-player-models.pw.toml"
+hash = "beff802a837b75d4d9a5761807deabf7d5e04f70e6969e66e5d95c366790d99a"
+metafile = true
+
+[[files]]
 file = "mods/deathlog.pw.toml"
 hash = "bba7afd4eb8695fde987a03997666b2a403ecfa9139fec1199303fdc5c69a18d"
 metafile = true
@@ -323,6 +328,11 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "e9fea56d5543cb781624d78d4b81f0557c12b5531a028390262778444a3c49fe"
+metafile = true
+
+[[files]]
+file = "mods/ears.pw.toml"
+hash = "21eee2a58e2dc41bac51a83764a494ea55baa9b844c66593963ca7ad8068942b"
 metafile = true
 
 [[files]]
@@ -388,6 +398,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "9e93bfaf08afac41ebb415723150e2daf2ea8125c0e3b0d9417e46302ad4a2a2"
+metafile = true
+
+[[files]]
+file = "mods/figura.pw.toml"
+hash = "a03a65af2a68375d183c8994a4f550202bf901a1e07c44fbd1e7f4194686b8ef"
 metafile = true
 
 [[files]]
@@ -845,12 +860,12 @@ file = "resources/resourcepacks/info_slot_textures.zip"
 hash = "6ec5b46f327241506ac5f3a56657ff2c16b4dc3c49ab236fd5015a8a36c764ad"
 
 [[files]]
-file = "scripts/common/phials.zs"
-hash = "f87061a34a7ecccea8e79b04cb2f42ef10d34741f45a74e4657ed11cb45d0b4f"
+file = "scripts/chests.zs"
+hash = "734887401c6bd0b1e3dd21ff75146afd9ab4b33f2e19ae5f368838361bbd4e10"
 
 [[files]]
-file = "scripts/edified_panel.zs"
-hash = "2d949fdb802cfbf0de4a7a69e15a459a625a2ad0b8a9d41b94010571a3266a45"
+file = "scripts/common/phials.zs"
+hash = "f87061a34a7ecccea8e79b04cb2f42ef10d34741f45a74e4657ed11cb45d0b4f"
 
 [[files]]
 file = "scripts/items.zs"
