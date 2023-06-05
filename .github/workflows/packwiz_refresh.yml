@@ -10,7 +10,7 @@ jobs:
         uses: engineerd/configurator@v0.0.9
         with:
           name: packwiz
-          url: https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip
+          url: https://github.com/packwiz/packwiz/suites/13275029231/artifacts/724180287
           pathInArchive: packwiz
       
       - name: Checkout
