@@ -845,6 +845,10 @@ file = "resources/data/minecraft/loot_tables/entities/ender_dragon.json"
 hash = "476a54c26b704fe05cdece446ffe1e8f0931d5d8ad0cfa67f5868f9306a4c38a"
 
 [[files]]
+file = "resources/data/minecraft/loot_tables/entities/evoker.json"
+hash = "75b5a3c31c0d8ca3b9f5f11b4becebcfb7a98803b74073945bd18e8c60aa5c5f"
+
+[[files]]
 file = "resources/datapacks/Add_Lore_Fragments.zip"
 hash = "2ab320e81ca139787d91bad587cc23d8d6de23382c888d51ad61148dc10a28e3"
 
