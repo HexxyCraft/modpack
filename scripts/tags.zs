@@ -33,3 +33,6 @@ for item in <tag:items:charm:colored_bundles> {
     <resource:minecraft:sheep>,
     <resource:minecraft:villager>,
 ]);
+
+// don't increase trade prices when caging villagers
+<tag:entity_types:supplementaries:non_angerable>.addId(<resource:minecraft:villager>);
