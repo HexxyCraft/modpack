@@ -747,7 +747,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "bae5197d38d735273c450e5f4c7d921f8dacc81013557fb9909cd8b960092ed5"
+hash = "24ec7cb17a6144dea840d45d1f852f258a759e457c972b7f9f5c22f28e416ffc"
 metafile = true
 
 [[files]]
@@ -845,6 +845,10 @@ file = "resources/data/minecraft/loot_tables/entities/ender_dragon.json"
 hash = "476a54c26b704fe05cdece446ffe1e8f0931d5d8ad0cfa67f5868f9306a4c38a"
 
 [[files]]
+file = "resources/data/minecraft/loot_tables/entities/evoker.json"
+hash = "75b5a3c31c0d8ca3b9f5f11b4becebcfb7a98803b74073945bd18e8c60aa5c5f"
+
+[[files]]
 file = "resources/datapacks/Add_Lore_Fragments.zip"
 hash = "2ab320e81ca139787d91bad587cc23d8d6de23382c888d51ad61148dc10a28e3"
 
@@ -882,7 +886,7 @@ hash = "551b43ab8619dbc849871ad632260ac4cb053bdcb0fe6f286aa8c06bc695acf2"
 
 [[files]]
 file = "scripts/tags.zs"
-hash = "7d0ee4285e2d9b400012243e25daa72c25933facdbe825344cf8af391aee6ad7"
+hash = "e950229b2b6a34a39f2195392d40ca3e8519741dd729fa37b054abbb749da365"
 
 [[files]]
 file = "scripts/turtle_phial.zs"

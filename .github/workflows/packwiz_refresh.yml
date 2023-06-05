@@ -6,18 +6,11 @@ jobs:
   packwiz_refresh:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Packwiz
-        uses: engineerd/configurator@v0.0.9
-        with:
-          name: packwiz
-          url: https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip
-          pathInArchive: packwiz
-      
       - name: Checkout
         uses: actions/checkout@v3
       
       - name: Refresh index
-        run: packwiz refresh
+        run: ./packwiz/packwiz refresh
 
       - name: Ensure the refresh had no effect
         run: git diff --exit-code

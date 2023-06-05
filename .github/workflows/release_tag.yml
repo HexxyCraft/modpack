@@ -24,6 +24,9 @@ jobs:
         with:
           file: "pack.toml"
           field: "version"
+      
+      - name: Setup Git user
+        uses: fregante/setup-git-user@v2
 
       - name: Push new tag with version
         run: |
@@ -31,4 +34,4 @@ jobs:
           git tag -a "${tag}" -m "PR #${{github.event.pull_request.number}}"
           git push origin "${tag}"
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
