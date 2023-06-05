@@ -436,6 +436,11 @@ hash = "762f0b0238c144466b6e970f33f36b9bd90adfd1cd6d7b67a4d039b549a892d1"
 metafile = true
 
 [[files]]
+file = "mods/fullstack-watchdog.pw.toml"
+hash = "f4ce79d79d2a5bc0c7a979341494365743adceecab63424803e4154537446e46"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "0497a92235c08a5ace339102c702d17e529c0770b3a340bdecebe321e3213888"
 metafile = true
