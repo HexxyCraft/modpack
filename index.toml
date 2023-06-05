@@ -437,7 +437,7 @@ metafile = true
 
 [[files]]
 file = "mods/fullstack-watchdog.pw.toml"
-hash = "f4ce79d79d2a5bc0c7a979341494365743adceecab63424803e4154537446e46"
+hash = "d5941a5506020f5cb815baf0d940ecef61f1ad9c7c1d2acc88a8e9e478b940b7"
 metafile = true
 
 [[files]]
