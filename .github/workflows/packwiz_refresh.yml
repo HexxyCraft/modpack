@@ -10,7 +10,7 @@ jobs:
         uses: engineerd/configurator@v0.0.9
         with:
           name: packwiz
-          url: https://github.com/packwiz/packwiz/suites/13275029231/artifacts/724180287
+          url: ${{ github.server_url }}/${{ github.repository }}/blob/${{ github.ref_name }}/packwiz/Linux%2064-bit%20x86.zip
           pathInArchive: packwiz
       
       - name: Checkout
