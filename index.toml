@@ -466,6 +466,11 @@ hash = "3f3303ff6d4ff49156ca05f4f43040d56e3be5d451ee788abd4c04771ec951b7"
 metafile = true
 
 [[files]]
+file = "mods/hexxytweaks.pw.toml"
+hash = "0af1a4050cb836f1e1903246bc30ffc77fb868b4dbdf2164e97daee0b2a68473"
+metafile = true
+
+[[files]]
 file = "mods/idwtialsimmoedm.pw.toml"
 hash = "8c8d082d81b4f5982134b2132870ab691c6607fe53051ed1a3989f768f5036f6"
 metafile = true
