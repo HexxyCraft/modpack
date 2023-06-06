@@ -111,6 +111,11 @@ hash = "a5c4f60bf716d12aa07af3a7dadb0a03087134e9ed9273379b5228b686a78300"
 metafile = true
 
 [[files]]
+file = "mods/antighost.pw.toml"
+hash = "242e18d68cb8d218df43e713e97239631f8612384789068659c4898cfa49fcef"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "5a49a6bb40023efa158ceeed4b03aa1d0fbef6ac9ea0782206a0cecca1ca972c"
 metafile = true
@@ -431,6 +436,11 @@ hash = "762f0b0238c144466b6e970f33f36b9bd90adfd1cd6d7b67a4d039b549a892d1"
 metafile = true
 
 [[files]]
+file = "mods/fullstack-watchdog.pw.toml"
+hash = "d5941a5506020f5cb815baf0d940ecef61f1ad9c7c1d2acc88a8e9e478b940b7"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "0497a92235c08a5ace339102c702d17e529c0770b3a340bdecebe321e3213888"
 metafile = true
@@ -453,6 +463,11 @@ metafile = true
 [[files]]
 file = "mods/hextweaks.pw.toml"
 hash = "3f3303ff6d4ff49156ca05f4f43040d56e3be5d451ee788abd4c04771ec951b7"
+metafile = true
+
+[[files]]
+file = "mods/hexxytweaks.pw.toml"
+hash = "56c29253c8cf2bd13b538ef3f6466d00fd28cb6858c52efd8335ff97a5762caf"
 metafile = true
 
 [[files]]
@@ -533,6 +548,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "a968f9121d81c23cc8b0c0f156a2edc4962f5679de4b54abf0a8fe27c571fe82"
+metafile = true
+
+[[files]]
+file = "mods/login-protection.pw.toml"
+hash = "a80160377d220c8e9aa3026a4e68941af37d23713ca1787936a3c7c98cb22ca9"
 metafile = true
 
 [[files]]

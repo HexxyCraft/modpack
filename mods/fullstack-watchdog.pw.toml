@@ -1,0 +1,13 @@
+name = "FullStack Watchdog"
+filename = "fullstackwatchdog-1.0.1+1.19.2-fabric.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "f4b733093f52e01336d451d089edf19f812320c3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4488547
+project-id = 849817

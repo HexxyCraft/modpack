@@ -1,0 +1,6 @@
+#!/bin/bash
+set -euo pipefail
+
+echo "Refreshing packwiz index..."
+packwiz refresh > /dev/null
+git add pack.toml index.toml
