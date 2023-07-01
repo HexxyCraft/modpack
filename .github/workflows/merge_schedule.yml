@@ -7,7 +7,7 @@ on:
       - edited
       - synchronize
   schedule:
-    - cron: '40 1 * * *'
+    - cron: '40 0 * * *'
     - cron: '40 13 * * *'
 
 jobs:
