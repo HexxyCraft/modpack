@@ -452,12 +452,17 @@ metafile = true
 
 [[files]]
 file = "mods/hexal.pw.toml"
-hash = "0fdc07a18e73b241ffb87d953b5a6bf209163eafc3b685038b867bc7b5bf292a"
+hash = "f6336ca9eccc26f3641561bba6c49122b12d1d1409860ec71472d5fa92eb97a5"
 metafile = true
 
 [[files]]
 file = "mods/hexbound.pw.toml"
 hash = "39081ea05b025866b19b588b6d8a8fbf8fc3298a1052c641383bd8bd49feb277"
+metafile = true
+
+[[files]]
+file = "mods/hexkinetics.pw.toml"
+hash = "8a88c7169f5fd3231d3ff329aeb1c88e9befe3051887f8c7fbd09c6bd4530f53"
 metafile = true
 
 [[files]]
