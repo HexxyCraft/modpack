@@ -1,13 +1,7 @@
 name = "Pronounify"
-filename = "Pronounify-2.0.0-fabric-1.19.jar"
-side = "client"
+filename = "Pronounify-2.1.1-fabric-1.19.2.jar"
 
 [download]
-url = "https://cdn.modrinth.com/data/EROYCQAh/versions/2.0.0/Pronounify-2.0.0-fabric-1.19.jar"
+url = "https://github.com/HexxyCraft/Pronounify/releases/download/2.1.1/Pronounify-2.1.1-fabric-1.19.2.jar"
 hash-format = "sha1"
-hash = "6a028c6b990f49fd1fe23eb2970619a580d7ae46"
-
-[update]
-[update.modrinth]
-mod-id = "EROYCQAh"
-version = "tMNvthYe"
+hash = "9ef23cb75250a1a23b0a5b1f3b50afc17ca7e699"

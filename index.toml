@@ -106,6 +106,11 @@ hash = "2c4b410c370212602f85c9adb9d73ef73435e9d11cac086bbe40fdbdea03c6c3"
 metafile = true
 
 [[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "d43d896112466518bc6a1775a7e70b00bbbbdb6bc70c1e4fb9f1cf9956986ae6"
+metafile = true
+
+[[files]]
 file = "mods/amecs.pw.toml"
 hash = "a5c4f60bf716d12aa07af3a7dadb0a03087134e9ed9273379b5228b686a78300"
 metafile = true
@@ -266,6 +271,11 @@ hash = "c00da8eed220933fcd54efb741133bf11030838c6a11048dca15cb4f830166f9"
 metafile = true
 
 [[files]]
+file = "mods/comforts.pw.toml"
+hash = "e6ad077b2b20ca9bb5a6b371cd5e5c4c77bd8e6613d9a498b23c48bf16ea60c3"
+metafile = true
+
+[[files]]
 file = "mods/completeconfig.pw.toml"
 hash = "2810dbde8041e6477862c0973362f84b97333d14172c17f2dd52c9f4dcc5a810"
 metafile = true
@@ -298,6 +308,11 @@ metafile = true
 [[files]]
 file = "mods/create-track-map.pw.toml"
 hash = "11dcef38596a6c3594f8c07ad8fb1b4dfe4d3b48ff34c4394811b7ebb366f640"
+metafile = true
+
+[[files]]
+file = "mods/creativecore.pw.toml"
+hash = "f56a9c6bd8794310c23f32b9d57b34a892a432d1e62546599e523dd5106c1480"
 metafile = true
 
 [[files]]
@@ -382,7 +397,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "2067430e3e177956dcfb3490ce09c8ee96a1f67bb0176c52d45f6384bb65bd1f"
+hash = "68edb9c0371e1105377db6373e7ccf09275f91cc7ca961b2915b0b32955b9558"
 metafile = true
 
 [[files]]
@@ -671,6 +686,11 @@ hash = "d46a3fac2fdeb35c27e7245fa162ccde40dd449dbe4812d162c13d95d742ccc3"
 metafile = true
 
 [[files]]
+file = "mods/pollen.pw.toml"
+hash = "7f99ca23a50ab5acf3e4ee65fa211293d850a26ec8185da27b6d63079b8e3b31"
+metafile = true
+
+[[files]]
 file = "mods/polymer.pw.toml"
 hash = "590e350a65f0c6aba510dbcfaf1eab4a0dc1740b19b2e07a5ffef446e89cf1b7"
 metafile = true
@@ -687,7 +707,7 @@ metafile = true
 
 [[files]]
 file = "mods/pronounify.pw.toml"
-hash = "7fcc47f004ed344c4063559daf873897e431bd212761c2466ca270676787ccc5"
+hash = "64e3d62f77b80006336963004ad72d220854d0aca1f434c8a8341e6e4e961870"
 metafile = true
 
 [[files]]
@@ -768,6 +788,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "805618a13f8bd42633fca47204d2c289db33c998e66ff39dd42b75ef21a171d9"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "bf514f4cd45a9a33c736c715967add7994730ad8c47401f3de8817f30e2fe381"
 metafile = true
 
 [[files]]
