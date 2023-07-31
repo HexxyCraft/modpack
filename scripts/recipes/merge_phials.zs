@@ -15,7 +15,7 @@ public function balancePhials(inputs as IItemStack[]) as IItemStack {
 
 val phialInput = IItemStack.phialWithMedia(Media.dust(64)) | <item:hexcasting:battery>.onlyIfMediaFull();
 craftingTable.addShapeless(
-    "hexxycraft_merge_phials",
+    "hexxycraft/merge_phials",
     IItemStack.phialWithMedia(Media.dust(128), 0),
     [phialInput, phialInput],
     (usualOut as IItemStack, inputs as IItemStack[]) => mergePhials(inputs) ?? balancePhials(inputs)

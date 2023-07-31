@@ -939,25 +939,25 @@ file = "resources/resourcepacks/info_slot_textures.zip"
 hash = "6ec5b46f327241506ac5f3a56657ff2c16b4dc3c49ab236fd5015a8a36c764ad"
 
 [[files]]
-file = "scripts/chests.zs"
-hash = "734887401c6bd0b1e3dd21ff75146afd9ab4b33f2e19ae5f368838361bbd4e10"
-
-[[files]]
 file = "scripts/common/phials.zs"
-hash = "f87061a34a7ecccea8e79b04cb2f42ef10d34741f45a74e4657ed11cb45d0b4f"
+hash = "1068058d9b32c01fa72017517227a284d1489e76c3763e9744cec85f7361bc33"
 
 [[files]]
-file = "scripts/items.zs"
-hash = "65752dba564caa2ddb9b8eec70f90ccebcde0b86ecec16e9b4d3736cebdf5f3c"
+file = "scripts/recipes/chests.zs"
+hash = "052a1a6093432547b9631d5cc03aff51ebd9a6ace35e87906ce822ac70eb500f"
 
 [[files]]
-file = "scripts/merge_phials.zs"
-hash = "551b43ab8619dbc849871ad632260ac4cb053bdcb0fe6f286aa8c06bc695acf2"
+file = "scripts/recipes/cutting.zs"
+hash = "8bc5a8410864c5aeba5c7f21c428811c98722e886752c66b9693c42a59a6e5e0"
+
+[[files]]
+file = "scripts/recipes/merge_phials.zs"
+hash = "4344d643d816b732f478e75b5cf3281125b61ddfe9bea184915cdc113a68bced"
+
+[[files]]
+file = "scripts/recipes/turtle_phial.zs"
+hash = "3a0b7f664a4120799e85088db1f42afb270a50da20e3f789700979a0086a8198"
 
 [[files]]
 file = "scripts/tags.zs"
-hash = "e950229b2b6a34a39f2195392d40ca3e8519741dd729fa37b054abbb749da365"
-
-[[files]]
-file = "scripts/turtle_phial.zs"
-hash = "9021998c25ef611c9522ece99d122c6f0ddf9be3219ccfd54d0aabf962ddaa8d"
+hash = "6f3aca794b8730867a03fee5f6b5a1dc8daf3c70f33c7ab70ae72f41cf19188f"

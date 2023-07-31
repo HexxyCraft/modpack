@@ -19,7 +19,7 @@ for item in <tag:items:charm:colored_bundles> {
     val color = name[0 .. endIndex];
 
     craftingTable.addShapeless(
-        "hexxycraft_charm_" + color + "_bundle",
+        "hexxycraft/charm/" + color + "_bundle",
         item,
         [<tag:items:c:bundles>, <item:minecraft:${color}_dye>],
         null

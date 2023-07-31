@@ -24,7 +24,7 @@ for item in <tag:items:charm:chests/normal> {
 
 // override the recipe
 craftingTable.removeByName("minecraft:chest");
-craftingTable.addShaped("hexxycraft_chest", <item:minecraft:chest>, [
+craftingTable.addShaped("hexxycraft/chest", <item:minecraft:chest>, [
     [<tag:items:hexxycraft:chest_planks>, <tag:items:hexxycraft:chest_planks>, <tag:items:hexxycraft:chest_planks>],
     [<tag:items:hexxycraft:chest_planks>, <item:minecraft:air>, <tag:items:hexxycraft:chest_planks>],
     [<tag:items:hexxycraft:chest_planks>, <tag:items:hexxycraft:chest_planks>, <tag:items:hexxycraft:chest_planks>]
