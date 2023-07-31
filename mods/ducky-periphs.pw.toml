@@ -1,13 +1,13 @@
 name = "Ducky Peripherals"
-filename = "duckyperiphs-1.19.2-1.2.1-fabric.jar"
+filename = "duckyperiphs-1.19.2-1.2.2-fabric.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/l2IpK3Ji/versions/jeRYucbX/duckyperiphs-1.19.2-1.2.1-fabric.jar"
+url = "https://cdn.modrinth.com/data/l2IpK3Ji/versions/uMMUhFKO/duckyperiphs-1.19.2-1.2.2-fabric.jar"
 hash-format = "sha1"
-hash = "72afd5a345394a9e867389b780ed8cdd0a39a39e"
+hash = "16fe318e99cc42fe9ce920551fa572817774a30d"
 
 [update]
 [update.modrinth]
 mod-id = "l2IpK3Ji"
-version = "jeRYucbX"
+version = "uMMUhFKO"

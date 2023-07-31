@@ -1,14 +1,13 @@
 name = "Convenient Name Tags"
-filename = "convenientnametags-0.3.0.jar"
+filename = "convenientnametags-1.0.0.jar"
 side = "both"
 
 [download]
-mode = "url"
-url = "https://cdn.modrinth.com/data/eUsHC1iS/versions/SclgxRAC/convenientnametags-0.3.0.jar"
-hash-format = "sha512"
-hash = "33af169ff8e694f3841794f6188ca2a9156d6d66fbe6e9da901ae197109f189972c39ef2a86e9249c95fef7bf178312b7ed57175b410c9fdd6074135a1b4a009"
+url = "https://cdn.modrinth.com/data/eUsHC1iS/versions/HHgPc9X0/convenientnametags-1.0.0.jar"
+hash-format = "sha1"
+hash = "7265e92b4eb9bd571277e35c6e45eb44bc5d7436"
 
 [update]
 [update.modrinth]
 mod-id = "eUsHC1iS"
-version = "SclgxRAC"
+version = "HHgPc9X0"
