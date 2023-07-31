@@ -1,0 +1,29 @@
+{
+    "components": [
+        {
+            "cachedName": "Minecraft",
+            "cachedRequires": [
+                {
+                    "suggests": "3.3.1",
+                    "uid": "org.lwjgl3"
+                }
+            ],
+            "cachedVersion": "1.19.2",
+            "important": true,
+            "uid": "net.minecraft",
+            "version": "1.19.2"
+        },
+        {
+            "cachedName": "Quilt Loader",
+            "cachedRequires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "cachedVersion": "0.19.0",
+            "uid": "org.quiltmc.quilt-loader",
+            "version": "0.19.0"
+        }
+    ],
+    "formatVersion": 1
+}
