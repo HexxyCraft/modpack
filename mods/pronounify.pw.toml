@@ -1,0 +1,13 @@
+name = "Pronounify"
+filename = "Pronounify-2.0.0-fabric-1.19.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/EROYCQAh/versions/2.0.0/Pronounify-2.0.0-fabric-1.19.jar"
+hash-format = "sha1"
+hash = "6a028c6b990f49fd1fe23eb2970619a580d7ae46"
+
+[update]
+[update.modrinth]
+mod-id = "EROYCQAh"
+version = "tMNvthYe"

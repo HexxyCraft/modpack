@@ -301,6 +301,11 @@ hash = "11dcef38596a6c3594f8c07ad8fb1b4dfe4d3b48ff34c4394811b7ebb366f640"
 metafile = true
 
 [[files]]
+file = "mods/ctm-refabricated.pw.toml"
+hash = "033a78f711ea48ae5d425fc60e1f1776106e380de6f24e9376197b12eebba898"
+metafile = true
+
+[[files]]
 file = "mods/custom-player-models.pw.toml"
 hash = "98b74c7ea452b60b7bf9f961aae0beaf201960b6f451228fddb31532bcf4a43c"
 metafile = true
@@ -373,6 +378,11 @@ metafile = true
 [[files]]
 file = "mods/emitrades.pw.toml"
 hash = "f338cd9dc1df25effe9411fbbf8b88575fa8dcd222015ab7569050543ae21540"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "2067430e3e177956dcfb3490ce09c8ee96a1f67bb0176c52d45f6384bb65bd1f"
 metafile = true
 
 [[files]]
@@ -676,6 +686,11 @@ hash = "80c571c2547850d265950153d1b3401cd13170c11a1adf91130e13f6d25219aa"
 metafile = true
 
 [[files]]
+file = "mods/pronounify.pw.toml"
+hash = "7fcc47f004ed344c4063559daf873897e431bd212761c2466ca270676787ccc5"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "80e52c4c76edb7e19169870e10ac16e966396e5a8f1a430ca039f52ceea9e297"
 metafile = true
@@ -743,6 +758,11 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "4c746c3906271d57039e8216cbf7324ca413e10ce85f73e4aaa1e4c17958736a"
+metafile = true
+
+[[files]]
+file = "mods/slice-and-dice.pw.toml"
+hash = "a4d3ff3da2ec18672889c279406ab6d01022e097d8d6a51c46256ddf6ebbb9df"
 metafile = true
 
 [[files]]
@@ -842,7 +862,7 @@ metafile = true
 
 [[files]]
 file = "mods/windchimes.pw.toml"
-hash = "a5a7ace31eaaeebccb465be9af80260e5b75cfd13a33dde6b401567685b92d04"
+hash = "6b2c65756f5459a50d3ade904f00050276f9142fa46739ab262598d45bbf629c"
 metafile = true
 
 [[files]]
