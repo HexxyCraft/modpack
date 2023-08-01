@@ -955,6 +955,10 @@ file = "scripts/recipes/merge_phials.zs"
 hash = "4344d643d816b732f478e75b5cf3281125b61ddfe9bea184915cdc113a68bced"
 
 [[files]]
+file = "scripts/recipes/reverse_slabs.zs"
+hash = "70c1ef15bc5074dee7e023a5b8a87a44a3a721de5330bb4ef8eb8427aaf68ab4"
+
+[[files]]
 file = "scripts/recipes/turtle_phial.zs"
 hash = "3a0b7f664a4120799e85088db1f42afb270a50da20e3f789700979a0086a8198"
 
