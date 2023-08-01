@@ -93,6 +93,10 @@ file = "config/quickshulkerconfig.json5"
 hash = "99a3feeeaca252374e89ba7bb075b57be751837826549818e7d9c422a0bd449b"
 
 [[files]]
+file = "config/styled-nicknames.json"
+hash = "81855a7661a274396a22dcb9549f2252d18a95e5db9810b263f292a5fc170e06"
+
+[[files]]
 file = "config/supplementaries-common.json"
 hash = "5ced901f14320f9ba91d69d3a0b2cd81c422e15efeea024ead019a98cc07e292"
 
@@ -822,6 +826,11 @@ metafile = true
 [[files]]
 file = "mods/status-effect-bars.pw.toml"
 hash = "2eff4b3649166e1ce7173d80fb01d28f5c0e612b5630f7258836727cf81ce06a"
+metafile = true
+
+[[files]]
+file = "mods/styled-nicknames.pw.toml"
+hash = "d0cd4b1f936b73cbe367ccc74c325688bb5aa1e87e41f571124a22c3b361c2c1"
 metafile = true
 
 [[files]]
