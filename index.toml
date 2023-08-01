@@ -81,6 +81,10 @@ file = "config/hexcasting/server.json"
 hash = "7c9c54d9792459af237ed4a9c4482d2074e4dcb110745de528bad2f3cedf9e1e"
 
 [[files]]
+file = "config/hexkinetics/server.json5"
+hash = "32020f271fced85e62fd1826e74818e9b85e498e34bc42c04f852dc7f2e94cd0"
+
+[[files]]
 file = "config/lootr.json"
 hash = "9037c1f520a93644b5fa80623a70811829a0f6c8d7b8ef60917ca7dc03a1f470"
 
@@ -968,4 +972,4 @@ hash = "3a0b7f664a4120799e85088db1f42afb270a50da20e3f789700979a0086a8198"
 
 [[files]]
 file = "scripts/tags.zs"
-hash = "08f747fb76b2b5d5b3d8ce9d0daf5e26dca740a7587bfffaf0c8933ef261920b"
+hash = "23457e9bc02191a41007c44ff1f9358392929d17331ee9281a84452aea33f484"

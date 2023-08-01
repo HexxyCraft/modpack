@@ -64,3 +64,8 @@ for item in <tag:items:charm:colored_bundles> {
     <resource:hexcasting:slate>,
     <resource:packages:package>,
 ]);
+
+// bad contraption no stealing true names
+<tag:blocks:create:non_movable>.addId([
+    <resource:hexcasting:impetus_storedplayer>,
+]);
