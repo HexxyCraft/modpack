@@ -6,7 +6,7 @@ hash = "3a256cdaf82f28fa55a61515d1bd9792fe81a251876dd5ad7b3998705f1bf2c2"
 
 [[files]]
 file = "config/carryon-common.json"
-hash = "5799ea85c6484612957ebdc40aaaf3a3f8be642c7ff5c7c696503b921fcbf441"
+hash = "1f13a8f85a2b2a537301e3fad12665b217d1375a5ee76c06d6695d403e7a3d3a"
 
 [[files]]
 file = "config/charm.toml"
@@ -964,4 +964,4 @@ hash = "3a0b7f664a4120799e85088db1f42afb270a50da20e3f789700979a0086a8198"
 
 [[files]]
 file = "scripts/tags.zs"
-hash = "6f3aca794b8730867a03fee5f6b5a1dc8daf3c70f33c7ab70ae72f41cf19188f"
+hash = "08f747fb76b2b5d5b3d8ce9d0daf5e26dca740a7587bfffaf0c8933ef261920b"
