@@ -2,7 +2,7 @@ name: Refresh Packwiz
 
 on:
   push:
-  pull_request:
+  pull_request_target:
   workflow_dispatch:
 
 jobs:
@@ -12,9 +12,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          ref: ${{ github.head_ref }}
-          repository: ${{ github.repository }}
-      
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+
       - name: Refresh index
         run: ./packwiz/packwiz refresh
 
