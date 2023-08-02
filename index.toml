@@ -924,6 +924,11 @@ hash = "6b2c65756f5459a50d3ade904f00050276f9142fa46739ab262598d45bbf629c"
 metafile = true
 
 [[files]]
+file = "mods/wnboi.pw.toml"
+hash = "3ca006a5fb12507b15384434a09fa246c0e6b80db85777d2d840c732bed29e2f"
+metafile = true
+
+[[files]]
 file = "mods/worldborderfix.pw.toml"
 hash = "0f32673619782b498b16443cbacfa069a623106ca31e980e1accbda3f2a72e03"
 metafile = true
