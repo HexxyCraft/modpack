@@ -1,0 +1,3 @@
+execute as @s at @s if entity @e[type=minecraft:item,distance=0..0.5,nbt={Item:{id:"hexcasting:scroll_small"}}] run function hexscrolldye:scroll_undye_check
+execute as @s at @s if entity @e[type=minecraft:item,distance=0..0.5,nbt={Item:{id:"hexcasting:scroll_medium"}}] run function hexscrolldye:scroll_undye_check
+execute as @s at @s if entity @e[type=minecraft:item,distance=0..0.5,nbt={Item:{id:"hexcasting:scroll"}}] run function hexscrolldye:scroll_undye_check

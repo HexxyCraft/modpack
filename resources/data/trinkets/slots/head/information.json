@@ -1,0 +1,15 @@
+{
+	"icon": "trinkets:gui/slots/information",
+	"drop_rule": "default",
+	"replace": false,
+	"amount": 3,
+	"validator_predicates": [
+	        "trinkets:tag"
+	],
+	"quick_move_predicates": [
+		"trinkets:tag"
+	],
+	"tooltip_predicates": [
+		"trinkets:tag"
+	]
+}

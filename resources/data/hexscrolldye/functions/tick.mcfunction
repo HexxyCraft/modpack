@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:brown_dye"}}] at @s if entity @e[type=minecraft:item,distance=0..0.5,nbt=!{Item:{id:"minecraft:brown_dye"}}] run function hexscrolldye:scroll_find_dye
+execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:wet_sponge"}}] at @s if entity @e[type=minecraft:item,distance=0..0.5,nbt=!{Item:{id:"minecraft:wet_sponge"}}] run function hexscrolldye:scroll_find_undye

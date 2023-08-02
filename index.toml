@@ -939,6 +939,94 @@ hash = "0a23b06d3673219a3298750002697012216551376af8e8f79a35b97b8bfe6ac3"
 metafile = true
 
 [[files]]
+file = "resources/assets/trinkets/lang/en_au.json"
+hash = "821b5f3e945ad5dc2b0df78e0ca0b49944735d129bd6cfe8c45c7dcfae01f1ff"
+
+[[files]]
+file = "resources/assets/trinkets/lang/en_ca.json"
+hash = "821b5f3e945ad5dc2b0df78e0ca0b49944735d129bd6cfe8c45c7dcfae01f1ff"
+
+[[files]]
+file = "resources/assets/trinkets/lang/en_gb.json"
+hash = "821b5f3e945ad5dc2b0df78e0ca0b49944735d129bd6cfe8c45c7dcfae01f1ff"
+
+[[files]]
+file = "resources/assets/trinkets/lang/en_nz.json"
+hash = "821b5f3e945ad5dc2b0df78e0ca0b49944735d129bd6cfe8c45c7dcfae01f1ff"
+
+[[files]]
+file = "resources/assets/trinkets/lang/en_us.json"
+hash = "821b5f3e945ad5dc2b0df78e0ca0b49944735d129bd6cfe8c45c7dcfae01f1ff"
+
+[[files]]
+file = "resources/assets/trinkets/textures/gui/slots/information.png"
+hash = "de9cf3470feefbe80c904591f81e797349583d6a3030cc937f7e63231a874f6c"
+
+[[files]]
+file = "resources/data/crafting/recipes/rope.json"
+hash = "0eb9eb53653ff58b43c817e5f8754e7f4c5c3d10adad7bfc628975e2da5981b9"
+
+[[files]]
+file = "resources/data/crafting/recipes/rope_from_safety_net.json"
+hash = "29b67a7d642919221e2b8d18c4dbc49da9cccc822a2316cb7a8071a8c960c130"
+
+[[files]]
+file = "resources/data/crafting/recipes/safety_net.json"
+hash = "d32f36fe355967a94c5eb6b1b383232c6f68961690b0ac2db141fa963a3447b3"
+
+[[files]]
+file = "resources/data/hexcasting/loot_tables/inject/scroll_loot_few.json"
+hash = "82c39ef8e975d7bb6c2646ef9f4523703a577408d3a0f2013d88501f63910443"
+
+[[files]]
+file = "resources/data/hexcasting/loot_tables/inject/scroll_loot_many.json"
+hash = "0dc5f100d485fc2514cfecfe2131599fbd8b8c493d697a87798730daf6512956"
+
+[[files]]
+file = "resources/data/hexcasting/loot_tables/inject/scroll_loot_some.json"
+hash = "8285307229627a988cee73b119225395c3fbb7e4324cdc3685fc5345c7fed3cd"
+
+[[files]]
+file = "resources/data/hexscrolldye/functions/load.mcfunction"
+hash = "19f12d4e5f500f17f31fa85b89a46528fcf22d6200d35d8d721828c260a2be09"
+
+[[files]]
+file = "resources/data/hexscrolldye/functions/scroll_dye.mcfunction"
+hash = "5d9c1da1365696598e43748ecfe6eae63b8d47f51015a323b29d9a35338aaae1"
+
+[[files]]
+file = "resources/data/hexscrolldye/functions/scroll_dye_check.mcfunction"
+hash = "1fb2849c3fabea0187019003cf7f27650741889affa804a9419ea3830f454a67"
+
+[[files]]
+file = "resources/data/hexscrolldye/functions/scroll_dye_outer_loop.mcfunction"
+hash = "90c1838417678632670c63e9747cbedd41aa9d4704117aebb2162992ae4ea386"
+
+[[files]]
+file = "resources/data/hexscrolldye/functions/scroll_find_dye.mcfunction"
+hash = "a3f5b6cee320f3e21777bc91f3344b7737150ee585069f5e6a8d21e3860e9319"
+
+[[files]]
+file = "resources/data/hexscrolldye/functions/scroll_find_undye.mcfunction"
+hash = "65d4904e3ee55cdde45216d50acb53102c8692bd55b815a56a2380cf73833009"
+
+[[files]]
+file = "resources/data/hexscrolldye/functions/scroll_undye_check.mcfunction"
+hash = "d1f60379ec2ec2f7a6d732c48747130391f4cc869195b4510e0411915788494e"
+
+[[files]]
+file = "resources/data/hexscrolldye/functions/scroll_undye_step.mcfunction"
+hash = "2ec2944f17bb9b9611af1c274a4eb6a1ee41f6478a5c93d384443bf98d368eb0"
+
+[[files]]
+file = "resources/data/hexscrolldye/functions/tick.mcfunction"
+hash = "3645f45a12c3fc2ca2e67cfa9c4a6d87aa023f925d8b8e521f17efb367f9c388"
+
+[[files]]
+file = "resources/data/hexscrolldye/functions/undye_scroll_undye.mcfunction"
+hash = "194dfc203a36a0879e1a18d642e181cea0800939f3c5da6888a526c624c96ab3"
+
+[[files]]
 file = "resources/data/minecraft/loot_tables/entities/ender_dragon.json"
 hash = "476a54c26b704fe05cdece446ffe1e8f0931d5d8ad0cfa67f5868f9306a4c38a"
 
@@ -947,24 +1035,24 @@ file = "resources/data/minecraft/loot_tables/entities/evoker.json"
 hash = "75b5a3c31c0d8ca3b9f5f11b4becebcfb7a98803b74073945bd18e8c60aa5c5f"
 
 [[files]]
-file = "resources/datapacks/Add_Lore_Fragments.zip"
-hash = "2ab320e81ca139787d91bad587cc23d8d6de23382c888d51ad61148dc10a28e3"
+file = "resources/data/minecraft/tags/functions/load.json"
+hash = "4f3b80e1aed73e1fdfbd7f06115ea706bb73d8eee38d958e25bd60e3e3d8443b"
 
 [[files]]
-file = "resources/datapacks/HexScrollDye.zip"
-hash = "2063510a9fbb8caf900eb88e9496ced73b7ad2623654e05e8805898bc3df0a48"
+file = "resources/data/minecraft/tags/functions/tick.json"
+hash = "65bb49fd90f4e01f0c54fd98f87ef6b8ef72e12a04d31eb66c407c341847b4e5"
 
 [[files]]
-file = "resources/datapacks/InformationTrinkets.zip"
-hash = "2ea78a577baa04715a3a1c8be7d7b333af4af937a7443723a9c9b6c9a0ea244b"
+file = "resources/data/trinkets/entities/enable_slots.json"
+hash = "8b6a76a52fd97196f9fc199c3e1d45885aec16421fd3f233739954f8214b7588"
 
 [[files]]
-file = "resources/datapacks/rope_fix.zip"
-hash = "13d6127bd8ca2735b6f01aa932e6bfa927925cce819a8c3263898577782db1f5"
+file = "resources/data/trinkets/slots/head/information.json"
+hash = "dbbf0e5767dcf58b0ce5caebab13d24523e9793472e0a8d3cfa8b8f159d33f54"
 
 [[files]]
-file = "resources/resourcepacks/info_slot_textures.zip"
-hash = "6ec5b46f327241506ac5f3a56657ff2c16b4dc3c49ab236fd5015a8a36c764ad"
+file = "resources/data/trinkets/tags/items/head/information.json"
+hash = "87ccae38d3cb57d6a18db07ef03b5434efd9073c02a6de0a952fd9cbded64b1e"
 
 [[files]]
 file = "scripts/common/phials.zs"
