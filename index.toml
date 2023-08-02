@@ -480,7 +480,7 @@ metafile = true
 
 [[files]]
 file = "mods/hex-casting.pw.toml"
-hash = "79bead94931c7ca3f7db46ada1a970e7a5563fb2649cdc3fda92d7780585e167"
+hash = "554123d68650fd1ce5345138b50282f45efa55698801361fbeb4d798eb543431"
 metafile = true
 
 [[files]]
@@ -491,6 +491,11 @@ metafile = true
 [[files]]
 file = "mods/hexbound.pw.toml"
 hash = "afdcf02d5f6720324601d805bef79370751a7206b1a71d5f0841dcb656bdc4a4"
+metafile = true
+
+[[files]]
+file = "mods/hexgloop.pw.toml"
+hash = "2a18475f9b7dce7b0819f3407d76e0aac31fb1ee58b228bbdd0de50b2efa56b9"
 metafile = true
 
 [[files]]

@@ -1,0 +1,7 @@
+name = "HexGloop"
+filename = "hexgloop-1.19.2-0.0.1-fabric.jar"
+
+[download]
+url = "https://github.com/SamsTheNerd/HexGloop/raw/main/releases/hexgloop-1.19.2-0.0.1-fabric.jar"
+hash-format = "sha1"
+hash = "8154c443f8c85c29df428a9d5048a6e82003e496"
