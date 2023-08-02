@@ -1043,6 +1043,54 @@ file = "resources/data/minecraft/tags/functions/tick.json"
 hash = "65bb49fd90f4e01f0c54fd98f87ef6b8ef72e12a04d31eb66c407c341847b4e5"
 
 [[files]]
+file = "resources/data/reliccrafting/recipes/runic_altar/flugel_eye.json"
+hash = "b996c076b3284de2a439332f0cc0067fc68472fe67cad5d787ed3393f1a97e6e"
+
+[[files]]
+file = "resources/data/reliccrafting/recipes/runic_altar/infinite_fruit.json"
+hash = "13d005aac7425b856f5b41946d59566b8d6f8667d94b0a1a9138d33e043381ea"
+
+[[files]]
+file = "resources/data/reliccrafting/recipes/runic_altar/king_key.json"
+hash = "5690e9206f31eb56eb0d8b5f333915db7803f3612ab234fcd3002a9f61ad6676"
+
+[[files]]
+file = "resources/data/reliccrafting/recipes/runic_altar/loki_ring.json"
+hash = "152d1e0578e6f1edd15f26e42b3b719ae064a25affb5bc91294303fd2689e95b"
+
+[[files]]
+file = "resources/data/reliccrafting/recipes/runic_altar/odin_ring.json"
+hash = "9292c634e25d8ecf80f237d991e4e2fc2e695fd4281e7209c990674aa2101538"
+
+[[files]]
+file = "resources/data/reliccrafting/recipes/runic_altar/thor_ring.json"
+hash = "2f4a70904049669e5857146fb19335e987dd46e23ee5939578b6bcfe655ad443"
+
+[[files]]
+file = "resources/data/reliccrafting/recipes/terra_plate/flugel_eye.json"
+hash = "f024b6319e45321b36ce9227d26ce145dc217f128d426068e0652538d7906854"
+
+[[files]]
+file = "resources/data/reliccrafting/recipes/terra_plate/infinite_fruit.json"
+hash = "df49d2ad9cf93a27c5c4f5285a500d0b1fc1f7f38580ed0a00b4089df9c61316"
+
+[[files]]
+file = "resources/data/reliccrafting/recipes/terra_plate/king_key.json"
+hash = "825e95a0da5782658e7b95c322a9a747db1f6bc1534625d2e6427962a2e48ad3"
+
+[[files]]
+file = "resources/data/reliccrafting/recipes/terra_plate/loki_ring.json"
+hash = "b3b7404d9b3c76e05fa9b58e9c0c92c76e630a9b7cf17d37b1e479777c69867a"
+
+[[files]]
+file = "resources/data/reliccrafting/recipes/terra_plate/odin_ring.json"
+hash = "8e06d170d9f23fc0285382fdeeb6e46c67dda54c2bb309b76eeab9bad7a0ac7c"
+
+[[files]]
+file = "resources/data/reliccrafting/recipes/terra_plate/thor_ring.json"
+hash = "e601db03f224c5d3e1787c4dd0139faca3223c5811f09fa46c2ff3fc1fdab62e"
+
+[[files]]
 file = "resources/data/trinkets/entities/enable_slots.json"
 hash = "8b6a76a52fd97196f9fc199c3e1d45885aec16421fd3f233739954f8214b7588"
 
