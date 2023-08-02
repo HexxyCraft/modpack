@@ -10,11 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
+        if: github.event_name == 'pull_request'
         uses: actions/checkout@v3
         with:
-          ref: ${{ github.head_ref }}
-          repository: ${{ github.repository }}
-      
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo }}
+
+      - name: Checkout
+        if: github.event_name != 'pull_request'
+        uses: actions/checkout@v3
+
       - name: Refresh index
         run: ./packwiz/packwiz refresh
 
