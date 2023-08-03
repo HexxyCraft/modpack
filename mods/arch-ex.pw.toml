@@ -1,13 +1,7 @@
 name = "Architecture Extensions"
 filename = "architecture_extensions-1.1.3+1.19.jar"
-side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/YyhsabMU/versions/oaZ2KzWK/architecture_extensions-1.1.3%2B1.19.jar"
+url = "https://github.com/HexxyCraft/architecture-extensions/releases/download/v1.1.3a/architecture_extensions-1.1.3+1.19.jar"
 hash-format = "sha1"
-hash = "8f5c6d2058b3f3ac63ae5557b85573a6671a0df1"
-
-[update]
-[update.modrinth]
-mod-id = "YyhsabMU"
-version = "oaZ2KzWK"
+hash = "15e2ca173684bb000bd89c38e5cfa665444633c0"
