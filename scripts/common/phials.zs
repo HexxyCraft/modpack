@@ -47,6 +47,6 @@ public expand IItemStack {
 
     // ingredient condition that only accepts full phials
     public onlyIfMediaFull() as IngredientConditioned<IIngredient> {
-        return this.onlyIf("hexxycraft_phial_is_full", (phial) => phial.isMediaFull);
+        return this.onlyIf("hexxycraft/phial_is_full", (phial) => phial.isMediaFull);
     }
 }

@@ -1,7 +1,7 @@
 name = "HexxyTweaks"
-filename = "hexxytweaks-0.1.1.jar"
+filename = "hexxytweaks-0.1.2.jar"
 
 [download]
-url = "https://github.com/HexxyCraft/HexxyTweaks/releases/download/0.1.1/hexxytweaks-0.1.1.jar"
+url = "https://github.com/HexxyCraft/HexxyTweaks/releases/download/0.1.2/hexxytweaks-0.1.2.jar"
 hash-format = "sha1"
-hash = "aea8ed7825cf954aea7283b92f5623758aee8621"
+hash = "bf00ff5ee30626dbc3b1e864aadbb71da10dd7a1"

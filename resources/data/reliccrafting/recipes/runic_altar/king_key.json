@@ -1,0 +1,16 @@
+{
+  "type": "botania:runic_altar",
+  "ingredients": [
+    {
+      "item": "botania:dice"
+    },
+    {
+      "item": "botania:rune_pride"
+    }
+  ],
+  "mana": 1000000,
+  "output": {
+    "count": 1,
+    "item": "botania:king_key"
+  }
+}

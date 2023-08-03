@@ -1,0 +1,13 @@
+name = "CreativeCore"
+filename = "CreativeCore_FABRIC_v2.9.4_mc1.19.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OsZiaDHq/versions/ug21xEGt/CreativeCore_FABRIC_v2.9.4_mc1.19.2.jar"
+hash-format = "sha1"
+hash = "2107ce92262aa68771168b67fe180bf8336c214c"
+
+[update]
+[update.modrinth]
+mod-id = "OsZiaDHq"
+version = "ug21xEGt"

@@ -1,6 +1,9 @@
-name: Ensure Packwiz has been refreshed
+name: Refresh Packwiz
 
-on: [push]
+on:
+  push:
+  pull_request_target:
+  workflow_dispatch:
 
 jobs:
   packwiz_refresh:
@@ -8,9 +11,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
       
+      - name: Sanity check to make sure there are no changes before refreshing
+        run: git diff --exit-code
+
       - name: Refresh index
         run: ./packwiz/packwiz refresh
 
-      - name: Ensure the refresh had no effect
-        run: git diff --exit-code
+      - name: Commit updated index
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Refresh Packwiz index
