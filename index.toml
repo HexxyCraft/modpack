@@ -89,6 +89,10 @@ file = "config/lootr.json"
 hash = "9037c1f520a93644b5fa80623a70811829a0f6c8d7b8ef60917ca7dc03a1f470"
 
 [[files]]
+file = "config/pronounify.json"
+hash = "90c2b5d34f78a598ea7e337d6f01df8db7c7582d0bcffbca3f15e9ce51b80050"
+
+[[files]]
 file = "config/quickshulkerconfig.json5"
 hash = "99a3feeeaca252374e89ba7bb075b57be751837826549818e7d9c422a0bd449b"
 
