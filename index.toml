@@ -78,7 +78,7 @@ hash = "26d88bb8371a5431d297b6413ef0a9fccbb0ea64b8db8838dd98597f7057111f"
 
 [[files]]
 file = "config/hexcasting/server.json"
-hash = "7c9c54d9792459af237ed4a9c4482d2074e4dcb110745de528bad2f3cedf9e1e"
+hash = "58ea68975c7f8a7e327f3a17da91b381ed2c189cd80d82d65bf70db8d51b622c"
 
 [[files]]
 file = "config/hexkinetics/server.json5"
@@ -135,7 +135,7 @@ metafile = true
 
 [[files]]
 file = "mods/arch-ex.pw.toml"
-hash = "2bbf01873718fc8c559df7a6488bc0b1803f431758624b0bc257914bee6d0365"
+hash = "e0311a722d1d4556d68495e8a89b2b438ff3ed25ffa1a6d15d35b00541fa19bc"
 metafile = true
 
 [[files]]
