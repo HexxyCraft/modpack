@@ -1,7 +1,0 @@
-name = "Create Crystal Clear"
-filename = "CreateCrystalClearFabricated-0.1.0+create0.5.1.b+1.19.2.jar"
-
-[download]
-url = "https://github.com/ThinkingStudios/CreateCrystalClear-Fabricated/releases/download/0.1.0%2Bcreate0.5.1.b%2B1.19.2/CreateCrystalClearFabricated-0.1.0+create0.5.1.b+1.19.2.jar"
-hash-format = "sha1"
-hash = "ca5c0335a384490cc62327620a0cb83a965b7bff"

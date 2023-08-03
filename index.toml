@@ -304,11 +304,6 @@ hash = "6afb4a854263ae1ec2f76fcc7871cd9a63870d3f208ec65c031eda73f9f120c8"
 metafile = true
 
 [[files]]
-file = "mods/create-crystal-clear.pw.toml"
-hash = "2b8663a9a41ae7f59df6d314eb93b18b0c15fbbf51d15633f9c7007fa04afd7d"
-metafile = true
-
-[[files]]
 file = "mods/create-fabric.pw.toml"
 hash = "1458e4909039fdd41aeb1d7cc7c82fa6def77a48b29ab45f99a9248e05f1e8e1"
 metafile = true
