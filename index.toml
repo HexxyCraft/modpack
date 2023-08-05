@@ -1134,7 +1134,7 @@ hash = "4344d643d816b732f478e75b5cf3281125b61ddfe9bea184915cdc113a68bced"
 
 [[files]]
 file = "scripts/recipes/other.zs"
-hash = "5d16fce5503adfbb9eddeb085f39251ea88a1b7e4e38fa39e7c3d11c954ec4ff"
+hash = "0e92b712af6e37f91f354c87324d0210bdce9a0da7cb02776b37ce52a5b520c2"
 
 [[files]]
 file = "scripts/recipes/reverse_slabs.zs"
