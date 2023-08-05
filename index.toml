@@ -498,6 +498,11 @@ hash = "afdcf02d5f6720324601d805bef79370751a7206b1a71d5f0841dcb656bdc4a4"
 metafile = true
 
 [[files]]
+file = "mods/hexgloop.pw.toml"
+hash = "b1a4083615d02652e8778fc95357ad5a1bc2754756b841226f0dd3c680380d54"
+metafile = true
+
+[[files]]
 file = "mods/hexkinetics.pw.toml"
 hash = "8a88c7169f5fd3231d3ff329aeb1c88e9befe3051887f8c7fbd09c6bd4530f53"
 metafile = true
@@ -920,6 +925,11 @@ metafile = true
 [[files]]
 file = "mods/windchimes.pw.toml"
 hash = "6b2c65756f5459a50d3ade904f00050276f9142fa46739ab262598d45bbf629c"
+metafile = true
+
+[[files]]
+file = "mods/wnboi.pw.toml"
+hash = "3ca006a5fb12507b15384434a09fa246c0e6b80db85777d2d840c732bed29e2f"
 metafile = true
 
 [[files]]

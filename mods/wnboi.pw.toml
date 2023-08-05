@@ -1,0 +1,13 @@
+name = "Why Not Be One Item"
+filename = "wnboi-0.0.3-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/L8iJY5PM/versions/QTGy74yp/wnboi-0.0.3-fabric.jar"
+hash-format = "sha1"
+hash = "75c64549befa6ee4382a71a211c9053735fd80c3"
+
+[update]
+[update.modrinth]
+mod-id = "L8iJY5PM"
+version = "QTGy74yp"
