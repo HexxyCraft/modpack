@@ -1,13 +1,13 @@
 name = "Hex Gloop"
-filename = "hexgloop-1.19.2-0.0.3-fabric.jar"
+filename = "hexgloop-1.19.2-0.0.4-fabric.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ryfyOhoP/versions/pGqIjuG3/hexgloop-1.19.2-0.0.3-fabric.jar"
+url = "https://cdn.modrinth.com/data/ryfyOhoP/versions/V4MD9QIm/hexgloop-1.19.2-0.0.4-fabric.jar"
 hash-format = "sha1"
-hash = "725f0e590ff07edd2494f3abb1585c1293622389"
+hash = "7f2928810a8f7752fdaaf353452c01d169d30bbc"
 
 [update]
 [update.modrinth]
 mod-id = "ryfyOhoP"
-version = "pGqIjuG3"
+version = "V4MD9QIm"
