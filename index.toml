@@ -78,7 +78,7 @@ hash = "26d88bb8371a5431d297b6413ef0a9fccbb0ea64b8db8838dd98597f7057111f"
 
 [[files]]
 file = "config/hexcasting/server.json"
-hash = "58ea68975c7f8a7e327f3a17da91b381ed2c189cd80d82d65bf70db8d51b622c"
+hash = "911e4d6a88824ae9d690a4abc7e1ef37916f0f8465334a9f2b827cd7b9d30708"
 
 [[files]]
 file = "config/hexkinetics/server.json5"

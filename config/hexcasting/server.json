@@ -8,6 +8,7 @@
 	],
 	"circleActionDenyList": [
 		"hextweaks:suicide",
+		"hextweaks:dict/get",
 		"hexal:wisp/seon/set"
 	],
 	"villagersOffendedByMindMurder": true,
