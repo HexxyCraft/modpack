@@ -359,7 +359,7 @@ metafile = true
 
 [[files]]
 file = "mods/ducky-periphs.pw.toml"
-hash = "7ac03b3fb3d477136132f9f3e171b1dd6cc661b70b6141ddb94ce7ba45ec6b82"
+hash = "d8a51586ed3c982870bce4d9876a550ac188ebc2263e3acc368605978df608c2"
 metafile = true
 
 [[files]]
@@ -499,7 +499,7 @@ metafile = true
 
 [[files]]
 file = "mods/hexgloop.pw.toml"
-hash = "b1a4083615d02652e8778fc95357ad5a1bc2754756b841226f0dd3c680380d54"
+hash = "f83b97ff8bd08eba534568c9cb8b1927f686df6e2056615e40e9f02b04422d33"
 metafile = true
 
 [[files]]
@@ -929,7 +929,7 @@ metafile = true
 
 [[files]]
 file = "mods/wnboi.pw.toml"
-hash = "3ca006a5fb12507b15384434a09fa246c0e6b80db85777d2d840c732bed29e2f"
+hash = "44eeee05cb8e51124585414df5221036f052c3b0a91a7c18d3dfb393db91ed15"
 metafile = true
 
 [[files]]
