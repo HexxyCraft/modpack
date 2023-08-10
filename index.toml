@@ -788,6 +788,11 @@ hash = "cec354ea24b2219ce867dd9bd51e819a8b619bf480f7468add1e524c5b363273"
 metafile = true
 
 [[files]]
+file = "mods/retraining.pw.toml"
+hash = "3363b332e2ff1f19b24280d32e465b43573249958e54f6f88f0596e5c7e2daa9"
+metafile = true
+
+[[files]]
 file = "mods/servercore.pw.toml"
 hash = "94d8491cd39504b6faa3fb1c3da6233dfc0dbf5d854798a53079fb3f7c5fdfd0"
 metafile = true
