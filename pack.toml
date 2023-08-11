@@ -1,12 +1,12 @@
 name = "HexxyCraft"
 author = "HexxyCraft Team"
-version = "1.1.4"
+version = "1.1.5"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "dd5bf949e93e18a39e23dbcb1838c38caf0185c6508d211d73c404f4c586eac1"
+hash = "e6d417bca044b0e9d9750eb6636b4183f4398649434271298263ee613e8d5dc7"
 
 [versions]
 minecraft = "1.19.2"
