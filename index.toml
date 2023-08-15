@@ -633,6 +633,11 @@ hash = "301aa7a5d895c33b132f0f55c8822a23ae6bbd20e9fa1ee3aaf0589a15815151"
 metafile = true
 
 [[files]]
+file = "mods/max-health-fix.pw.toml"
+hash = "0f5f8eac3fbb1ce225f557f024c93fd1ccaf4ed7d83cc5d80d65c288726d22db"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "97ffbc7d0e4087777c5e3732780f01958f99d44c4f09fd534bbb8f239d4980a1"
 metafile = true
