@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "amount": 40500,
+      "fluid": "create:potion",
+      "nbt": {
+        "Potion": "minecraft:strong_harming",
+        "Bottle": "SPLASH"
+      }
+    },
+    {
+      "amount": 40500,
+      "fluidTag": "c:milk"
+    }
+  ],
+  "results": [
+    {
+      "amount": 40500,
+      "fluid": "create:potion",
+      "nbt": {
+        "Potion": "minecraft:strong_harming",
+        "Bottle": "SPLASH"
+      }
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ]
+}
