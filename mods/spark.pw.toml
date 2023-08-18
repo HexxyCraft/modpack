@@ -1,7 +1,0 @@
-name = "spark"
-filename = "spark-1.10.39-fabric.jar"
-
-[download]
-url = "https://ci.lucko.me/job/spark/377/artifact/spark-fabric/build/libs/spark-1.10.39-fabric.jar"
-hash-format = "sha1"
-hash = "2e0be7e503638981963fda9a33beae05cb2b8a5a"
