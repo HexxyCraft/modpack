@@ -633,6 +633,11 @@ hash = "301aa7a5d895c33b132f0f55c8822a23ae6bbd20e9fa1ee3aaf0589a15815151"
 metafile = true
 
 [[files]]
+file = "mods/max-health-fix.pw.toml"
+hash = "0f5f8eac3fbb1ce225f557f024c93fd1ccaf4ed7d83cc5d80d65c288726d22db"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "97ffbc7d0e4087777c5e3732780f01958f99d44c4f09fd534bbb8f239d4980a1"
 metafile = true
@@ -823,9 +828,8 @@ hash = "bf514f4cd45a9a33c736c715967add7994730ad8c47401f3de8817f30e2fe381"
 metafile = true
 
 [[files]]
-file = "mods/spark.pw.toml"
-hash = "8e4c83ce5539228bdf7fb0fcabfa87da382d210834f005e71bf5bfea44d79de1"
-metafile = true
+file = "mods/spark-1.10.39-fabric.jar"
+hash = "3f75dc1762cc65f57df67214bd3757bf48308ca23df599fd4c4faf3650009270"
 
 [[files]]
 file = "mods/spyglass-improvements.pw.toml"
