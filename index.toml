@@ -1050,6 +1050,10 @@ file = "resources/data/hexscrolldye/functions/undye_scroll_undye.mcfunction"
 hash = "194dfc203a36a0879e1a18d642e181cea0800939f3c5da6888a526c624c96ab3"
 
 [[files]]
+file = "resources/data/milkstring/recipes/milkstring.json"
+hash = "8bbbf9d08563e997f2ebe5ec0f38765b49fcbeefa909df7f82653a452e293b5e"
+
+[[files]]
 file = "resources/data/minecraft/loot_tables/entities/ender_dragon.json"
 hash = "476a54c26b704fe05cdece446ffe1e8f0931d5d8ad0cfa67f5868f9306a4c38a"
 
