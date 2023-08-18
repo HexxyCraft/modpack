@@ -829,7 +829,7 @@ metafile = true
 
 [[files]]
 file = "mods/spark-1.10.39-fabric.jar"
-hash = "3f75dc1762cc65f57df67214bd3757bf48308ca23df599fd4c4faf3650009270"
+hash = "c470595075ca42fc927aabc9411f8adebf0004b7177b3e1f8081032607186ade"
 
 [[files]]
 file = "mods/spyglass-improvements.pw.toml"
