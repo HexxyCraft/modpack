@@ -633,6 +633,11 @@ hash = "301aa7a5d895c33b132f0f55c8822a23ae6bbd20e9fa1ee3aaf0589a15815151"
 metafile = true
 
 [[files]]
+file = "mods/max-health-fix.pw.toml"
+hash = "0f5f8eac3fbb1ce225f557f024c93fd1ccaf4ed7d83cc5d80d65c288726d22db"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "97ffbc7d0e4087777c5e3732780f01958f99d44c4f09fd534bbb8f239d4980a1"
 metafile = true
@@ -823,9 +828,8 @@ hash = "bf514f4cd45a9a33c736c715967add7994730ad8c47401f3de8817f30e2fe381"
 metafile = true
 
 [[files]]
-file = "mods/spark.pw.toml"
-hash = "8e4c83ce5539228bdf7fb0fcabfa87da382d210834f005e71bf5bfea44d79de1"
-metafile = true
+file = "mods/spark-1.10.39-fabric.jar"
+hash = "c470595075ca42fc927aabc9411f8adebf0004b7177b3e1f8081032607186ade"
 
 [[files]]
 file = "mods/spyglass-improvements.pw.toml"
@@ -1044,6 +1048,10 @@ hash = "3645f45a12c3fc2ca2e67cfa9c4a6d87aa023f925d8b8e521f17efb367f9c388"
 [[files]]
 file = "resources/data/hexscrolldye/functions/undye_scroll_undye.mcfunction"
 hash = "194dfc203a36a0879e1a18d642e181cea0800939f3c5da6888a526c624c96ab3"
+
+[[files]]
+file = "resources/data/milkstring/recipes/milkstring.json"
+hash = "8bbbf9d08563e997f2ebe5ec0f38765b49fcbeefa909df7f82653a452e293b5e"
 
 [[files]]
 file = "resources/data/minecraft/loot_tables/entities/ender_dragon.json"
