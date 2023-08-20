@@ -1165,3 +1165,7 @@ hash = "3a0b7f664a4120799e85088db1f42afb270a50da20e3f789700979a0086a8198"
 [[files]]
 file = "scripts/tags.zs"
 hash = "23457e9bc02191a41007c44ff1f9358392929d17331ee9281a84452aea33f484"
+
+[[files]]
+file = "scripts/villagers.zs"
+hash = "ae063d417a3244a538915d8edbae895d2ccb54e6dba2e314eeb44b7746fc4cee"
