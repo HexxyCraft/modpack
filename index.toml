@@ -837,6 +837,11 @@ hash = "98dacf43b37594d17c93c3de160a8cff6c108f816bfa2e79ee26a9e8240714a8"
 metafile = true
 
 [[files]]
+file = "mods/stackdeobf.pw.toml"
+hash = "daeec6e32a564883d796749c66e372463b2ecadf45d95e7b05f4e984cda80d91"
+metafile = true
+
+[[files]]
 file = "mods/starlight.pw.toml"
 hash = "685a7b724de4b834693744357563873f1145d2c56c91f91a1ad68b4233878997"
 metafile = true
@@ -1160,3 +1165,7 @@ hash = "3a0b7f664a4120799e85088db1f42afb270a50da20e3f789700979a0086a8198"
 [[files]]
 file = "scripts/tags.zs"
 hash = "23457e9bc02191a41007c44ff1f9358392929d17331ee9281a84452aea33f484"
+
+[[files]]
+file = "scripts/villagers.zs"
+hash = "ae063d417a3244a538915d8edbae895d2ccb54e6dba2e314eeb44b7746fc4cee"
