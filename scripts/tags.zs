@@ -32,6 +32,7 @@ for item in <tag:items:charm:colored_bundles> {
     <resource:minecraft:pig>,
     <resource:minecraft:sheep>,
     <resource:minecraft:villager>,
+    <resource:lootr:lootr_minecart>,
 ]);
 
 // don't increase trade prices when caging villagers
