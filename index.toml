@@ -1147,7 +1147,7 @@ hash = "8bc5a8410864c5aeba5c7f21c428811c98722e886752c66b9693c42a59a6e5e0"
 
 [[files]]
 file = "scripts/recipes/lootr.zs"
-hash = "774c0e9b4ca0fcdcac7cd29e0eceb18610ee354118cd31cb484f9932fef73444"
+hash = "8167db5f2dd0dd5a6282c480e91d7299cfabcdf886a1952ee7eba527e34f046d"
 
 [[files]]
 file = "scripts/recipes/merge_phials.zs"
