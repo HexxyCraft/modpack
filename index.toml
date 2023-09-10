@@ -1142,6 +1142,10 @@ file = "scripts/recipes/cutting.zs"
 hash = "8bc5a8410864c5aeba5c7f21c428811c98722e886752c66b9693c42a59a6e5e0"
 
 [[files]]
+file = "scripts/recipes/lootr.zs"
+hash = "774c0e9b4ca0fcdcac7cd29e0eceb18610ee354118cd31cb484f9932fef73444"
+
+[[files]]
 file = "scripts/recipes/merge_phials.zs"
 hash = "4344d643d816b732f478e75b5cf3281125b61ddfe9bea184915cdc113a68bced"
 
@@ -1159,7 +1163,7 @@ hash = "3a0b7f664a4120799e85088db1f42afb270a50da20e3f789700979a0086a8198"
 
 [[files]]
 file = "scripts/tags.zs"
-hash = "23457e9bc02191a41007c44ff1f9358392929d17331ee9281a84452aea33f484"
+hash = "01d0bb97dba4627009dd93e18d47e63e8535cbb65bbb00201abca55b488b3abc"
 
 [[files]]
 file = "scripts/villagers.zs"
