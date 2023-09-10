@@ -58,17 +58,18 @@ craftingTable.addShapeless(
     (usualOut as IItemStack, inputs as IItemStack[]) => {
         val entityData = getCageEntityData(inputs[0]);
 
-        val lootTable = entityData["LootTable"];
-        if (lootTable == "minecraft:") lootTable = "minecraft:chests/abandoned_mineshaft";
+        if (entityData["LootTable"] == "minecraft:") return <item:lootr:lootr_chest>.withTag({
+            BlockEntityTag: {
+                LootTable: "minecraft:chests/abandoned_mineshaft",
+            }
+        });
 
         return <item:lootr:lootr_chest>.withTag({
             BlockEntityTag: {
-                LootTable: lootTable,
+                LootTable: entityData["LootTable"],
                 LootrOpeners: entityData["LootrOpeners"],
                 LootTableSeed: entityData["LootTableSeed"],
                 tileId: inputs[0].tag["BlockEntityTag"]["MobHolder"]["UUID"]
-                // id: "lootr:special_loot_chest",
-                // tileId: [-940587010, -469282881, -1114908107, 44036361]
             }
         });
     }
