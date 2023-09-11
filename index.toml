@@ -1135,7 +1135,7 @@ hash = "1068058d9b32c01fa72017517227a284d1489e76c3763e9744cec85f7361bc33"
 
 [[files]]
 file = "scripts/recipes/bread_blocks.zs"
-hash = "c39221f19e974acb94f659fe3600bd4585a4d484e139760b9cd24f47a65b6303"
+hash = "136a12f25a524d24fdbecef7f796b892e9bf3a1704dc1e8a7b9a405210cf4dd4"
 
 [[files]]
 file = "scripts/recipes/chests.zs"
