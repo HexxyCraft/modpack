@@ -7,7 +7,8 @@ val tagBread = <tag:items:c:bread/wheat>;
 craftingTable.removeByName("architects_palette:bread_block");
 
 //add storage block recipes
-craftingTable.addShapeless("craft_bread_block", <item:architects_palette:bread_block> * 1, [tagBread, tagBread, tagBread, tagBread, tagBread, tagBread, tagBread, tagBread, tagBread]);
-craftingTable.addShapeless("uncraft_bread_block", <item:minecraft:bread> * 9, [<item:architects_palette:bread_block>]);
+craftingTable.addShapeless("hexxycraft/bread_block/craft", <item:architects_palette:bread_block> * 1, [tagBread, tagBread, tagBread, tagBread, tagBread, tagBread, tagBread, tagBread, tagBread]);
+craftingTable.addShapeless("hexxycraft/bread_block/uncraft", <item:minecraft:bread> * 9, [<item:architects_palette:bread_block>]);
+
 
 print ("Bread block recipes patched");
