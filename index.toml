@@ -986,6 +986,10 @@ file = "resources/assets/trinkets/textures/gui/slots/information.png"
 hash = "de9cf3470feefbe80c904591f81e797349583d6a3030cc937f7e63231a874f6c"
 
 [[files]]
+file = "resources/data/crafting/recipes/dispenser.json"
+hash = "c6b775156d9a7a218f256f48a787fd887fd3984d4462f114d0627b1ed366f863"
+
+[[files]]
 file = "resources/data/crafting/recipes/rope.json"
 hash = "0eb9eb53653ff58b43c817e5f8754e7f4c5c3d10adad7bfc628975e2da5981b9"
 
