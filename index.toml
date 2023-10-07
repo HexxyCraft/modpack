@@ -448,6 +448,11 @@ hash = "9e93bfaf08afac41ebb415723150e2daf2ea8125c0e3b0d9417e46302ad4a2a2"
 metafile = true
 
 [[files]]
+file = "mods/figura.pw.toml"
+hash = "a38a1991d430fcc5c8e78121b3423e2998041e20dc3fa2e4e574da57f3545f8c"
+metafile = true
+
+[[files]]
 file = "mods/foodeffecttooltips.pw.toml"
 hash = "f247108347c1e50cbc260e3e52830a0bab48b48e1767a67a0d8c663f804e999d"
 metafile = true
@@ -630,6 +635,11 @@ metafile = true
 [[files]]
 file = "mods/max-health-fix.pw.toml"
 hash = "0f5f8eac3fbb1ce225f557f024c93fd1ccaf4ed7d83cc5d80d65c288726d22db"
+metafile = true
+
+[[files]]
+file = "mods/mediaworks.pw.toml"
+hash = "177773a95d90acd64f5a3919a67757ff9e34c5b72e4391a3dcf0c77f8afb867c"
 metafile = true
 
 [[files]]
