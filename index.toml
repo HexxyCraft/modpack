@@ -1079,6 +1079,10 @@ file = "resources/data/minecraft/tags/functions/tick.json"
 hash = "65bb49fd90f4e01f0c54fd98f87ef6b8ef72e12a04d31eb66c407c341847b4e5"
 
 [[files]]
+file = "resources/data/railways/recipes/sequenced_assembly/track_hexcasting_edified.json"
+hash = "8e42684fb22bd5ba7c42e77808efc4f37d4a33043c93bee45688c9615ce8b171"
+
+[[files]]
 file = "resources/data/reliccrafting/recipes/runic_altar/flugel_eye.json"
 hash = "b996c076b3284de2a439332f0cc0067fc68472fe67cad5d787ed3393f1a97e6e"
 
