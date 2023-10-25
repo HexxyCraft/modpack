@@ -448,6 +448,11 @@ hash = "9e93bfaf08afac41ebb415723150e2daf2ea8125c0e3b0d9417e46302ad4a2a2"
 metafile = true
 
 [[files]]
+file = "mods/figura.pw.toml"
+hash = "a38a1991d430fcc5c8e78121b3423e2998041e20dc3fa2e4e574da57f3545f8c"
+metafile = true
+
+[[files]]
 file = "mods/foodeffecttooltips.pw.toml"
 hash = "f247108347c1e50cbc260e3e52830a0bab48b48e1767a67a0d8c663f804e999d"
 metafile = true
@@ -633,8 +638,8 @@ hash = "0f5f8eac3fbb1ce225f557f024c93fd1ccaf4ed7d83cc5d80d65c288726d22db"
 metafile = true
 
 [[files]]
-file = "mods/memoryleakfix.pw.toml"
-hash = "97ffbc7d0e4087777c5e3732780f01958f99d44c4f09fd534bbb8f239d4980a1"
+file = "mods/mediaworks.pw.toml"
+hash = "177773a95d90acd64f5a3919a67757ff9e34c5b72e4391a3dcf0c77f8afb867c"
 metafile = true
 
 [[files]]
@@ -1072,6 +1077,10 @@ hash = "4f3b80e1aed73e1fdfbd7f06115ea706bb73d8eee38d958e25bd60e3e3d8443b"
 [[files]]
 file = "resources/data/minecraft/tags/functions/tick.json"
 hash = "65bb49fd90f4e01f0c54fd98f87ef6b8ef72e12a04d31eb66c407c341847b4e5"
+
+[[files]]
+file = "resources/data/railways/recipes/sequenced_assembly/track_hexcasting_edified.json"
+hash = "8e42684fb22bd5ba7c42e77808efc4f37d4a33043c93bee45688c9615ce8b171"
 
 [[files]]
 file = "resources/data/reliccrafting/recipes/runic_altar/flugel_eye.json"
